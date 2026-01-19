@@ -1,0 +1,1256 @@
+{
+  "player": {
+    "id": "795618",
+    "displayName": "Baylore",
+    "username": "guest-5d10f1e9dcc443649e",
+    "allianceId": null
+  },
+  "heroes": [
+    {
+      "heroDefinitionId": "hero.Hercules",
+      "name": "Hercules",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-10-25T00:04:34.306775Z"
+    },
+    {
+      "heroDefinitionId": "hero.WilliamTell",
+      "name": "WilliamTell",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:45:58.672985Z"
+    },
+    {
+      "heroDefinitionId": "hero.NapoleonBonaparte",
+      "name": "NapoleonBonaparte",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 22,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": "1",
+      "unlockedAt": "2025-07-04T15:36:26.523632Z"
+    },
+    {
+      "heroDefinitionId": "hero.AdaLovelace",
+      "name": "AdaLovelace",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T14:32:21.407663Z"
+    },
+    {
+      "heroDefinitionId": "hero.MansaMusa",
+      "name": "MansaMusa",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:22:57.978125Z"
+    },
+    {
+      "heroDefinitionId": "hero.MaoriChief",
+      "name": "MaoriChief",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-20T19:55:32.060137Z"
+    },
+    {
+      "heroDefinitionId": "hero.Nostradamus",
+      "name": "Nostradamus",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": "1281",
+      "unlockedAt": "2025-10-22T12:07:08.512991Z"
+    },
+    {
+      "heroDefinitionId": "hero.JohnLocke",
+      "name": "JohnLocke",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 11,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T22:45:35.278353Z"
+    },
+    {
+      "heroDefinitionId": "hero.WilliamWallace",
+      "name": "WilliamWallace",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-10-28T10:47:53.777628Z"
+    },
+    {
+      "heroDefinitionId": "hero.Geisha",
+      "name": "Geisha",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-24T01:39:15.125079Z"
+    },
+    {
+      "heroDefinitionId": "hero.SiouxShaman",
+      "name": "SiouxShaman",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T16:05:05.570647Z"
+    },
+    {
+      "heroDefinitionId": "hero.OttomanGeneral",
+      "name": "OttomanGeneral",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T17:06:44.240092Z"
+    },
+    {
+      "heroDefinitionId": "hero.TribalHealer",
+      "name": "TribalHealer",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T10:59:53.809990Z"
+    },
+    {
+      "heroDefinitionId": "hero.VanHelsing",
+      "name": "VanHelsing",
+      "level": 77,
+      "ascensionLevel": 7,
+      "abilityLevel": 18,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": "3127",
+      "unlockedAt": "2025-08-08T00:34:59.266153Z"
+    },
+    {
+      "heroDefinitionId": "hero.RomanPraetor",
+      "name": "RomanPraetor",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T17:06:38.033115Z"
+    },
+    {
+      "heroDefinitionId": "hero.EgyptianVizier",
+      "name": "EgyptianVizier",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T16:27:39.928180Z"
+    },
+    {
+      "heroDefinitionId": "hero.BessieColeman",
+      "name": "BessieColeman",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 19,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-12-27T13:38:15.709536Z"
+    },
+    {
+      "heroDefinitionId": "hero.NubianMercenary",
+      "name": "NubianMercenary",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T02:46:42.052256Z"
+    },
+    {
+      "heroDefinitionId": "hero.Medusa",
+      "name": "Medusa",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-09-01T19:22:22.610737Z"
+    },
+    {
+      "heroDefinitionId": "hero.JaneAusten",
+      "name": "JaneAusten",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 17,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": "2",
+      "unlockedAt": "2025-02-21T16:11:37.987388Z"
+    },
+    {
+      "heroDefinitionId": "hero.Hatshepsut",
+      "name": "Hatshepsut",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-07-31T12:23:21.234797Z"
+    },
+    {
+      "heroDefinitionId": "hero.LouisXIV",
+      "name": "LouisXIV",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 21,
+      "awakeningLevel": 1,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-09-19T14:02:04.579550Z"
+    },
+    {
+      "heroDefinitionId": "hero.MarieCurie",
+      "name": "MarieCurie",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 20,
+      "awakeningLevel": 2,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-07-25T01:56:54.844830Z"
+    },
+    {
+      "heroDefinitionId": "hero.UlyssesSGrant",
+      "name": "UlyssesSGrant",
+      "level": 50,
+      "ascensionLevel": 4,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-19T03:15:44.273599Z"
+    },
+    {
+      "heroDefinitionId": "hero.TomoeGozen",
+      "name": "TomoeGozen",
+      "level": 75,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": "3",
+      "unlockedAt": "2025-03-03T02:54:50.740600Z"
+    },
+    {
+      "heroDefinitionId": "hero.LouisPasteur",
+      "name": "LouisPasteur",
+      "level": 74,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-05-07T18:09:18.850695Z"
+    },
+    {
+      "heroDefinitionId": "hero.Plato",
+      "name": "Plato",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 18,
+      "awakeningLevel": 4,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-26T13:31:35.157860Z"
+    },
+    {
+      "heroDefinitionId": "hero.PakalTheGreat",
+      "name": "PakalTheGreat",
+      "level": 72,
+      "ascensionLevel": 7,
+      "abilityLevel": 20,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-07-12T17:17:05.841142Z"
+    },
+    {
+      "heroDefinitionId": "hero.KingMinos",
+      "name": "KingMinos",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 22,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-20T13:00:37.645255Z"
+    },
+    {
+      "heroDefinitionId": "hero.PhilipIIOfMacedon",
+      "name": "PhilipIIOfMacedon",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 21,
+      "awakeningLevel": 1,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-04-09T20:00:46.177032Z"
+    },
+    {
+      "heroDefinitionId": "hero.VikingJarl",
+      "name": "VikingJarl",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-27T03:02:40.609365Z"
+    },
+    {
+      "heroDefinitionId": "hero.AshokaTheGreat",
+      "name": "AshokaTheGreat",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-21T16:11:27.467716Z"
+    },
+    {
+      "heroDefinitionId": "hero.OttoVonBismarck",
+      "name": "OttoVonBismarck",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:34:36.383298Z"
+    },
+    {
+      "heroDefinitionId": "hero.DArtagnan",
+      "name": "DArtagnan",
+      "level": 74,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": 4,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-26T13:31:18.334280Z"
+    },
+    {
+      "heroDefinitionId": "hero.Shaolin",
+      "name": "Shaolin",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T14:37:09.695311Z"
+    },
+    {
+      "heroDefinitionId": "hero.KarlMarx",
+      "name": "KarlMarx",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 12,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T17:06:54.736717Z"
+    },
+    {
+      "heroDefinitionId": "hero.ArtemisiaIOfCaria",
+      "name": "ArtemisiaIOfCaria",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:10:11.301308Z"
+    },
+    {
+      "heroDefinitionId": "hero.LadyKasuga",
+      "name": "LadyKasuga",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 18,
+      "awakeningLevel": 2,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-08-29T22:00:22.488950Z"
+    },
+    {
+      "heroDefinitionId": "hero.ThomasAlvaEdison",
+      "name": "ThomasAlvaEdison",
+      "level": 75,
+      "ascensionLevel": 7,
+      "abilityLevel": 18,
+      "awakeningLevel": 2,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-20T01:44:34.227111Z"
+    },
+    {
+      "heroDefinitionId": "hero.Sacagawea",
+      "name": "Sacagawea",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-07-08T12:04:27.588786Z"
+    },
+    {
+      "heroDefinitionId": "hero.Charlemagne",
+      "name": "Charlemagne",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 21,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-08-16T15:40:55.057130Z"
+    },
+    {
+      "heroDefinitionId": "hero.AbrahamLincoln",
+      "name": "AbrahamLincoln",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 20,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-04-10T12:20:54.940783Z"
+    },
+    {
+      "heroDefinitionId": "hero.Confucius",
+      "name": "Confucius",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 17,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-05-05T12:02:59.549570Z"
+    },
+    {
+      "heroDefinitionId": "hero.AttilaTheHun",
+      "name": "AttilaTheHun",
+      "level": 74,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-20T23:10:13.879651Z"
+    },
+    {
+      "heroDefinitionId": "hero.MiyamotoMusashi",
+      "name": "MiyamotoMusashi",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-18T19:44:14.925093Z"
+    },
+    {
+      "heroDefinitionId": "hero.QinShiHuang",
+      "name": "QinShiHuang",
+      "level": 76,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": 1,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-05-03T01:42:50.997090Z"
+    },
+    {
+      "heroDefinitionId": "hero.VikingRaider",
+      "name": "VikingRaider",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-19T14:46:02.638711Z"
+    },
+    {
+      "heroDefinitionId": "hero.QueenBoudicca",
+      "name": "QueenBoudicca",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": 1,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-05-18T10:39:08.433214Z"
+    },
+    {
+      "heroDefinitionId": "hero.HarryHoudini",
+      "name": "HarryHoudini",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 20,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-11-04T13:16:36.980988Z"
+    },
+    {
+      "heroDefinitionId": "hero.Leonidas",
+      "name": "Leonidas",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T10:51:39.019283Z"
+    },
+    {
+      "heroDefinitionId": "hero.JapaneseShogun",
+      "name": "JapaneseShogun",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:47:48.684144Z"
+    },
+    {
+      "heroDefinitionId": "hero.Inanna",
+      "name": "Inanna",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-18T17:44:58.789188Z"
+    },
+    {
+      "heroDefinitionId": "hero.Kiviuq",
+      "name": "Kiviuq",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 22,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-12-25T14:07:00.418197Z"
+    },
+    {
+      "heroDefinitionId": "hero.Jester",
+      "name": "Jester",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-07T13:36:33.378195Z"
+    },
+    {
+      "heroDefinitionId": "hero.HermannTheCheruscan",
+      "name": "HermannTheCheruscan",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-20T22:36:42.693097Z"
+    },
+    {
+      "heroDefinitionId": "hero.Hoplit",
+      "name": "Hoplit",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T14:32:14.773863Z"
+    },
+    {
+      "heroDefinitionId": "hero.RomanCenturion",
+      "name": "RomanCenturion",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-19T12:57:19.936512Z"
+    },
+    {
+      "heroDefinitionId": "hero.Menes",
+      "name": "Menes",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": 3,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-07-22T21:40:34.715054Z"
+    },
+    {
+      "heroDefinitionId": "hero.LudwigVanBeethoven",
+      "name": "LudwigVanBeethoven",
+      "level": 70,
+      "ascensionLevel": 6,
+      "abilityLevel": 18,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-14T00:10:27.746571Z"
+    },
+    {
+      "heroDefinitionId": "hero.TigerLily",
+      "name": "TigerLily",
+      "level": 72,
+      "ascensionLevel": 7,
+      "abilityLevel": 22,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T16:27:21.285149Z"
+    },
+    {
+      "heroDefinitionId": "hero.GreekMathematician",
+      "name": "GreekMathematician",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-21T02:54:54.308043Z"
+    },
+    {
+      "heroDefinitionId": "hero.AztecTlacateccatl",
+      "name": "AztecTlacateccatl",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-19T12:57:29.689126Z"
+    },
+    {
+      "heroDefinitionId": "hero.CyrusTheGreat",
+      "name": "CyrusTheGreat",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T16:17:51.503859Z"
+    },
+    {
+      "heroDefinitionId": "hero.OracleOfDephi",
+      "name": "OracleOfDephi",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 11,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T16:17:56.589184Z"
+    },
+    {
+      "heroDefinitionId": "hero.MarcoPolo",
+      "name": "MarcoPolo",
+      "level": 50,
+      "ascensionLevel": 4,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T16:27:27.002818Z"
+    },
+    {
+      "heroDefinitionId": "hero.Ninja",
+      "name": "Ninja",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T14:36:43.212648Z"
+    },
+    {
+      "heroDefinitionId": "hero.Spartacus",
+      "name": "Spartacus",
+      "level": 79,
+      "ascensionLevel": 7,
+      "abilityLevel": 20,
+      "awakeningLevel": 2,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-03-03T14:22:03.640388Z"
+    },
+    {
+      "heroDefinitionId": "hero.Pythagoras",
+      "name": "Pythagoras",
+      "level": 60,
+      "ascensionLevel": 5,
+      "abilityLevel": 15,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-19T03:29:31.290219Z"
+    },
+    {
+      "heroDefinitionId": "hero.LeifErikson",
+      "name": "LeifErikson",
+      "level": 71,
+      "ascensionLevel": 7,
+      "abilityLevel": 18,
+      "awakeningLevel": 3,
+      "abilityMasteryPoints": "11000",
+      "unlockedAt": "2025-04-25T13:11:21.405831Z"
+    },
+    {
+      "heroDefinitionId": "hero.JoanOfArc",
+      "name": "JoanOfArc",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 22,
+      "awakeningLevel": 1,
+      "abilityMasteryPoints": "1478",
+      "unlockedAt": "2025-04-10T03:35:47.937589Z"
+    },
+    {
+      "heroDefinitionId": "hero.LeonardoDaVinci",
+      "name": "LeonardoDaVinci",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 20,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-04-21T01:45:01.997977Z"
+    },
+    {
+      "heroDefinitionId": "hero.AnneBonny",
+      "name": "AnneBonny",
+      "level": 73,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-21T13:12:07.231658Z"
+    },
+    {
+      "heroDefinitionId": "hero.MargaretIOfDenmark",
+      "name": "MargaretIOfDenmark",
+      "level": 76,
+      "ascensionLevel": 7,
+      "abilityLevel": 21,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-04-14T17:27:04.753312Z"
+    },
+    {
+      "heroDefinitionId": "hero.Mozart",
+      "name": "Mozart",
+      "level": 72,
+      "ascensionLevel": 7,
+      "abilityLevel": 18,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-10-01T14:49:19.393791Z"
+    },
+    {
+      "heroDefinitionId": "hero.ElCid",
+      "name": "ElCid",
+      "level": 77,
+      "ascensionLevel": 7,
+      "abilityLevel": 22,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-08-07T03:50:57.752028Z"
+    },
+    {
+      "heroDefinitionId": "hero.VincentVanGogh",
+      "name": "VincentVanGogh",
+      "level": 80,
+      "ascensionLevel": 7,
+      "abilityLevel": 19,
+      "awakeningLevel": null,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T15:22:49.792375Z"
+    },
+    {
+      "heroDefinitionId": "hero.JaguarWarrior",
+      "name": "JaguarWarrior",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-16T14:59:41.704879Z"
+    },
+    {
+      "heroDefinitionId": "hero.MayanAstronomer",
+      "name": "MayanAstronomer",
+      "level": 40,
+      "ascensionLevel": 3,
+      "abilityLevel": 5,
+      "awakeningLevel": 5,
+      "abilityMasteryPoints": null,
+      "unlockedAt": "2025-02-17T17:07:01.829953Z"
+    }
+  ],
+  "decks": [
+    {
+      "definitionId": "hero_deck.TeslaStormGreen",
+      "heroes": [
+        "ElCid",
+        "AttilaTheHun",
+        "Hatshepsut",
+        "ArtemisiaIOfCaria",
+        "Medusa"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.HistoricBattleSiegeOfOrleans",
+      "heroes": [
+        "MarieCurie",
+        "LeonardoDaVinci",
+        "Menes",
+        "TomoeGozen",
+        "Mozart",
+        "Medusa"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Campaign_Preset_3",
+      "heroes": [
+        "Leonidas",
+        "VincentVanGogh",
+        "Shaolin",
+        "TribalHealer",
+        "Ninja"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt",
+      "heroes": [
+        "AttilaTheHun",
+        "Kiviuq",
+        "QueenBoudicca",
+        "TigerLily",
+        "Nostradamus"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Campaign_Preset_1",
+      "heroes": [
+        "TomoeGozen",
+        "Leonidas",
+        "Inanna",
+        "ElCid",
+        "MiyamotoMusashi"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TeslaStormRed",
+      "heroes": [
+        "QueenBoudicca",
+        "Hercules",
+        "Menes",
+        "Mozart",
+        "LeonardoDaVinci"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.HistoricBattleSpartasLastStand",
+      "heroes": [
+        "WilliamWallace",
+        "Sacagawea",
+        "AbrahamLincoln",
+        "Hatshepsut",
+        "PakalTheGreat",
+        "KingMinos"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.HistoricBattleFallOfTroy",
+      "heroes": [
+        "MargaretIOfDenmark",
+        "QueenBoudicca",
+        "AttilaTheHun",
+        "Medusa",
+        "Spartacus",
+        "DArtagnan"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Pvp_Preset_1",
+      "heroes": [
+        "JoanOfArc",
+        "Inanna",
+        "QueenBoudicca",
+        "MargaretIOfDenmark",
+        "MarieCurie"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Pvp_Preset_2",
+      "heroes": [
+        "ThomasAlvaEdison",
+        "DArtagnan",
+        "LudwigVanBeethoven",
+        "AshokaTheGreat",
+        "QueenBoudicca"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.PlayerProfileShowcaseFallback",
+      "heroes": [
+        "KingMinos",
+        "Hatshepsut",
+        "WilliamWallace",
+        "MarieCurie",
+        "Medusa"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TeslaStormYellow",
+      "heroes": [
+        "KingMinos",
+        "TomoeGozen",
+        "LudwigVanBeethoven",
+        "QinShiHuang",
+        "JoanOfArc"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TeslaStormPurple",
+      "heroes": [
+        "AbrahamLincoln",
+        "Spartacus",
+        "ThomasAlvaEdison",
+        "LadyKasuga",
+        "MarieCurie"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TeslaStormBlue",
+      "heroes": [
+        "WilliamWallace",
+        "DArtagnan",
+        "MargaretIOfDenmark",
+        "PakalTheGreat",
+        "AnneBonny"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Pvp",
+      "heroes": [
+        "KingMinos",
+        "WilliamWallace",
+        "MarieCurie",
+        "MargaretIOfDenmark",
+        "QueenBoudicca"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.pvp_hero_deck",
+      "heroes": [
+        "Nostradamus",
+        "WilliamWallace",
+        "HarryHoudini",
+        "Medusa",
+        "MarieCurie"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_1",
+      "heroes": [
+        "WilliamWallace",
+        "MargaretIOfDenmark",
+        "Menes",
+        "Hatshepsut",
+        "ThomasAlvaEdison"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.Campaign",
+      "heroes": [
+        "KingMinos",
+        "WilliamWallace",
+        "Medusa",
+        "Hatshepsut",
+        "Nostradamus"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_4",
+      "heroes": [
+        "NapoleonBonaparte",
+        "Hercules",
+        "LeonardoDaVinci",
+        "AshokaTheGreat",
+        "AnneBonny"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_5",
+      "heroes": [
+        "AttilaTheHun",
+        "Kiviuq",
+        "QueenBoudicca",
+        "TigerLily",
+        "Nostradamus"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_2",
+      "heroes": [
+        "ElCid",
+        "AbrahamLincoln",
+        "Medusa",
+        "Sacagawea",
+        "LudwigVanBeethoven"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_3",
+      "heroes": [
+        "PakalTheGreat",
+        "TomoeGozen",
+        "MarieCurie",
+        "LouisPasteur",
+        "Mozart"
+      ]
+    },
+    {
+      "definitionId": "hero_deck.TreasureHunt_Preset_6",
+      "heroes": [
+        "KingMinos",
+        "JoanOfArc",
+        "QinShiHuang",
+        "TribalHealer",
+        "VincentVanGogh"
+      ]
+    }
+  ],
+  "equipment": {},
+  "relics": {},
+  "cities": [
+    {
+      "id": "1738928",
+      "definitionId": "city.City_Capital",
+      "placedBuildingAmounts": {
+        "building.Building_AgeOfTheFranks_Home_Small_2": 62,
+        "building.Building_AgeOfTheFranks_Home_Small_3": 4,
+        "building.Building_FeudalAge_Home_Average_1": 2,
+        "building.Building_FeudalAge_CultureSite_Compact_1": 9,
+        "building.Building_IberianEra_Home_Small_1": 1,
+        "building.Building_IberianEra_Barracks_Infantry_1": 1,
+        "building.Building_MinoanEra_Collectable_MinoanWatchtowerV2_2": 1,
+        "building.Building_IberianEra_Workshop_SpiceMerchant_1": 2,
+        "building.Building_FeudalAge_Special_Furnace_1": 1,
+        "building.Building_BronzeAge_Collectable_SchoolV2_2": 1,
+        "building.Building_IberianEra_Barracks_Ranged_1": 1,
+        "building.Building_FeudalAge_Home_Small_1": 4,
+        "building.Building_AgeOfTheFranks_Home_Average_3": 2,
+        "building.Building_IberianEra_CultureSite_Moderate_1": 11,
+        "building.Building_IberianEra_City_CityHall_1": 1,
+        "building.Building_IberianEra_CultureSite_Little_1": 2,
+        "building.Building_IberianEra_Barracks_Siege_1": 1,
+        "building.Building_IberianEra_Barracks_HeavyInfantry_1": 1,
+        "building.Building_IberianEra_Special_HeroAcademy_1": 1,
+        "building.Building_IberianEra_CultureSite_Compact_1": 4,
+        "building.Building_FeudalAge_Farm_Domestic_3": 10,
+        "building.Building_IberianEra_Farm_Rural_1": 2,
+        "building.Building_TreasureHunt_Evolving_FountainOfYouth_1": 1,
+        "building.Building_IberianEra_Workshop_Carpenter_1": 2,
+        "building.Building_IberianEra_Barracks_Cavalry_1": 1,
+        "building.Building_ClassicGreece_Collectable_ArchitectsStudioV2_2": 1,
+        "building.Building_FeudalAge_CultureSite_Large_1": 1,
+        "building.Building_IberianEra_Workshop_Scribe_1": 2
+      },
+      "buildingLimits": {
+        "limitsByGroup": [
+          {
+            "group": "siegeBarracks",
+            "amount": 1
+          },
+          {
+            "group": "collectableSchoolV2",
+            "amount": 1
+          },
+          {
+            "group": "collectableArchitectsStudioV2",
+            "amount": 1
+          },
+          {
+            "group": "collectableMinoanWatchtowerV2",
+            "amount": 1
+          },
+          {
+            "group": "furnace",
+            "amount": 1
+          },
+          {
+            "group": "premiumFarm",
+            "amount": 3
+          },
+          {
+            "group": "evolvingGarden",
+            "amount": 1
+          },
+          {
+            "group": "cavalryBarracks",
+            "amount": 1
+          },
+          {
+            "group": "evolvingFountainOfYouth",
+            "amount": 1
+          },
+          {
+            "group": "heroAcademy",
+            "amount": 3
+          },
+          {
+            "group": "heavyInfantryBarracks",
+            "amount": 1
+          },
+          {
+            "group": "rangedBarracks",
+            "amount": 1
+          },
+          {
+            "group": "infantryBarracks",
+            "amount": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "8771046",
+      "definitionId": "city.City_Egypt",
+      "placedBuildingAmounts": {
+        "building.Building_Egypt_Irrigation_Channel_4": 4,
+        "building.Building_Egypt_PapyrusField_Average_4": 2,
+        "building.Building_Egypt_Workshop_Goldsmith_5": 1,
+        "building.Building_Egypt_Workshop_Goldsmith_4": 1,
+        "building.Building_Egypt_Irrigation_SmallWell_3": 3,
+        "building.Building_Egypt_Home_Average_4": 10,
+        "building.Building_Egypt_Home_Average_1": 1,
+        "building.Building_Egypt_Home_Small_4": 7,
+        "building.Building_Egypt_Home_Average_2": 1,
+        "building.Building_Egypt_GoldMine_Average_5": 3,
+        "building.Building_Egypt_Home_Small_3": 1,
+        "building.Building_Egypt_Home_Small_1": 4,
+        "building.Building_Egypt_City_CityHall_2": 1,
+        "building.Building_Egypt_Workshop_PapyrusPress_4": 2,
+        "building.Building_Egypt_Workshop_PapyrusPress_5": 1
+      },
+      "buildingLimits": {}
+    }
+  ],
+  "allianceMembers": [
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    },
+    {
+      "id": null,
+      "name": null,
+      "level": null,
+      "power": null,
+      "age": null
+    }
+  ],
+  "allianceCities": []
+}
