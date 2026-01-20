@@ -1,0 +1,7142 @@
+{
+  "enums": {
+    "AllianceAdmissionType": {
+      "file": "protos/hoh/alliance/alliance_admission_type.proto",
+      "values": {
+        "AllianceAdmissionType_Open": 0,
+        "AllianceAdmissionType_Closed": 1,
+        "AllianceAdmissionType_Application": 2
+      }
+    },
+    "BattleResultStatus": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "values": {
+        "BattleResultStatus_UNDEFINED": 0,
+        "BattleResultStatus_WIN": 1,
+        "BattleResultStatus_DEFEAT": 2
+      }
+    },
+    "Calculation": {
+      "file": "protos/hoh/calculation.proto",
+      "values": {
+        "Calculation_ADD": 0,
+        "Calculation_MULTIPLY": 1
+      }
+    },
+    "ExpansionSubType": {
+      "file": "protos/hoh/city/expansion_sub_type.proto",
+      "values": {
+        "ExpansionSubType_UNDEFINED": 0,
+        "ExpansionSubType_WATER": 1
+      }
+    },
+    "ExpansionType": {
+      "file": "protos/hoh/city/expansion_type.proto",
+      "values": {
+        "ExpansionType_UNDEFINED": 0,
+        "ExpansionType_BLOCKER": 1,
+        "ExpansionType_CONNECTOR": 2,
+        "ExpansionType_LINKED": 3,
+        "ExpansionType_DETACHED_CONNECTOR": 4
+      }
+    },
+    "ExpansionUnlockingType": {
+      "file": "protos/hoh/city/expansion_unlocking_type.proto",
+      "values": {
+        "ExpansionUnlockingType_UNDEFINED": 0,
+        "ExpansionUnlockingType_PREMIUM": 1
+      }
+    },
+    "ProductionSourceConstant": {
+      "file": "protos/hoh/city/production_source_constant.proto",
+      "values": {
+        "ProductionSourceConstant_MAIN": 0,
+        "ProductionSourceConstant_CUSTOMIZATION": 1
+      }
+    },
+    "AllianceJoinPolicy": {
+      "file": "protos/hoh/ranking/alliance_join_policy.proto",
+      "values": {
+        "AllianceJoinPolicy_OPEN": 0,
+        "AllianceJoinPolicy_CLOSED": 1,
+        "AllianceJoinPolicy_APPLICATION": 2
+      }
+    },
+    "AllianceRankingType": {
+      "file": "protos/hoh/ranking/alliance_ranking_type.proto",
+      "values": {
+        "AllianceRankingType_UNDEFINED": 0,
+        "AllianceRankingType_MEMBER_TOTAL": 1,
+        "AllianceRankingType_TOTAL": 2,
+        "AllianceRankingType_TREASURE_HUNT_TOTAL": 3,
+        "AllianceRankingType_TREASURE_HUNT_1ST": 4,
+        "AllianceRankingType_TREASURE_HUNT_2ND": 5,
+        "AllianceRankingType_TREASURE_HUNT_3RD": 6,
+        "AllianceRankingType_ALLIANCE_RESEARCH_POINTS_TOTAL": 7,
+        "AllianceRankingType_ALLIANCE_RESEARCH_POINTS_COMMON": 8,
+        "AllianceRankingType_ALLIANCE_RESEARCH_POINTS_RARE": 9,
+        "AllianceRankingType_ALLIANCE_RESEARCH_POINTS_EPIC": 10
+      }
+    },
+    "PlayerRankingType": {
+      "file": "protos/hoh/ranking/player_ranking_type.proto",
+      "values": {
+        "PlayerRankingType_RESEARCH_POINTS": 0,
+        "PlayerRankingType_TOTAL": 1,
+        "PlayerRankingType_SEASON_PASS_PROGRESS": 6,
+        "PlayerRankingType_EVENT_CITY_PROGRESS": 8,
+        "PlayerRankingType_TOTAL_HERO_POWER": 9
+      }
+    },
+    "TechnologyState": {
+      "file": "protos/hoh/research/technology_state.proto",
+      "values": {
+        "TechnologyState_UNDEFINED": 0,
+        "TechnologyState_UNLOCKING": 1,
+        "TechnologyState_UNLOCKED": 2
+      }
+    },
+    "SoftErrorType": {
+      "file": "protos/hoh/soft_error_type.proto",
+      "values": {
+        "SoftErrorType_UNDEFINED": 0,
+        "SoftErrorType_ALLIANCE_NOT_FOUND": 1495406539,
+        "SoftErrorType_GENERAL_UNKNOWN": 52884052,
+        "SoftErrorType_REQUEST_SESSION_EXPIRED": 555876709
+      }
+    },
+    "InGameEventState": {
+      "file": "protos/hoh/startup/in_game_event_push.proto",
+      "values": {
+        "InGameEvent_UNDEFINED": 0,
+        "InGameEvent_PREPARED": 1,
+        "InGameEvent_ACTIVE": 2,
+        "InGameEvent_ENDED": 3
+      }
+    },
+    "WorkerType": {
+      "file": "protos/hoh/worker_type.proto",
+      "values": {
+        "WorkerType_UNDEFINED": 0,
+        "WorkerType_PRIEST_MAYA": 1,
+        "WorkerType_SAILOR_VIKINGS": 2
+      }
+    }
+  },
+  "messages": {
+    "AgeDefinitionDTO": {
+      "file": "protos/hoh/age_definition_dto.proto",
+      "fields": {
+        "name": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "index": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceMembersResponse": {
+      "file": "protos/hoh/alliance/alliance_members_response.proto",
+      "fields": {
+        "alliance_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "members": {
+          "type": "AllianceMemberDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceMemberDto": {
+      "file": "protos/hoh/alliance/alliance_member_dto.proto",
+      "fields": {
+        "role_details": {
+          "type": "AllianceMemberRoleDetailsDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "seconds_since_last_online": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "player": {
+          "type": "PlayerDto",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "ranking_points": {
+          "type": "int32",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "joined_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceMemberRoleDetailsDto": {
+      "file": "protos/hoh/alliance/alliance_member_dto.proto",
+      "fields": {
+        "role": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceRequest": {
+      "file": "protos/hoh/alliance/alliance_request.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceWithLeaderDTO": {
+      "file": "protos/hoh/alliance/alliance_with_leader_dto.proto",
+      "fields": {
+        "alliance": {
+          "type": "AllianceDetailsDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "leader": {
+          "type": "AllianceMemberDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceDetailsDto": {
+      "file": "protos/hoh/alliance/alliance_with_leader_dto.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "member_count": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "settings": {
+          "type": "AllianceSettingsDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "rank": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceSettingsDto": {
+      "file": "protos/hoh/alliance/alliance_with_leader_dto.proto",
+      "fields": {
+        "name": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "description": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "admission_type": {
+          "type": "AllianceAdmissionType",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_icon_id": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_background_id": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "language": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "SearchAllianceRequestDto": {
+      "file": "protos/hoh/alliance/search_alliance_request_dto.proto",
+      "fields": {
+        "search_string": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "SearchAllianceResponse": {
+      "file": "protos/hoh/alliance/search_alliance_response.proto",
+      "fields": {
+        "alliances": {
+          "type": "AllianceWithLeaderDTO",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "SearchPlayerRequestDto": {
+      "file": "protos/hoh/alliance/search_player_request_dto.proto",
+      "fields": {
+        "search_string": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "locale": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceDto": {
+      "file": "protos/hoh/alliance_dto.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_icon_id": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_background_id": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "member_count": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AlliancePush": {
+      "file": "protos/hoh/alliance_push.proto",
+      "fields": {
+        "alliance": {
+          "type": "AlliancePushAlliance",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AlliancePushAlliance": {
+      "file": "protos/hoh/alliance_push.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "member_count": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "details": {
+          "type": "AlliancePushAllianceDetails",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AlliancePushAllianceDetails": {
+      "file": "protos/hoh/alliance_push.proto",
+      "fields": {
+        "name": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_icon_id": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_background_id": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BatchRequestDto": {
+      "file": "protos/hoh/batch/batch_request_dto.proto",
+      "fields": {
+        "items": {
+          "type": "BatchRequestItemDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BatchRequestItemDto": {
+      "file": "protos/hoh/batch/batch_request_dto.proto",
+      "fields": {
+        "wrapped_uuid": {
+          "type": "google.protobuf.StringValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "endpoint": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "payload": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "uuid": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "updated_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BatchResponse": {
+      "file": "protos/hoh/batch/batch_response.proto",
+      "fields": {
+        "items": {
+          "type": "BatchResponseItemDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BatchResponseItemDto": {
+      "file": "protos/hoh/batch/batch_response.proto",
+      "fields": {
+        "wrapped_uuid": {
+          "type": "google.protobuf.StringValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "status_code": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "response": {
+          "type": "CommunicationDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleSquadDto": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "battlefield_slot": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "hero": {
+          "type": "BattleUnitDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit": {
+          "type": "BattleUnitDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleUnitDto": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "properties": {
+          "type": "BattleUnitPropertiesDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_state": {
+          "type": "BattleUnitStateDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleUnitPropertiesDto": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "unit_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension_level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "abilities": {
+          "type": "string",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "unit_stats_overrides": {
+          "type": "map<string, float>",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "stat_boosts": {
+          "type": "StatBoostDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "domain_data": {
+          "type": "google.protobuf.Any",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "ability_level": {
+          "type": "int32",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "awakening_level": {
+          "type": "int32",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleUnitStateDto": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "in_battle_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stats": {
+          "type": "map<string, float>",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllEquipmentUnitDataDTO": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "items": {
+          "type": "SquadEquipmentItemDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "SquadEquipmentItemDto": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "equipmentSlotTypeDefinitionId": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "equipmentSetDefinitionId": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "equipmentRarityDefinitionId": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "mainAttribute": {
+          "type": "EquipmentAttributeDto",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "subAttributes": {
+          "type": "EquipmentAttributeDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "RelicUnitDataDTO": {
+      "file": "protos/hoh/battle/battle_squad_dto.proto",
+      "fields": {
+        "definition_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension_level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleStatsRequestDto": {
+      "file": "protos/hoh/battle/battle_stats_request_dto.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleSummaryDto": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "result_status": {
+          "type": "BattleResultStatusDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_encounter_location": {
+          "type": "google.protobuf.Any",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "battle_definition_id": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "next_wave_index": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_squads": {
+          "type": "BattleSquadDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "enemy_squads": {
+          "type": "BattleSquadDto",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleResultStatusDto": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "status": {
+          "type": "BattleResultStatus",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroTreasureHuntEncounterLocationDTO": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "treasure_hunt_event_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "difficulty": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "stage": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "encounter": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CampaignMapBattleLocationDTO": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "difficulty": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "encounter": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpBattleLocationDataDTO": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "pvp_event_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "battle_definition_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "enemy_id": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "enemy": {
+          "type": "PlayerDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "enemy_alliance": {
+          "type": "AllianceDto",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "enemy_ranking_points": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "points_on_win": {
+          "type": "PvpResultPointsDto",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "points_on_loss": {
+          "type": "PvpResultPointsDto",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HistoricBattleLocationDTO": {
+      "file": "protos/hoh/battle/battle_summary_dto.proto",
+      "fields": {
+        "difficulty": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "encounter": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleDefinitionDTO": {
+      "file": "protos/hoh/battle/hero_battle_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "waves": {
+          "type": "string",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "disabled_player_slot_ids": {
+          "type": "bytes",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_battle_suggestion_component": {
+          "type": "google.protobuf.Any",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "requiredHeroClassIds": {
+          "type": "string",
+          "number": 12,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "requiredHeroTypeIds": {
+          "type": "string",
+          "number": 13,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleStatsResponse": {
+      "file": "protos/hoh/battle/hero_battle_stats_response.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_squads": {
+          "type": "BattleSquadStatsDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "enemy_squads": {
+          "type": "BattleSquadStatsDto",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleSquadStatsDto": {
+      "file": "protos/hoh/battle/hero_battle_stats_response.proto",
+      "fields": {
+        "hero": {
+          "type": "UnitBattleStatsDto",
+          "number": 1,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "support_unit": {
+          "type": "UnitBattleStatsDto",
+          "number": 2,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnitBattleStatsDto": {
+      "file": "protos/hoh/battle/hero_battle_stats_response.proto",
+      "fields": {
+        "unit_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "attack": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "defense": {
+          "type": "float",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "heal": {
+          "type": "float",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "sub_values": {
+          "type": "UnitBattleStatsSubValueDto",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnitBattleStatsSubValueDto": {
+      "file": "protos/hoh/battle/hero_battle_stats_response.proto",
+      "fields": {
+        "unit_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "attack": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "defense": {
+          "type": "float",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "heal": {
+          "type": "float",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleWaveDefinitionDTO": {
+      "file": "protos/hoh/battle/hero_battle_wave_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "squads": {
+          "type": "BattleWaveSquadDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleWaveSquadDto": {
+      "file": "protos/hoh/battle/hero_battle_wave_definition_dto.proto",
+      "fields": {
+        "battlefield_slot": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "hero": {
+          "type": "BattleUnitPropertiesDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "support_unit": {
+          "type": "BattleUnitPropertiesDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroFinishWaveRequestDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stats": {
+          "type": "WaveResultUnitStatDto",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "timeline": {
+          "type": "WaveTimelineDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveResultUnitStatDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "unit_stat": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "values": {
+          "type": "WaveResultUnitStatValueDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveResultUnitStatValueDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "in_battle_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "entries": {
+          "type": "WaveTimelineEntryDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineEntryDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "time_milliseconds": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "ability_caster": {
+          "type": "WaveTimelineAbilityCasterDto",
+          "number": 11,
+          "label": "",
+          "options_raw": ""
+        },
+        "ability_target": {
+          "type": "WaveTimelineAbilityTargetDto",
+          "number": 12,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineAbilityCasterDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "battle_ability_definition_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "timeline_action_id": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "caster": {
+          "type": "WaveTimelineUnitIdentifierDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineAbilityTargetDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "timeline_action_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "caster": {
+          "type": "WaveTimelineUnitIdentifierDto",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "target": {
+          "type": "WaveTimelineUnitIdentifierDto",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "u1": {
+          "type": "string",
+          "number": 107,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stat": {
+          "type": "WaveTimelineAffectedStatDto",
+          "number": 112,
+          "label": "",
+          "options_raw": ""
+        },
+        "result_value": {
+          "type": "int32",
+          "number": 115,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineAffectedStatDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "unit_stat": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "u1_status": {
+          "type": "int32",
+          "number": 11,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WaveTimelineUnitIdentifierDto": {
+      "file": "protos/hoh/battle/hero_finish_wave_request_dto.proto",
+      "fields": {
+        "in_battle_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroFinishWaveResponse": {
+      "file": "protos/hoh/battle/hero_finish_wave_response.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "result": {
+          "type": "BattleSummaryDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroStartBattleResponse": {
+      "file": "protos/hoh/battle/hero_start_battle_response.proto",
+      "fields": {
+        "battle_id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "result": {
+          "type": "BattleSummaryDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "NegotiationGameDefinitionDTO": {
+      "file": "protos/hoh/battle/negotiation_game_definition_dto.proto",
+      "fields": {}
+    },
+    "PvpBattleHistoryResponse": {
+      "file": "protos/hoh/battle/pvp_battle_history_response.proto",
+      "fields": {
+        "battles": {
+          "type": "PvpBattleDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "players_to_alliances": {
+          "type": "PvpBattlePlayerAllianceDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpBattleDto": {
+      "file": "protos/hoh/battle/pvp_battle_history_response.proto",
+      "fields": {
+        "player1": {
+          "type": "PlayerDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player2": {
+          "type": "PlayerDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "points_delta": {
+          "type": "int64",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "player1_units": {
+          "type": "BattleSquadDto",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "player2_units": {
+          "type": "BattleSquadDto",
+          "number": 8,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "performed_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "id": {
+          "type": "google.protobuf.BytesValue",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpBattlePlayerAllianceDto": {
+      "file": "protos/hoh/battle/pvp_battle_history_response.proto",
+      "fields": {
+        "player_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance": {
+          "type": "AllianceDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpResultPointsDto": {
+      "file": "protos/hoh/battle/pvp_result_points_dto.proto",
+      "fields": {
+        "points_for_player": {
+          "type": "int64",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "points_for_enemy": {
+          "type": "int64",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "StatBoostDto": {
+      "file": "protos/hoh/battle/stat_boost_dto.proto",
+      "fields": {
+        "order": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "calculation": {
+          "type": "Calculation",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unitStatDefinitionId": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "unitStatAttributeDefinitionId": {
+          "type": "string",
+          "number": 6,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingBuffDetailsDto": {
+      "file": "protos/hoh/building_buff_details_dto.proto",
+      "fields": {
+        "value": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "factor": {
+          "type": "double",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "resources": {
+          "type": "BuildingBuffResourceDto",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingBuffResourceDto": {
+      "file": "protos/hoh/building_buff_details_dto.proto",
+      "fields": {
+        "resource_type": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "factor": {
+          "type": "double",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingProductDto": {
+      "file": "protos/hoh/building_production_reward_dto.proto",
+      "fields": {
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "dac_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingRequirementsDto": {
+      "file": "protos/hoh/building_requirements_dto.proto",
+      "fields": {
+        "packed_requirements": {
+          "type": "google.protobuf.Any",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_cost": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "GoodRequirementDTO": {
+      "file": "protos/hoh/building_requirements_dto.proto",
+      "fields": {
+        "good_type": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AgeRequirementDTO": {
+      "file": "protos/hoh/building_requirements_dto.proto",
+      "fields": {
+        "age": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingUnitDto": {
+      "file": "protos/hoh/building_unit_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "uint32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingCustomizationDefinitionDTO": {
+      "file": "protos/hoh/city/building_customization_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "duration": {
+          "type": "DurationDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "subtype": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingDefinitionDTO": {
+      "file": "protos/hoh/city/building_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "width": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "length": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "subtype": {
+          "type": "string",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        },
+        "buff_details": {
+          "type": "BuildingBuffDetailsDto",
+          "number": 11,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 12,
+          "label": "",
+          "options_raw": ""
+        },
+        "expansion_sub_type": {
+          "type": "ExpansionSubType",
+          "number": 14,
+          "label": "",
+          "options_raw": ""
+        },
+        "asset_id": {
+          "type": "string",
+          "number": 15,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "InitComponentDTO": {
+      "file": "protos/hoh/city/building_definition_dto.proto",
+      "fields": {}
+    },
+    "MoveComponentDTO": {
+      "file": "protos/hoh/city/building_definition_dto.proto",
+      "fields": {}
+    },
+    "SellComponentDTO": {
+      "file": "protos/hoh/city/building_definition_dto.proto",
+      "fields": {}
+    },
+    "SubscriptionSlotComponentDTO": {
+      "file": "protos/hoh/city/building_definition_dto.proto",
+      "fields": {}
+    },
+    "BuildingGroupDto": {
+      "file": "protos/hoh/city/building_group_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityDefinitionDTO": {
+      "file": "protos/hoh/city/city_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "init_definition": {
+          "type": "CityInitDefinitionDTO",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "building_menu_types": {
+          "type": "string",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityDTO": {
+      "file": "protos/hoh/city/city_dto.proto",
+      "fields": {
+        "player_city_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "map_entities": {
+          "type": "CityMapEntityDto",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "expansion_map_entities": {
+          "type": "ExpansionMapEntityDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityInitDefinitionDTO": {
+      "file": "protos/hoh/city/city_init_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityMapEntityDto": {
+      "file": "protos/hoh/city/city_map_entity_dto.proto",
+      "fields": {
+        "city_entity_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "x": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "y": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "productions": {
+          "type": "CityMapEntityProductionDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "is_rotated": {
+          "type": "bool",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "upgrade": {
+          "type": "CityMapEntityUpgradeDto",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        },
+        "customization_entity_id": {
+          "type": "string",
+          "number": 15,
+          "label": "",
+          "options_raw": ""
+        },
+        "customization_applied_at": {
+          "type": "int32",
+          "number": 16,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 18,
+          "label": "",
+          "options_raw": ""
+        },
+        "linked_expansion": {
+          "type": "string",
+          "number": 23,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityMapEntityProductionDto": {
+      "file": "protos/hoh/city/city_map_entity_dto.proto",
+      "fields": {
+        "definition_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "is_started": {
+          "type": "bool",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "source": {
+          "type": "ProductionSourceConstant",
+          "number": 13,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityMapEntityUpgradeDto": {
+      "file": "protos/hoh/city/city_map_entity_dto.proto",
+      "fields": {
+        "definition_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "is_started": {
+          "type": "bool",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "started_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "complete_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ExpansionDefinitionDTO": {
+      "file": "protos/hoh/city/expansion_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "x": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "y": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "ExpansionType",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "subtype": {
+          "type": "ExpansionSubType",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ExpansionMapEntityDto": {
+      "file": "protos/hoh/city/expansion_map_entity_dto.proto",
+      "fields": {
+        "x": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "y": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "unlockingType": {
+          "type": "ExpansionUnlockingType",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "width": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "length": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "id": {
+          "type": "string",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "InitialGridComponentDTO": {
+      "file": "protos/hoh/city/initial_grid_component_dto.proto",
+      "fields": {
+        "expansion_size": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "expansions": {
+          "type": "ExpansionDefinitionDTO",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "LinkedExpansionComponentDTO": {
+      "file": "protos/hoh/city/linked_expansion_component_dto.proto",
+      "fields": {
+        "linked_expansion_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "OtherCityDTO": {
+      "file": "protos/hoh/city/other_city_dto.proto",
+      "fields": {
+        "player_city_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player": {
+          "type": "PlayerDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "map_entities": {
+          "type": "CityMapEntityDto",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "expansion_map_entities": {
+          "type": "ExpansionMapEntityDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "wonders": {
+          "type": "ReworkedWondersDTO",
+          "number": 7,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "ReworkedWonderDefinitionDTO": {
+      "file": "protos/hoh/city/reworked_wonder_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_levels": {
+          "type": "google.protobuf.Any",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "CommunicationDto": {
+      "file": "protos/hoh/communication_dto.proto",
+      "fields": {
+        "packed_messages": {
+          "type": "google.protobuf.Any",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "error": {
+          "type": "SoftErrorType",
+          "number": 5,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "response": {
+          "type": "google.protobuf.Any",
+          "number": 7,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "root_context": {
+          "type": "CommunicationRootContextDto",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CommunicationRootContextDto": {
+      "file": "protos/hoh/communication_dto.proto",
+      "fields": {
+        "messages": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BoostResourceComponentDTO": {
+      "file": "protos/hoh/components/boost_resource_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "double",
+          "number": 2,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "resource_id": {
+          "type": "string",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "resource_type": {
+          "type": "string",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 8,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "dynamic_values_id": {
+          "type": "string",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingUnitProviderComponentDTO": {
+      "file": "protos/hoh/components/building_unit_provider_component_dto.proto",
+      "fields": {
+        "unit": {
+          "type": "BuildingUnitDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_count": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CityCultureAreaComponentDTO": {
+      "file": "protos/hoh/components/city_culture_area_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "x": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "y": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "width": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "height": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ConstructionComponentDTO": {
+      "file": "protos/hoh/components/construction_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "build_time": {
+          "type": "DurationDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "requirements": {
+          "type": "BuildingRequirementsDto",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "worker_count": {
+          "type": "WorkerCountDto",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CultureBoostComponentDTO": {
+      "file": "protos/hoh/components/culture_boost_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "factor": {
+          "type": "double",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "CultureComponentDTO": {
+      "file": "protos/hoh/components/culture_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "range": {
+          "type": "int32",
+          "number": 2,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "int32",
+          "number": 3,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "dynamic_values_id": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "dynamic_ranges_id": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "GrantWorkerComponentDTO": {
+      "file": "protos/hoh/components/grant_worker_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "worker_count": {
+          "type": "int32",
+          "number": 2,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "worker_type": {
+          "type": "WorkerType",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "dynamic_values_id": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroAbilityTrainingComponentDTO": {
+      "file": "protos/hoh/components/hero_ability_training_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_type": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBuildingBoostComponentDTO": {
+      "file": "protos/hoh/components/hero_building_boost_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_type": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stats": {
+          "type": "UnitStatDto",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "LevelUpComponentDTO": {
+      "file": "protos/hoh/components/level_up_component_dto.proto",
+      "fields": {
+        "star_levels": {
+          "type": "bytes",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ProductionComponentDTO": {
+      "file": "protos/hoh/components/production_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "production_time": {
+          "type": "DurationDto",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "factor": {
+          "type": "double",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_worker_behaviour": {
+          "type": "google.protobuf.Any",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "cost": {
+          "type": "ProductionCostDto",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        },
+        "product": {
+          "type": "BuildingProductDto",
+          "number": 11,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResourceConversionComponentDTO": {
+      "file": "protos/hoh/components/resource_conversion_component_dto.proto",
+      "fields": {}
+    },
+    "UpgradeComponentDTO": {
+      "file": "protos/hoh/components/upgrade_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "next_building_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "upgrade_time": {
+          "type": "DurationDto",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "requirements": {
+          "type": "BuildingRequirementsDto",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "worker_count": {
+          "type": "WorkerCountDto",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WonderLevelUpComponentDTO": {
+      "file": "protos/hoh/components/wonder_level_up_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "upgrade_costs": {
+          "type": "WonderUpgradeCostsDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WonderUpgradeCostsDto": {
+      "file": "protos/hoh/components/wonder_level_up_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "costs": {
+          "type": "WonderUpgradeCostDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "WonderUpgradeCostDto": {
+      "file": "protos/hoh/components/wonder_level_up_component_dto.proto",
+      "fields": {
+        "level": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "crates_wrapper": {
+          "type": "WonderCrateWrapperDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WonderCrateWrapperDto": {
+      "file": "protos/hoh/components/wonder_level_up_component_dto.proto",
+      "fields": {
+        "crates": {
+          "type": "WonderCrateDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "WonderCrateDto": {
+      "file": "protos/hoh/components/wonder_level_up_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "fill_resource": {
+          "type": "ResourceDTO",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ConstantsDefinitionDTO": {
+      "file": "protos/hoh/constants_definition_dto.proto",
+      "fields": {
+        "buildings": {
+          "type": "string",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "DifficultyDefinitionDTO": {
+      "file": "protos/hoh/difficulty_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "DurationDto": {
+      "file": "protos/hoh/duration_dto.proto",
+      "fields": {
+        "seconds": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingAgeDynamicChangeDTO": {
+      "file": "protos/hoh/dynamic/building_age_dynamic_change_dto.proto",
+      "fields": {
+        "values": {
+          "type": "LevelValue",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BuildingLevelDynamicChangeDTO": {
+      "file": "protos/hoh/dynamic/building_level_dynamic_change_dto.proto",
+      "fields": {
+        "values": {
+          "type": "LevelValue",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "DynamicFloatValueDefinitionDTO": {
+      "file": "protos/hoh/dynamic/dynamic_float_value_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_mapping": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "DynamicFloatValueDTO": {
+      "file": "protos/hoh/dynamic/dynamic_float_value_dto.proto",
+      "fields": {
+        "value": {
+          "type": "float",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "dynamic_value_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "EquipmentItemDto": {
+      "file": "protos/hoh/equipment/equipment_item.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "equipmentSlotTypeDefinitionId": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "equipmentSetDefinitionId": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "equipmentRarityDefinitionId": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "equippedOnHeroDefinitionId": {
+          "type": "string",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "isNew": {
+          "type": "bool",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "mainAttribute": {
+          "type": "EquipmentAttributeDto",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "subAttributes": {
+          "type": "EquipmentAttributeDto",
+          "number": 9,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "EquipmentAttributeDto": {
+      "file": "protos/hoh/equipment/equipment_item.proto",
+      "fields": {
+        "unitStatAttributeDefinitionId": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "statBoost": {
+          "type": "StatBoostDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unlockedAtLevel": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "unlocked": {
+          "type": "bool",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "rolledValue": {
+          "type": "float",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "FactionDefinitionDTO": {
+      "file": "protos/hoh/faction_definition_dto.proto",
+      "fields": {
+        "faction_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "faction_leader": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "GamedesignRequest": {
+      "file": "protos/hoh/gamedesign_request.proto",
+      "fields": {
+        "checksum": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "GameDesignReference": {
+      "file": "protos/hoh/game_design_reference.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "GameDesignResponse": {
+      "file": "protos/hoh/game_design_response.proto",
+      "fields": {
+        "items": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleAbilityDefinitionDTO": {
+      "file": "protos/hoh/hero/battle_ability_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "description_localization_id": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "description_items": {
+          "type": "BattleAbilityDefinitionDescriptionItemDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleAbilityDefinitionDescriptionItemDto": {
+      "file": "protos/hoh/hero/battle_ability_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "BattleAbilityDefinitionDescriptionItemValueDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "BattleAbilityDefinitionDescriptionItemValueDto": {
+      "file": "protos/hoh/hero/battle_ability_definition_dto.proto",
+      "fields": {
+        "value": {
+          "type": "double",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroAwakeningComponentDTO": {
+      "file": "protos/hoh/hero/hero_awakening_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "levels": {
+          "type": "AwakeningLevelDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "AwakeningLevelDto": {
+      "file": "protos/hoh/hero/hero_awakening_component_dto.proto",
+      "fields": {
+        "converted_heroes_amount": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "level_value": {
+          "type": "AwakeningLevelValueDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AwakeningLevelValueDto": {
+      "file": "protos/hoh/hero/hero_awakening_component_dto.proto",
+      "fields": {
+        "is_percentage": {
+          "type": "bool",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stat_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleAbilityComponentDTO": {
+      "file": "protos/hoh/hero/hero_battle_ability_component_dto.proto",
+      "fields": {
+        "hero_ability_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "levels": {
+          "type": "HeroBattleAbilityComponentLevelDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleAbilityComponentLevelDto": {
+      "file": "protos/hoh/hero/hero_battle_ability_component_dto.proto",
+      "fields": {
+        "cost": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "is_key_level": {
+          "type": "bool",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "ability_ids": {
+          "type": "string",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroBattleConstantsDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_battle_constants_definition_dto.proto",
+      "fields": {
+        "stat_to_formula": {
+          "type": "map<string, string>",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "base_values": {
+          "type": "HeroUnitStatBaseValueDto",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatBaseValueDto": {
+      "file": "protos/hoh/hero/hero_battle_constants_definition_dto.proto",
+      "fields": {
+        "stat_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroClassDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_class_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroDeckDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_deck_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionAscensionCostDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_progression_ascension_cost_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cost": {
+          "type": "HeroProgressionAscensionCostDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionAscensionCostDto": {
+      "file": "protos/hoh/hero/hero_progression_ascension_cost_dto.proto",
+      "fields": {
+        "level": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "resources": {
+          "type": "ResourceCollectionDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionComponentDTO": {
+      "file": "protos/hoh/hero/hero_progression_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cost_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension_cost_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionCostDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_progression_cost_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cost": {
+          "type": "HeroProgressionCostDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionCostDto": {
+      "file": "protos/hoh/hero/hero_progression_cost_definition_dto.proto",
+      "fields": {
+        "level": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "resource": {
+          "type": "HeroProgressionCostResourceDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionCostResourceDto": {
+      "file": "protos/hoh/hero/hero_progression_cost_definition_dto.proto",
+      "fields": {
+        "amount": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "resource_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "resource_factor": {
+          "type": "float",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProgressionDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_progression_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "u2": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "u3": {
+          "type": "bytes",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroStarUpDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_star_up_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "origin_hero_definition_id": {
+          "type": "string",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroSupportUnitComponentDTO": {
+      "file": "protos/hoh/hero/hero_support_unit_component_dto.proto",
+      "fields": {
+        "unit_type": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitColorDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_color_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "color": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_stats": {
+          "type": "google.protobuf.Any",
+          "number": 6,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitRarityDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_rarity_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_stat_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "u2": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "u3": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "u4": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatFormulaDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_stat_formula_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit": {
+          "type": "HeroUnitStatFormulaDefinitionFactorsDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "rarity_units": {
+          "type": "HeroUnitStatFormulaDefinitionUnitRarityFactorsDto",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatFormulaDefinitionUnitRarityFactorsDto": {
+      "file": "protos/hoh/hero/hero_unit_stat_formula_definition_dto.proto",
+      "fields": {
+        "rarity_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "factors": {
+          "type": "HeroUnitStatFormulaDefinitionFactorsDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatFormulaDefinitionFactorsDto": {
+      "file": "protos/hoh/hero/hero_unit_stat_formula_definition_dto.proto",
+      "fields": {
+        "normal": {
+          "type": "float",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension": {
+          "type": "float",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitStatValueDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_stat_value_definition_dto.proto",
+      "fields": {
+        "value_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "stat_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroUnitTypeDefinitionDTO": {
+      "file": "protos/hoh/hero/hero_unit_type_definition_dto.proto",
+      "fields": {
+        "unit_type": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "unit_stats": {
+          "type": "HeroUnitStatValueDefinitionDTO",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "IdDto": {
+      "file": "protos/hoh/id_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "LevelValue": {
+      "file": "protos/hoh/level_value.proto",
+      "fields": {
+        "when": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_then": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "LocalizationRequest": {
+      "file": "protos/hoh/localization_request.proto",
+      "fields": {
+        "locale": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "checksum": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ContinentDefinitionDTO": {
+      "file": "protos/hoh/location/continent_definition_dto.proto",
+      "fields": {
+        "continent": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "regions": {
+          "type": "string",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "world": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "EncounterDefinitionDTO": {
+      "file": "protos/hoh/location/encounter_definition_dto.proto",
+      "fields": {
+        "encounter_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "hero_battle_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "encounters": {
+          "type": "map<string, EncounterDetailsDto>",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "EncounterDetailsDto": {
+      "file": "protos/hoh/location/encounter_details_dto.proto",
+      "fields": {
+        "cost": {
+          "type": "ResourceCollectionDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "auto_victory_cost": {
+          "type": "ResourceCollectionDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "regular_reward": {
+          "type": "EncounterRewardDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "first_victory_bonus": {
+          "type": "EncounterRewardDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "hero_battle_id": {
+          "type": "string",
+          "number": 6,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "EncounterRewardDto": {
+      "file": "protos/hoh/location/encounter_details_dto.proto",
+      "fields": {
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "RegionDefinitionDTO": {
+      "file": "protos/hoh/location/region_definition_dto.proto",
+      "fields": {
+        "region": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "encounters": {
+          "type": "string",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "rewards": {
+          "type": "map<string, RegionRewardDto>",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "continent": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "RegionRewardDto": {
+      "file": "protos/hoh/location/region_definition_dto.proto",
+      "fields": {
+        "reward_set": {
+          "type": "RegionRewardSet",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "RegionRewardSet": {
+      "file": "protos/hoh/location/region_definition_dto.proto",
+      "fields": {
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "WorldDefinitionDTO": {
+      "file": "protos/hoh/location/world_definition_dto.proto",
+      "fields": {
+        "world": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "index": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "continents": {
+          "type": "string",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "world_type": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WorldTypeDefinitionDTO": {
+      "file": "protos/hoh/location/world_type_definition_dto.proto",
+      "fields": {
+        "type": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "LocaResponse": {
+      "file": "protos/hoh/loca_response.proto",
+      "fields": {
+        "entries": {
+          "type": "TranslationEntry",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "TranslationEntry": {
+      "file": "protos/hoh/loca_response.proto",
+      "fields": {
+        "key": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "values": {
+          "type": "string",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerDto": {
+      "file": "protos/hoh/player_dto.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_id": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "locale": {
+          "type": "string",
+          "number": 5,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerProfileResponse": {
+      "file": "protos/hoh/player_profile_response.proto",
+      "fields": {
+        "player_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_with_alliance": {
+          "type": "PlayerWithAllianceDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "rank": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "ranking_points": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "squads": {
+          "type": "ProfileSquadDto",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "pvp_tier": {
+          "type": "string",
+          "number": 6,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "treasure_hunt_difficulty": {
+          "type": "int32",
+          "number": 7,
+          "label": "optional",
+          "options_raw": ""
+        }
+      }
+    },
+    "ProfileSquadDto": {
+      "file": "protos/hoh/player_profile_response.proto",
+      "fields": {
+        "place": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "hero": {
+          "type": "BattleUnitPropertiesDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "support_unit": {
+          "type": "BattleUnitPropertiesDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerWithAllianceDto": {
+      "file": "protos/hoh/player_with_alliance_dto.proto",
+      "fields": {
+        "player_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_age": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "player_avatar_id": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance_id": {
+          "type": "int32",
+          "number": 5,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "alliance_name": {
+          "type": "string",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance_avatar_icon_id": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance_avatar_background_id": {
+          "type": "int32",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ProductionCostDto": {
+      "file": "protos/hoh/production_cost_dto.proto",
+      "fields": {
+        "packed_resources": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceRankingRequestDto": {
+      "file": "protos/hoh/ranking/alliance_ranking_request_dto.proto",
+      "fields": {
+        "type": {
+          "type": "AllianceRankingType",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceRanksDTO": {
+      "file": "protos/hoh/ranking/alliance_ranks_dto.proto",
+      "fields": {
+        "top_100": {
+          "type": "AllianceRankDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "surrounding_ranking": {
+          "type": "AllianceRankDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "AllianceRankingType",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "AllianceRankDto": {
+      "file": "protos/hoh/ranking/alliance_rank_dto.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "rank": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "points": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "member_count": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_icon_id": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_background_id": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "max_members": {
+          "type": "int32",
+          "number": 8,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "AllianceJoinPolicy",
+          "number": 9,
+          "label": "",
+          "options_raw": ""
+        },
+        "language": {
+          "type": "string",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        },
+        "leader": {
+          "type": "AllianceMemberDto",
+          "number": 11,
+          "label": "",
+          "options_raw": ""
+        },
+        "description": {
+          "type": "string",
+          "number": 12,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroTreasureHuntAlliancePointsPush": {
+      "file": "protos/hoh/ranking/hero_treasure_hunt_alliance_points_push.proto",
+      "fields": {
+        "event_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance": {
+          "type": "AllianceDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "points": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "updated_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "league": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroTreasureHuntPlayerPointsPush": {
+      "file": "protos/hoh/ranking/hero_treasure_hunt_player_points_push.proto",
+      "fields": {
+        "treasure_hunt_event_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "player": {
+          "type": "PlayerDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "ranking_points": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerRankingRequestDto": {
+      "file": "protos/hoh/ranking/player_ranking_request_dto.proto",
+      "fields": {
+        "type": {
+          "type": "PlayerRankingType",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerRanksDTO": {
+      "file": "protos/hoh/ranking/player_ranks_dto.proto",
+      "fields": {
+        "top_100": {
+          "type": "PlayerRankDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "surrounding_ranking": {
+          "type": "PlayerRankDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "PlayerRankingType",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerRankDto": {
+      "file": "protos/hoh/ranking/player_rank_dto.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "avatar_id": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance_name": {
+          "type": "string",
+          "number": 5,
+          "label": "optional",
+          "options_raw": ""
+        },
+        "rank": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "points": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpGetRankingResponse": {
+      "file": "protos/hoh/ranking/pvp_get_ranking_response.proto",
+      "fields": {
+        "rankings": {
+          "type": "PvpRankDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "PvpRankDto": {
+      "file": "protos/hoh/ranking/pvp_get_ranking_response.proto",
+      "fields": {
+        "player": {
+          "type": "PlayerDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "alliance": {
+          "type": "AllianceDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "rank": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "points": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "RelicDefinitionDTO": {
+      "file": "protos/hoh/relics/relic_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "rarity": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "levelData": {
+          "type": "RelicLevelDto",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "RelicLevelDto": {
+      "file": "protos/hoh/relics/relic_definition_dto.proto",
+      "fields": {
+        "ascension": {
+          "type": "bool",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension_level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "relicCostDefinitionId": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "abilities": {
+          "type": "string",
+          "number": 10,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "statBoosts": {
+          "type": "RelicStatBoostDto",
+          "number": 11,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "RelicStatBoostDto": {
+      "file": "protos/hoh/relics/relic_definition_dto.proto",
+      "fields": {
+        "statBoosts": {
+          "type": "StatBoostDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "relicBoostAgeModifierDefinitionId": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "GetPlayerProfileRequestDto": {
+      "file": "protos/hoh/requests/get_player_profile_request_dto.proto",
+      "fields": {
+        "player_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "VisitCityRequestDto": {
+      "file": "protos/hoh/requests/visit_city_request_dto.proto",
+      "fields": {
+        "player_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "timestamp": {
+          "type": "google.protobuf.Timestamp",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "city_id": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchComponentDTO": {
+      "file": "protos/hoh/research/research_component_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "details": {
+          "type": "ResearchDetailsDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "rewards": {
+          "type": "ResearchRewardsDto",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchDetailsDto": {
+      "file": "protos/hoh/research/research_details_dto.proto",
+      "fields": {
+        "packed_research_requirements": {
+          "type": "google.protobuf.Any",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "packed_costs": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchRequirementDTO": {
+      "file": "protos/hoh/research/research_requirement_dto.proto",
+      "fields": {
+        "technology_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchRewardsDto": {
+      "file": "protos/hoh/research/research_rewards_dto.proto",
+      "fields": {
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "TechnologyDefinitionDTO": {
+      "file": "protos/hoh/research/technology_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "name": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "horizontal_index": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "vertical_index": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "city": {
+          "type": "string",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_research_component": {
+          "type": "google.protobuf.Any",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 8,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResourceCollectionDto": {
+      "file": "protos/hoh/resource_collection_dto.proto",
+      "fields": {
+        "packed_resources": {
+          "type": "google.protobuf.Any",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResourceDefinitionDTO": {
+      "file": "protos/hoh/resource_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "type": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 5,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "u6": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResourceDTO": {
+      "file": "protos/hoh/resource_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "u4": {
+          "type": "int32",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "u5": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "DynamicActionChangeRewardDTO": {
+      "file": "protos/hoh/rewards/dynamic_action_change_reward_dto.proto",
+      "fields": {}
+    },
+    "HeroRewardDto": {
+      "file": "protos/hoh/rewards/hero_reward_dto.proto",
+      "fields": {
+        "hero_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroTreasureHuntUnlockDifficultyRewardDTO": {
+      "file": "protos/hoh/rewards/hero_treasure_hunt_unlock_difficulty_reward_dto.proto",
+      "fields": {
+        "target": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "IncidentRewardDTO": {
+      "file": "protos/hoh/rewards/incident_reward_dto.proto",
+      "fields": {}
+    },
+    "IncreaseBuildingLimitRewardDTO": {
+      "file": "protos/hoh/rewards/increase_building_limit_reward_dto.proto",
+      "fields": {
+        "u1": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "building_group": {
+          "type": "BuildingGroupDto",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 4,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "IncreaseExpansionRightRewardDTO": {
+      "file": "protos/hoh/rewards/increase_expansion_right_reward_dto.proto",
+      "fields": {
+        "city": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "InstantUpgradeRewardDTO": {
+      "file": "protos/hoh/rewards/instant_upgrade_reward_dto.proto",
+      "fields": {
+        "target_building_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "building_group_id": {
+          "type": "string",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 11,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "LootContainerRewardDTO": {
+      "file": "protos/hoh/rewards/loot_container_reward_dto.proto",
+      "fields": {
+        "id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "MysteryChestRewardDTO": {
+      "file": "protos/hoh/rewards/mystery_chest_reward_dto.proto",
+      "fields": {
+        "id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "reward_probabilities": {
+          "type": "bytes",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResourceRewardDTO": {
+      "file": "protos/hoh/rewards/resource_reward_dto.proto",
+      "fields": {
+        "id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "resource_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "RewardDefinitionDTO": {
+      "file": "protos/hoh/rewards/reward_definition_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_rewards": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "StorageCapRewardDTO": {
+      "file": "protos/hoh/rewards/storage_cap_reward_dto.proto",
+      "fields": {
+        "resource_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "amount": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockAgeRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_age_reward_dto.proto",
+      "fields": {
+        "age": {
+          "type": "AgeDefinitionDTO",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockBuildingRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_building_reward_dto.proto",
+      "fields": {
+        "id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockBuildingUpgradeRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_building_upgrade_reward_dto.proto",
+      "fields": {
+        "building_id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockFeatureRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_feature_reward_dto.proto",
+      "fields": {
+        "Id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockGoodRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_good_reward_dto.proto",
+      "fields": {
+        "id": {
+          "type": "IdDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cities": {
+          "type": "string",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        },
+        "age": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnlockQuestlineRewardDTO": {
+      "file": "protos/hoh/rewards/unlock_questline_reward_dto.proto",
+      "fields": {}
+    },
+    "EquipmentPush": {
+      "file": "protos/hoh/startup/equipment_push.proto",
+      "fields": {
+        "equipments": {
+          "type": "EquipmentItemDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroProfile": {
+      "file": "protos/hoh/startup/hero_profile.proto",
+      "fields": {
+        "hero_id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "ascension_level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "ability_level": {
+          "type": "int32",
+          "number": 5,
+          "label": "",
+          "options_raw": ""
+        },
+        "ability_mastery_points": {
+          "type": "int32",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        },
+        "awakening_level": {
+          "type": "int32",
+          "number": 7,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "HeroPush": {
+      "file": "protos/hoh/startup/hero_push.proto",
+      "fields": {
+        "unlocked": {
+          "type": "HeroProfile",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "InGameEventPush": {
+      "file": "protos/hoh/startup/in_game_event_push.proto",
+      "fields": {
+        "events": {
+          "type": "InGameEventDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "InGameEventDto": {
+      "file": "protos/hoh/startup/in_game_event_push.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "event_definition": {
+          "type": "InGameEventDefinitionDto",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "start": {
+          "type": "google.protobuf.Timestamp",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "end": {
+          "type": "google.protobuf.Timestamp",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        },
+        "state": {
+          "type": "InGameEventState",
+          "number": 6,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "InGameEventDefinitionDto": {
+      "file": "protos/hoh/startup/in_game_event_push.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "packed_components": {
+          "type": "google.protobuf.Any",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "EventCityComponentDTO": {
+      "file": "protos/hoh/startup/in_game_event_push.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "cityDefinitionId": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "technologies": {
+          "type": "TechnologyDefinitionDTO",
+          "number": 3,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "RelicPush": {
+      "file": "protos/hoh/startup/relic_push.proto",
+      "fields": {
+        "relics": {
+          "type": "PlayerRelicDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "PlayerRelicDto": {
+      "file": "protos/hoh/startup/relic_push.proto",
+      "fields": {
+        "id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "definitionId": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "equippedOnHeroDefinitionId": {
+          "type": "string",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchStateDTO": {
+      "file": "protos/hoh/startup/research_state_dto.proto",
+      "fields": {
+        "technologies": {
+          "type": "ResearchStateTechnologyDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ResearchStateTechnologyDto": {
+      "file": "protos/hoh/startup/research_state_dto.proto",
+      "fields": {
+        "technology_id": {
+          "type": "string",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "state": {
+          "type": "TechnologyState",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "ReworkedWondersDTO": {
+      "file": "protos/hoh/startup/reworked_wonders_dto.proto",
+      "fields": {
+        "wonders": {
+          "type": "ReworkedWonderDto",
+          "number": 1,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "ReworkedWonderDto": {
+      "file": "protos/hoh/startup/reworked_wonders_dto.proto",
+      "fields": {
+        "id": {
+          "type": "string",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "is_active": {
+          "type": "bool",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "level": {
+          "type": "int32",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "UnitStatDto": {
+      "file": "protos/hoh/unit_stat_dto.proto",
+      "fields": {
+        "type": {
+          "type": "string",
+          "number": 3,
+          "label": "",
+          "options_raw": ""
+        },
+        "value": {
+          "type": "float",
+          "number": 4,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "LeaderboardPush": {
+      "file": "protos/hoh/wakeup/leaderboard_push.proto",
+      "fields": {
+        "leaderboard": {
+          "type": "LeaderboardDto",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "LeaderboardDto": {
+      "file": "protos/hoh/wakeup/leaderboard_push.proto",
+      "fields": {
+        "group_id": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "participants": {
+          "type": "LeaderboardItemDto",
+          "number": 2,
+          "label": "repeated",
+          "options_raw": ""
+        }
+      }
+    },
+    "LeaderboardItemDto": {
+      "file": "protos/hoh/wakeup/leaderboard_push.proto",
+      "fields": {
+        "points": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        },
+        "updated_at": {
+          "type": "google.protobuf.Timestamp",
+          "number": 2,
+          "label": "",
+          "options_raw": ""
+        },
+        "player": {
+          "type": "PlayerWithAllianceDto",
+          "number": 10,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WorkerBehaviourDTO": {
+      "file": "protos/hoh/worker_behaviour_dto.proto",
+      "fields": {
+        "worker_count": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    },
+    "WorkerCountDto": {
+      "file": "protos/hoh/worker_count_dto.proto",
+      "fields": {
+        "count": {
+          "type": "int32",
+          "number": 1,
+          "label": "",
+          "options_raw": ""
+        }
+      }
+    }
+  },
+  "equipment": {
+    "rarities": {},
+    "slot_types": {},
+    "stat_boost_fields": {
+      "order": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "calculation": {
+        "type": "Calculation",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "unitStatDefinitionId": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "value": {
+        "type": "float",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "unitStatAttributeDefinitionId": {
+        "type": "string",
+        "number": 6,
+        "label": "optional",
+        "options_raw": ""
+      }
+    },
+    "equipment_item_fields": {
+      "id": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "equipmentSlotTypeDefinitionId": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "equipmentSetDefinitionId": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "equipmentRarityDefinitionId": {
+        "type": "string",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 5,
+        "label": "",
+        "options_raw": ""
+      },
+      "equippedOnHeroDefinitionId": {
+        "type": "string",
+        "number": 6,
+        "label": "",
+        "options_raw": ""
+      },
+      "isNew": {
+        "type": "bool",
+        "number": 7,
+        "label": "",
+        "options_raw": ""
+      },
+      "mainAttribute": {
+        "type": "EquipmentAttributeDto",
+        "number": 8,
+        "label": "",
+        "options_raw": ""
+      },
+      "subAttributes": {
+        "type": "EquipmentAttributeDto",
+        "number": 9,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    }
+  },
+  "heroes": {
+    "HeroDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "unit_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 3,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "name": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "type": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "color": {
+        "type": "string",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_stats": {
+        "type": "google.protobuf.Any",
+        "number": 6,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitTypeDefinitionDTO": {
+      "unit_type": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "unit_stats": {
+        "type": "HeroUnitStatValueDefinitionDTO",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "u2": {
+        "type": "int32",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "u3": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "u4": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitRarityDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitColorDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroAwakeningComponentDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "levels": {
+        "type": "AwakeningLevelDto",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "HeroBattleAbilityComponentDTO": {
+      "hero_ability_id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "levels": {
+        "type": "HeroBattleAbilityComponentLevelDto",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    }
+  },
+  "buildings": {
+    "BuildingDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "type": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "width": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "length": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 5,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "cities": {
+        "type": "string",
+        "number": 7,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "age": {
+        "type": "string",
+        "number": 9,
+        "label": "",
+        "options_raw": ""
+      },
+      "subtype": {
+        "type": "string",
+        "number": 10,
+        "label": "",
+        "options_raw": ""
+      },
+      "buff_details": {
+        "type": "BuildingBuffDetailsDto",
+        "number": 11,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 12,
+        "label": "",
+        "options_raw": ""
+      },
+      "expansion_sub_type": {
+        "type": "ExpansionSubType",
+        "number": 14,
+        "label": "",
+        "options_raw": ""
+      },
+      "asset_id": {
+        "type": "string",
+        "number": 15,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "BuildingCustomizationDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "duration": {
+        "type": "DurationDto",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "subtype": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "city_id": {
+        "type": "string",
+        "number": 7,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "BuildingGroupDto": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "amount": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "CityDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "init_definition": {
+        "type": "CityInitDefinitionDTO",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "building_menu_types": {
+        "type": "string",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "building_components": [
+      "BuildingUnitProviderComponentDTO",
+      "HeroBuildingBoostComponentDTO"
+    ]
+  },
+  "stats": {
+    "StatBoostDto": {
+      "order": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "calculation": {
+        "type": "Calculation",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "unitStatDefinitionId": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "value": {
+        "type": "float",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "unitStatAttributeDefinitionId": {
+        "type": "string",
+        "number": 6,
+        "label": "optional",
+        "options_raw": ""
+      }
+    },
+    "UnitStatDto": {
+      "type": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "value": {
+        "type": "float",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "u2": {
+        "type": "int32",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "u3": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "u4": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatFormulaDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "unit": {
+        "type": "HeroUnitStatFormulaDefinitionFactorsDto",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "rarity_units": {
+        "type": "HeroUnitStatFormulaDefinitionUnitRarityFactorsDto",
+        "number": 3,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatValueDefinitionDTO": {
+      "value_id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "stat_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "value": {
+        "type": "float",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatFormulaDefinitionUnitRarityFactorsDto": {
+      "rarity_id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "factors": {
+        "type": "HeroUnitStatFormulaDefinitionFactorsDto",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "HeroUnitStatFormulaDefinitionFactorsDto": {
+      "normal": {
+        "type": "float",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "ascension": {
+        "type": "float",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      }
+    }
+  },
+  "relics": {
+    "RelicDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "rarity": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "levelData": {
+        "type": "RelicLevelDto",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "RelicLevelDto": {
+      "ascension": {
+        "type": "bool",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "ascension_level": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "relicCostDefinitionId": {
+        "type": "string",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "abilities": {
+        "type": "string",
+        "number": 10,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "statBoosts": {
+        "type": "RelicStatBoostDto",
+        "number": 11,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "RelicStatBoostDto": {
+      "statBoosts": {
+        "type": "StatBoostDto",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "relicBoostAgeModifierDefinitionId": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "PlayerRelicDto": {
+      "id": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "definitionId": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "equippedOnHeroDefinitionId": {
+        "type": "string",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "RelicUnitDataDTO": {
+      "definition_id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "ascension_level": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "age": {
+        "type": "string",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    }
+  },
+  "city": {
+    "CityMapEntityDto": {
+      "city_entity_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "x": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "y": {
+        "type": "int32",
+        "number": 5,
+        "label": "",
+        "options_raw": ""
+      },
+      "productions": {
+        "type": "CityMapEntityProductionDto",
+        "number": 6,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "is_rotated": {
+        "type": "bool",
+        "number": 9,
+        "label": "",
+        "options_raw": ""
+      },
+      "upgrade": {
+        "type": "CityMapEntityUpgradeDto",
+        "number": 10,
+        "label": "",
+        "options_raw": ""
+      },
+      "customization_entity_id": {
+        "type": "string",
+        "number": 15,
+        "label": "",
+        "options_raw": ""
+      },
+      "customization_applied_at": {
+        "type": "int32",
+        "number": 16,
+        "label": "",
+        "options_raw": ""
+      },
+      "level": {
+        "type": "int32",
+        "number": 18,
+        "label": "",
+        "options_raw": ""
+      },
+      "linked_expansion": {
+        "type": "string",
+        "number": 23,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "CityMapEntityProductionDto": {
+      "definition_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "is_started": {
+        "type": "bool",
+        "number": 8,
+        "label": "",
+        "options_raw": ""
+      },
+      "source": {
+        "type": "ProductionSourceConstant",
+        "number": 13,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "CityMapEntityUpgradeDto": {
+      "definition_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "is_started": {
+        "type": "bool",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "started_at": {
+        "type": "google.protobuf.Timestamp",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "complete_at": {
+        "type": "google.protobuf.Timestamp",
+        "number": 6,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "CityDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "init_definition": {
+        "type": "CityInitDefinitionDTO",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "building_menu_types": {
+        "type": "string",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "CityDTO": {
+      "player_city_id": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "city_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "map_entities": {
+        "type": "CityMapEntityDto",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "expansion_map_entities": {
+        "type": "ExpansionMapEntityDto",
+        "number": 6,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "OtherCityDTO": {
+      "player_city_id": {
+        "type": "int32",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "player": {
+        "type": "PlayerDto",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "city_id": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "map_entities": {
+        "type": "CityMapEntityDto",
+        "number": 5,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "expansion_map_entities": {
+        "type": "ExpansionMapEntityDto",
+        "number": 6,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "wonders": {
+        "type": "ReworkedWondersDTO",
+        "number": 7,
+        "label": "optional",
+        "options_raw": ""
+      }
+    },
+    "ExpansionMapEntityDto": {
+      "x": {
+        "type": "int32",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "y": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "unlockingType": {
+        "type": "ExpansionUnlockingType",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "width": {
+        "type": "int32",
+        "number": 6,
+        "label": "",
+        "options_raw": ""
+      },
+      "length": {
+        "type": "int32",
+        "number": 7,
+        "label": "",
+        "options_raw": ""
+      },
+      "id": {
+        "type": "string",
+        "number": 10,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "ExpansionDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "city_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "x": {
+        "type": "int32",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "y": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "type": {
+        "type": "ExpansionType",
+        "number": 5,
+        "label": "",
+        "options_raw": ""
+      },
+      "subtype": {
+        "type": "ExpansionSubType",
+        "number": 6,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_components": {
+        "type": "google.protobuf.Any",
+        "number": 7,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    }
+  },
+  "research": {
+    "TechnologyDefinitionDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "name": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "age": {
+        "type": "string",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "horizontal_index": {
+        "type": "int32",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      },
+      "vertical_index": {
+        "type": "int32",
+        "number": 5,
+        "label": "",
+        "options_raw": ""
+      },
+      "city": {
+        "type": "string",
+        "number": 6,
+        "label": "",
+        "options_raw": ""
+      },
+      "packed_research_component": {
+        "type": "google.protobuf.Any",
+        "number": 7,
+        "label": "",
+        "options_raw": ""
+      },
+      "cities": {
+        "type": "string",
+        "number": 8,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "ResearchComponentDTO": {
+      "id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      },
+      "details": {
+        "type": "ResearchDetailsDto",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      },
+      "rewards": {
+        "type": "ResearchRewardsDto",
+        "number": 4,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "ResearchRequirementDTO": {
+      "technology_id": {
+        "type": "string",
+        "number": 1,
+        "label": "",
+        "options_raw": ""
+      }
+    },
+    "ResearchRewardsDto": {
+      "packed_rewards": {
+        "type": "google.protobuf.Any",
+        "number": 2,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "ResearchDetailsDto": {
+      "packed_research_requirements": {
+        "type": "google.protobuf.Any",
+        "number": 1,
+        "label": "repeated",
+        "options_raw": ""
+      },
+      "packed_costs": {
+        "type": "google.protobuf.Any",
+        "number": 4,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "ResearchStateDTO": {
+      "technologies": {
+        "type": "ResearchStateTechnologyDto",
+        "number": 1,
+        "label": "repeated",
+        "options_raw": ""
+      }
+    },
+    "ResearchStateTechnologyDto": {
+      "technology_id": {
+        "type": "string",
+        "number": 2,
+        "label": "",
+        "options_raw": ""
+      },
+      "state": {
+        "type": "TechnologyState",
+        "number": 3,
+        "label": "",
+        "options_raw": ""
+      }
+    }
+  },
+  "proto_structure": {
+    "protos/hoh/age_definition_dto.proto": {
+      "messages": [
+        "AgeDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/alliance_admission_type.proto": {
+      "messages": [],
+      "enums": [
+        "AllianceAdmissionType"
+      ]
+    },
+    "protos/hoh/alliance/alliance_members_response.proto": {
+      "messages": [
+        "AllianceMembersResponse"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/alliance_member_dto.proto": {
+      "messages": [
+        "AllianceMemberDto",
+        "AllianceMemberRoleDetailsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/alliance_request.proto": {
+      "messages": [
+        "AllianceRequest"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/alliance_with_leader_dto.proto": {
+      "messages": [
+        "AllianceWithLeaderDTO",
+        "AllianceDetailsDto",
+        "AllianceSettingsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/search_alliance_request_dto.proto": {
+      "messages": [
+        "SearchAllianceRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/search_alliance_response.proto": {
+      "messages": [
+        "SearchAllianceResponse"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance/search_player_request_dto.proto": {
+      "messages": [
+        "SearchPlayerRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance_dto.proto": {
+      "messages": [
+        "AllianceDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/alliance_push.proto": {
+      "messages": [
+        "AlliancePush",
+        "AlliancePushAlliance",
+        "AlliancePushAllianceDetails"
+      ],
+      "enums": []
+    },
+    "protos/hoh/batch/batch_request_dto.proto": {
+      "messages": [
+        "BatchRequestDto",
+        "BatchRequestItemDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/batch/batch_response.proto": {
+      "messages": [
+        "BatchResponse",
+        "BatchResponseItemDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/battle_squad_dto.proto": {
+      "messages": [
+        "BattleSquadDto",
+        "BattleUnitDto",
+        "BattleUnitPropertiesDto",
+        "BattleUnitStateDto",
+        "AllEquipmentUnitDataDTO",
+        "SquadEquipmentItemDto",
+        "RelicUnitDataDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/battle_stats_request_dto.proto": {
+      "messages": [
+        "BattleStatsRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/battle_summary_dto.proto": {
+      "messages": [
+        "BattleSummaryDto",
+        "BattleResultStatusDto",
+        "HeroTreasureHuntEncounterLocationDTO",
+        "CampaignMapBattleLocationDTO",
+        "PvpBattleLocationDataDTO",
+        "HistoricBattleLocationDTO"
+      ],
+      "enums": [
+        "BattleResultStatus"
+      ]
+    },
+    "protos/hoh/battle/hero_battle_definition_dto.proto": {
+      "messages": [
+        "HeroBattleDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/hero_battle_stats_response.proto": {
+      "messages": [
+        "HeroBattleStatsResponse",
+        "BattleSquadStatsDto",
+        "UnitBattleStatsDto",
+        "UnitBattleStatsSubValueDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/hero_battle_wave_definition_dto.proto": {
+      "messages": [
+        "HeroBattleWaveDefinitionDTO",
+        "BattleWaveSquadDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/hero_finish_wave_request_dto.proto": {
+      "messages": [
+        "HeroFinishWaveRequestDto",
+        "WaveResultUnitStatDto",
+        "WaveResultUnitStatValueDto",
+        "WaveTimelineDto",
+        "WaveTimelineEntryDto",
+        "WaveTimelineAbilityCasterDto",
+        "WaveTimelineAbilityTargetDto",
+        "WaveTimelineAffectedStatDto",
+        "WaveTimelineUnitIdentifierDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/hero_finish_wave_response.proto": {
+      "messages": [
+        "HeroFinishWaveResponse"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/hero_start_battle_response.proto": {
+      "messages": [
+        "HeroStartBattleResponse"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/negotiation_game_definition_dto.proto": {
+      "messages": [
+        "NegotiationGameDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/pvp_battle_history_response.proto": {
+      "messages": [
+        "PvpBattleHistoryResponse",
+        "PvpBattleDto",
+        "PvpBattlePlayerAllianceDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/pvp_result_points_dto.proto": {
+      "messages": [
+        "PvpResultPointsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/battle/stat_boost_dto.proto": {
+      "messages": [
+        "StatBoostDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/building_buff_details_dto.proto": {
+      "messages": [
+        "BuildingBuffDetailsDto",
+        "BuildingBuffResourceDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/building_production_reward_dto.proto": {
+      "messages": [
+        "BuildingProductDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/building_requirements_dto.proto": {
+      "messages": [
+        "BuildingRequirementsDto",
+        "GoodRequirementDTO",
+        "AgeRequirementDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/building_unit_dto.proto": {
+      "messages": [
+        "BuildingUnitDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/calculation.proto": {
+      "messages": [],
+      "enums": [
+        "Calculation"
+      ]
+    },
+    "protos/hoh/city/building_customization_definition_dto.proto": {
+      "messages": [
+        "BuildingCustomizationDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/building_definition_dto.proto": {
+      "messages": [
+        "BuildingDefinitionDTO",
+        "InitComponentDTO",
+        "MoveComponentDTO",
+        "SellComponentDTO",
+        "SubscriptionSlotComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/building_group_dto.proto": {
+      "messages": [
+        "BuildingGroupDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/city_definition_dto.proto": {
+      "messages": [
+        "CityDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/city_dto.proto": {
+      "messages": [
+        "CityDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/city_init_definition_dto.proto": {
+      "messages": [
+        "CityInitDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/city_map_entity_dto.proto": {
+      "messages": [
+        "CityMapEntityDto",
+        "CityMapEntityProductionDto",
+        "CityMapEntityUpgradeDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/expansion_definition_dto.proto": {
+      "messages": [
+        "ExpansionDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/expansion_map_entity_dto.proto": {
+      "messages": [
+        "ExpansionMapEntityDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/expansion_sub_type.proto": {
+      "messages": [],
+      "enums": [
+        "ExpansionSubType"
+      ]
+    },
+    "protos/hoh/city/expansion_type.proto": {
+      "messages": [],
+      "enums": [
+        "ExpansionType"
+      ]
+    },
+    "protos/hoh/city/expansion_unlocking_type.proto": {
+      "messages": [],
+      "enums": [
+        "ExpansionUnlockingType"
+      ]
+    },
+    "protos/hoh/city/initial_grid_component_dto.proto": {
+      "messages": [
+        "InitialGridComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/linked_expansion_component_dto.proto": {
+      "messages": [
+        "LinkedExpansionComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/other_city_dto.proto": {
+      "messages": [
+        "OtherCityDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/city/production_source_constant.proto": {
+      "messages": [],
+      "enums": [
+        "ProductionSourceConstant"
+      ]
+    },
+    "protos/hoh/city/reworked_wonder_definition_dto.proto": {
+      "messages": [
+        "ReworkedWonderDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/communication_dto.proto": {
+      "messages": [
+        "CommunicationDto",
+        "CommunicationRootContextDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/boost_resource_component_dto.proto": {
+      "messages": [
+        "BoostResourceComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/building_unit_provider_component_dto.proto": {
+      "messages": [
+        "BuildingUnitProviderComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/city_culture_area_component_dto.proto": {
+      "messages": [
+        "CityCultureAreaComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/construction_component_dto.proto": {
+      "messages": [
+        "ConstructionComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/culture_boost_component_dto.proto": {
+      "messages": [
+        "CultureBoostComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/culture_component_dto.proto": {
+      "messages": [
+        "CultureComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/grant_worker_component_dto.proto": {
+      "messages": [
+        "GrantWorkerComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/hero_ability_training_component_dto.proto": {
+      "messages": [
+        "HeroAbilityTrainingComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/hero_building_boost_component_dto.proto": {
+      "messages": [
+        "HeroBuildingBoostComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/level_up_component_dto.proto": {
+      "messages": [
+        "LevelUpComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/production_component_dto.proto": {
+      "messages": [
+        "ProductionComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/resource_conversion_component_dto.proto": {
+      "messages": [
+        "ResourceConversionComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/upgrade_component_dto.proto": {
+      "messages": [
+        "UpgradeComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/components/wonder_level_up_component_dto.proto": {
+      "messages": [
+        "WonderLevelUpComponentDTO",
+        "WonderUpgradeCostsDto",
+        "WonderUpgradeCostDto",
+        "WonderCrateWrapperDto",
+        "WonderCrateDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/constants_definition_dto.proto": {
+      "messages": [
+        "ConstantsDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/difficulty_definition_dto.proto": {
+      "messages": [
+        "DifficultyDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/duration_dto.proto": {
+      "messages": [
+        "DurationDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/dynamic/building_age_dynamic_change_dto.proto": {
+      "messages": [
+        "BuildingAgeDynamicChangeDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/dynamic/building_level_dynamic_change_dto.proto": {
+      "messages": [
+        "BuildingLevelDynamicChangeDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/dynamic/dynamic_float_value_definition_dto.proto": {
+      "messages": [
+        "DynamicFloatValueDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/dynamic/dynamic_float_value_dto.proto": {
+      "messages": [
+        "DynamicFloatValueDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/equipment/equipment_item.proto": {
+      "messages": [
+        "EquipmentItemDto",
+        "EquipmentAttributeDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/faction_definition_dto.proto": {
+      "messages": [
+        "FactionDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/gamedesign_request.proto": {
+      "messages": [
+        "GamedesignRequest"
+      ],
+      "enums": []
+    },
+    "protos/hoh/game_design_reference.proto": {
+      "messages": [
+        "GameDesignReference"
+      ],
+      "enums": []
+    },
+    "protos/hoh/game_design_response.proto": {
+      "messages": [
+        "GameDesignResponse"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/battle_ability_definition_dto.proto": {
+      "messages": [
+        "BattleAbilityDefinitionDTO",
+        "BattleAbilityDefinitionDescriptionItemDto",
+        "BattleAbilityDefinitionDescriptionItemValueDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_awakening_component_dto.proto": {
+      "messages": [
+        "HeroAwakeningComponentDTO",
+        "AwakeningLevelDto",
+        "AwakeningLevelValueDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_battle_ability_component_dto.proto": {
+      "messages": [
+        "HeroBattleAbilityComponentDTO",
+        "HeroBattleAbilityComponentLevelDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_battle_constants_definition_dto.proto": {
+      "messages": [
+        "HeroBattleConstantsDefinitionDTO",
+        "HeroUnitStatBaseValueDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_class_definition_dto.proto": {
+      "messages": [
+        "HeroClassDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_deck_definition_dto.proto": {
+      "messages": [
+        "HeroDeckDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_definition_dto.proto": {
+      "messages": [
+        "HeroDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_progression_ascension_cost_definition_dto.proto": {
+      "messages": [
+        "HeroProgressionAscensionCostDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_progression_ascension_cost_dto.proto": {
+      "messages": [
+        "HeroProgressionAscensionCostDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_progression_component_dto.proto": {
+      "messages": [
+        "HeroProgressionComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_progression_cost_definition_dto.proto": {
+      "messages": [
+        "HeroProgressionCostDefinitionDTO",
+        "HeroProgressionCostDto",
+        "HeroProgressionCostResourceDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_progression_definition_dto.proto": {
+      "messages": [
+        "HeroProgressionDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_star_up_definition_dto.proto": {
+      "messages": [
+        "HeroStarUpDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_support_unit_component_dto.proto": {
+      "messages": [
+        "HeroSupportUnitComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_color_definition_dto.proto": {
+      "messages": [
+        "HeroUnitColorDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_definition_dto.proto": {
+      "messages": [
+        "HeroUnitDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_rarity_definition_dto.proto": {
+      "messages": [
+        "HeroUnitRarityDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_stat_definition_dto.proto": {
+      "messages": [
+        "HeroUnitStatDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_stat_formula_definition_dto.proto": {
+      "messages": [
+        "HeroUnitStatFormulaDefinitionDTO",
+        "HeroUnitStatFormulaDefinitionUnitRarityFactorsDto",
+        "HeroUnitStatFormulaDefinitionFactorsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_stat_value_definition_dto.proto": {
+      "messages": [
+        "HeroUnitStatValueDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/hero/hero_unit_type_definition_dto.proto": {
+      "messages": [
+        "HeroUnitTypeDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/id_dto.proto": {
+      "messages": [
+        "IdDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/level_value.proto": {
+      "messages": [
+        "LevelValue"
+      ],
+      "enums": []
+    },
+    "protos/hoh/localization_request.proto": {
+      "messages": [
+        "LocalizationRequest"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/continent_definition_dto.proto": {
+      "messages": [
+        "ContinentDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/encounter_definition_dto.proto": {
+      "messages": [
+        "EncounterDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/encounter_details_dto.proto": {
+      "messages": [
+        "EncounterDetailsDto",
+        "EncounterRewardDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/region_definition_dto.proto": {
+      "messages": [
+        "RegionDefinitionDTO",
+        "RegionRewardDto",
+        "RegionRewardSet"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/world_definition_dto.proto": {
+      "messages": [
+        "WorldDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/location/world_type_definition_dto.proto": {
+      "messages": [
+        "WorldTypeDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/loca_response.proto": {
+      "messages": [
+        "LocaResponse",
+        "TranslationEntry"
+      ],
+      "enums": []
+    },
+    "protos/hoh/player_dto.proto": {
+      "messages": [
+        "PlayerDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/player_profile_response.proto": {
+      "messages": [
+        "PlayerProfileResponse",
+        "ProfileSquadDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/player_with_alliance_dto.proto": {
+      "messages": [
+        "PlayerWithAllianceDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/production_cost_dto.proto": {
+      "messages": [
+        "ProductionCostDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/alliance_join_policy.proto": {
+      "messages": [],
+      "enums": [
+        "AllianceJoinPolicy"
+      ]
+    },
+    "protos/hoh/ranking/alliance_ranking_request_dto.proto": {
+      "messages": [
+        "AllianceRankingRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/alliance_ranking_type.proto": {
+      "messages": [],
+      "enums": [
+        "AllianceRankingType"
+      ]
+    },
+    "protos/hoh/ranking/alliance_ranks_dto.proto": {
+      "messages": [
+        "AllianceRanksDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/alliance_rank_dto.proto": {
+      "messages": [
+        "AllianceRankDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/hero_treasure_hunt_alliance_points_push.proto": {
+      "messages": [
+        "HeroTreasureHuntAlliancePointsPush"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/hero_treasure_hunt_player_points_push.proto": {
+      "messages": [
+        "HeroTreasureHuntPlayerPointsPush"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/player_ranking_request_dto.proto": {
+      "messages": [
+        "PlayerRankingRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/player_ranking_type.proto": {
+      "messages": [],
+      "enums": [
+        "PlayerRankingType"
+      ]
+    },
+    "protos/hoh/ranking/player_ranks_dto.proto": {
+      "messages": [
+        "PlayerRanksDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/player_rank_dto.proto": {
+      "messages": [
+        "PlayerRankDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/ranking/pvp_get_ranking_response.proto": {
+      "messages": [
+        "PvpGetRankingResponse",
+        "PvpRankDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/relics/relic_definition_dto.proto": {
+      "messages": [
+        "RelicDefinitionDTO",
+        "RelicLevelDto",
+        "RelicStatBoostDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/requests/get_player_profile_request_dto.proto": {
+      "messages": [
+        "GetPlayerProfileRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/requests/visit_city_request_dto.proto": {
+      "messages": [
+        "VisitCityRequestDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/research_component_dto.proto": {
+      "messages": [
+        "ResearchComponentDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/research_details_dto.proto": {
+      "messages": [
+        "ResearchDetailsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/research_requirement_dto.proto": {
+      "messages": [
+        "ResearchRequirementDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/research_rewards_dto.proto": {
+      "messages": [
+        "ResearchRewardsDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/technology_definition_dto.proto": {
+      "messages": [
+        "TechnologyDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/research/technology_state.proto": {
+      "messages": [],
+      "enums": [
+        "TechnologyState"
+      ]
+    },
+    "protos/hoh/resource_collection_dto.proto": {
+      "messages": [
+        "ResourceCollectionDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/resource_definition_dto.proto": {
+      "messages": [
+        "ResourceDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/resource_dto.proto": {
+      "messages": [
+        "ResourceDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/dynamic_action_change_reward_dto.proto": {
+      "messages": [
+        "DynamicActionChangeRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/hero_reward_dto.proto": {
+      "messages": [
+        "HeroRewardDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/hero_treasure_hunt_unlock_difficulty_reward_dto.proto": {
+      "messages": [
+        "HeroTreasureHuntUnlockDifficultyRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/incident_reward_dto.proto": {
+      "messages": [
+        "IncidentRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/increase_building_limit_reward_dto.proto": {
+      "messages": [
+        "IncreaseBuildingLimitRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/increase_expansion_right_reward_dto.proto": {
+      "messages": [
+        "IncreaseExpansionRightRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/instant_upgrade_reward_dto.proto": {
+      "messages": [
+        "InstantUpgradeRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/loot_container_reward_dto.proto": {
+      "messages": [
+        "LootContainerRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/mystery_chest_reward_dto.proto": {
+      "messages": [
+        "MysteryChestRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/resource_reward_dto.proto": {
+      "messages": [
+        "ResourceRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/reward_definition_dto.proto": {
+      "messages": [
+        "RewardDefinitionDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/storage_cap_reward_dto.proto": {
+      "messages": [
+        "StorageCapRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_age_reward_dto.proto": {
+      "messages": [
+        "UnlockAgeRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_building_reward_dto.proto": {
+      "messages": [
+        "UnlockBuildingRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_building_upgrade_reward_dto.proto": {
+      "messages": [
+        "UnlockBuildingUpgradeRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_feature_reward_dto.proto": {
+      "messages": [
+        "UnlockFeatureRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_good_reward_dto.proto": {
+      "messages": [
+        "UnlockGoodRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/rewards/unlock_questline_reward_dto.proto": {
+      "messages": [
+        "UnlockQuestlineRewardDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/soft_error_type.proto": {
+      "messages": [],
+      "enums": [
+        "SoftErrorType"
+      ]
+    },
+    "protos/hoh/startup/equipment_push.proto": {
+      "messages": [
+        "EquipmentPush"
+      ],
+      "enums": []
+    },
+    "protos/hoh/startup/hero_profile.proto": {
+      "messages": [
+        "HeroProfile"
+      ],
+      "enums": []
+    },
+    "protos/hoh/startup/hero_push.proto": {
+      "messages": [
+        "HeroPush"
+      ],
+      "enums": []
+    },
+    "protos/hoh/startup/in_game_event_push.proto": {
+      "messages": [
+        "InGameEventPush",
+        "InGameEventDto",
+        "InGameEventDefinitionDto",
+        "EventCityComponentDTO"
+      ],
+      "enums": [
+        "InGameEventState"
+      ]
+    },
+    "protos/hoh/startup/relic_push.proto": {
+      "messages": [
+        "RelicPush",
+        "PlayerRelicDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/startup/research_state_dto.proto": {
+      "messages": [
+        "ResearchStateDTO",
+        "ResearchStateTechnologyDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/startup/reworked_wonders_dto.proto": {
+      "messages": [
+        "ReworkedWondersDTO",
+        "ReworkedWonderDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/unit_stat_dto.proto": {
+      "messages": [
+        "UnitStatDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/wakeup/leaderboard_push.proto": {
+      "messages": [
+        "LeaderboardPush",
+        "LeaderboardDto",
+        "LeaderboardItemDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/worker_behaviour_dto.proto": {
+      "messages": [
+        "WorkerBehaviourDTO"
+      ],
+      "enums": []
+    },
+    "protos/hoh/worker_count_dto.proto": {
+      "messages": [
+        "WorkerCountDto"
+      ],
+      "enums": []
+    },
+    "protos/hoh/worker_type.proto": {
+      "messages": [],
+      "enums": [
+        "WorkerType"
+      ]
+    }
+  }
+}
