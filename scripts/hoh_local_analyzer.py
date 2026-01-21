@@ -491,6 +491,45 @@ class HoHLocalAnalyzer:
         print("✅ Startup data loaded!")
 
     # ------------------------------------------------------------
+    #  Fetch Wakeup Data
+    # ------------------------------------------------------------
+
+    def fetch_wakeup(self):
+        """
+        Fetches the protobuf WAKEUP response.
+        This contains AllianceMembersResponse and many server-side internal states.
+        """
+        print("\n📡 Fetching wakeup data...")
+
+        # Binary protobuf version
+        url = f"https://{self.world_id}.heroesofhistorygame.com/game/wakeup"
+        bin_res = requests.post(url, headers=self.api_headers(PROTOBUF_CONTENT_TYPE))
+        bin_res.raise_for_status()
+
+        wakeup_bin = bin_res.content
+        self._save_file("raw/wakeup.bin", wakeup_bin, binary=True)
+
+        # Base64-encoded version (optional)
+        self.wakeup_base64 = base64.b64encode(wakeup_bin).decode("utf-8")
+
+        # JSON version of wakeup (same trick as startup)
+        json_res = requests.post(url, headers=self.api_headers(JSON_CONTENT_TYPE))
+        json_res.raise_for_status()
+
+        wakeup_json_text = json_res.text
+        self._save_file("raw/wakeup.json", wakeup_json_text)
+
+        self.wakeup_json = json.loads(wakeup_json_text)
+
+        # Store messages
+        if "rootContext" in self.wakeup_json and "messages" in self.wakeup_json["rootContext"]:
+            self.wakeup_messages = self.wakeup_json["rootContext"]["messages"]
+        else:
+            self.wakeup_messages = []
+
+        print("✅ Wakeup data loaded!")
+
+    # ------------------------------------------------------------
     #  Internal File Save Helper
     # ------------------------------------------------------------
 
@@ -571,19 +610,19 @@ class HoHLocalAnalyzer:
                 self.raw_cities.append(msg)
                 continue
 
-            # ------------------------------------------
-            # AllianceMembersResponse → alliance roster
-            # ------------------------------------------
-            if dto_type.endswith("AllianceMembersResponse"):
-                self.raw_alliance_members = msg
-                continue
+            # ------------------------------------------------------------
+            # Process WAKEUP messages (contains alliance, ranking, etc.)
+            # ------------------------------------------------------------
+            for msg in getattr(self, "wakeup_messages", []):
+                dto_type = msg.get("@type", "")
 
-            # ------------------------------------------
-            # AllianceCityDTO → alliance cities
-            # ------------------------------------------
-            if dto_type.endswith("AllianceCityDTO"):
-                self.raw_alliance_cities.append(msg)
-                continue
+                if dto_type.endswith("AllianceMembersResponse"):
+                    self.raw_alliance_members = msg
+                    continue
+
+                if dto_type.endswith("AllianceCityDTO"):
+                    self.raw_alliance_cities.append(msg)
+                    continue
 
         print("✅ Message classification complete!")
 
@@ -727,19 +766,28 @@ class HoHLocalAnalyzer:
             })
 
         # ------------------------------------------------------------
-        # 7. Alliance Members
+        # 7. Alliance Members (correct parsing)
         # ------------------------------------------------------------
         self.alliance_members = []
 
         if self.raw_alliance_members:
             for m in self.raw_alliance_members.get("members", []):
+                player = m.get("player", {})
+
                 self.alliance_members.append({
-                    "id": m.get("playerId"),
-                    "name": m.get("playerName"),
-                    "level": m.get("level"),
-                    "power": m.get("power"),
-                    "age": m.get("ageDefinitionId")
+                    "id": player.get("id"),
+                    "name": player.get("name"),
+                    "age": player.get("age"),
+                    "role": m.get("role_details", {}).get("role"),
+                    "rankingPoints": m.get("ranking_points"),
+                    "secondsSinceOnline": m.get("seconds_since_last_online"),
+                    "joinedAt": m.get("joined_at")
                 })
+
+            # Also store alliance ID properly
+            self.player_info["allianceId"] = self.raw_alliance_members.get("alliance_id")
+        else:
+            self.player_info["allianceId"] = None
 
         # ------------------------------------------------------------
         # 8. Alliance Cities (kept separate, not mixed with user cities)
@@ -928,11 +976,11 @@ class HoHLocalAnalyzer:
                 writer.writerow([
                     m.get("id"),
                     self._clean_id_label(m.get("name")),
-                    m.get("level"),
-                    m.get("power"),
+                    m.get("role"),
+                    m.get("rankingPoints"),
+                    m.get("secondsSinceOnline"),
                     self._clean_id_label(m.get("age"))
-                ])
-                
+                ])                
     # ============================================================
     #  SECTION 4: FULL DASHBOARD HTML
     # ============================================================
@@ -1128,8 +1176,9 @@ class HoHLocalAnalyzer:
                 <tr>
                     <td>{m.get("id")}</td>
                     <td>{self._clean_id_label(m.get("name"))}</td>
-                    <td>{m.get("level")}</td>
-                    <td>{m.get("power")}</td>
+                    <td>{self._clean_id_label(m.get("role"))}</td>
+                    <td>{m.get("rankingPoints")}</td>
+                    <td>{m.get("secondsSinceOnline")}</td>
                     <td>{self._clean_id_label(m.get("age"))}</td>
                 </tr>
             """)
@@ -1227,8 +1276,9 @@ class HoHLocalAnalyzer:
         <tr>
             <th>ID</th>
             <th>Name</th>
-            <th>Level</th>
-            <th>Power</th>
+            <th>Role</th>
+            <th>Ranking Points</th>
+            <th>Seconds Offline</th>
             <th>Age</th>
         </tr>
         {alliance_html}
@@ -1315,6 +1365,8 @@ class HoHLocalAnalyzer:
             "allianceMembers_raw": self.raw_alliance_members,
             "allianceCities_raw": self.raw_alliance_cities
         }
+        
+        raw_bundle["wakeup_raw"] = getattr(self, "wakeup_json", {})
 
         # Save a single bundle file containing everything
         with open(os.path.join(base, "parsed_raw_bundle.json"), "w", encoding="utf-8") as f:
@@ -1369,6 +1421,7 @@ def main():
 
             analyzer.login(username, password)
             analyzer.fetch_startup()
+            analyzer.fetch_wakeup()
         else:
             print("📂 Using existing startup.json...")
             startup_path = os.path.join(args.data_dir, "raw", "startup.json")

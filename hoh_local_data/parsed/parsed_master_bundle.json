@@ -71,9 +71,9 @@
       "name": "Nostradamus",
       "level": 73,
       "ascensionLevel": 7,
-      "abilityLevel": 21,
+      "abilityLevel": 22,
       "awakeningLevel": null,
-      "abilityMasteryPoints": "1281",
+      "abilityMasteryPoints": null,
       "unlockedAt": "2025-10-22T12:07:08.512991Z"
     },
     {
@@ -139,7 +139,7 @@
     {
       "heroDefinitionId": "hero.VanHelsing",
       "name": "VanHelsing",
-      "level": 77,
+      "level": 80,
       "ascensionLevel": 7,
       "abilityLevel": 18,
       "awakeningLevel": null,
@@ -259,7 +259,7 @@
     {
       "heroDefinitionId": "hero.LouisPasteur",
       "name": "LouisPasteur",
-      "level": 74,
+      "level": 78,
       "ascensionLevel": 7,
       "abilityLevel": 21,
       "awakeningLevel": null,
@@ -272,7 +272,7 @@
       "level": 70,
       "ascensionLevel": 6,
       "abilityLevel": 18,
-      "awakeningLevel": 4,
+      "awakeningLevel": 5,
       "abilityMasteryPoints": null,
       "unlockedAt": "2025-03-26T13:31:35.157860Z"
     },
@@ -301,9 +301,9 @@
       "name": "PhilipIIOfMacedon",
       "level": 70,
       "ascensionLevel": 6,
-      "abilityLevel": 21,
+      "abilityLevel": 22,
       "awakeningLevel": 1,
-      "abilityMasteryPoints": null,
+      "abilityMasteryPoints": "1350",
       "unlockedAt": "2025-04-09T20:00:46.177032Z"
     },
     {
@@ -339,9 +339,9 @@
     {
       "heroDefinitionId": "hero.DArtagnan",
       "name": "DArtagnan",
-      "level": 74,
+      "level": 75,
       "ascensionLevel": 7,
-      "abilityLevel": 19,
+      "abilityLevel": 20,
       "awakeningLevel": 4,
       "abilityMasteryPoints": null,
       "unlockedAt": "2025-03-26T13:31:18.334280Z"
@@ -483,7 +483,7 @@
       "ascensionLevel": 7,
       "abilityLevel": 19,
       "awakeningLevel": 1,
-      "abilityMasteryPoints": null,
+      "abilityMasteryPoints": "3251",
       "unlockedAt": "2025-05-18T10:39:08.433214Z"
     },
     {
@@ -581,7 +581,7 @@
       "name": "Menes",
       "level": 80,
       "ascensionLevel": 7,
-      "abilityLevel": 19,
+      "abilityLevel": 20,
       "awakeningLevel": 3,
       "abilityMasteryPoints": null,
       "unlockedAt": "2025-07-22T21:40:34.715054Z"
@@ -689,7 +689,7 @@
     {
       "heroDefinitionId": "hero.LeifErikson",
       "name": "LeifErikson",
-      "level": 71,
+      "level": 72,
       "ascensionLevel": 7,
       "abilityLevel": 18,
       "awakeningLevel": 3,
@@ -749,7 +749,7 @@
     {
       "heroDefinitionId": "hero.ElCid",
       "name": "ElCid",
-      "level": 77,
+      "level": 79,
       "ascensionLevel": 7,
       "abilityLevel": 22,
       "awakeningLevel": null,
@@ -822,7 +822,7 @@
     {
       "definitionId": "hero_deck.TreasureHunt",
       "heroes": [
-        "AttilaTheHun",
+        "KingMinos",
         "Kiviuq",
         "QueenBoudicca",
         "TigerLily",
@@ -894,9 +894,9 @@
     {
       "definitionId": "hero_deck.PlayerProfileShowcaseFallback",
       "heroes": [
+        "WilliamWallace",
         "KingMinos",
         "Hatshepsut",
-        "WilliamWallace",
         "MarieCurie",
         "Medusa"
       ]
@@ -914,11 +914,11 @@
     {
       "definitionId": "hero_deck.TeslaStormPurple",
       "heroes": [
-        "AbrahamLincoln",
-        "Spartacus",
         "ThomasAlvaEdison",
+        "Spartacus",
+        "MarieCurie",
         "LadyKasuga",
-        "MarieCurie"
+        "LouisPasteur"
       ]
     },
     {
@@ -958,7 +958,7 @@
         "MargaretIOfDenmark",
         "Menes",
         "Hatshepsut",
-        "ThomasAlvaEdison"
+        "LadyKasuga"
       ]
     },
     {
@@ -968,7 +968,7 @@
         "WilliamWallace",
         "Medusa",
         "Hatshepsut",
-        "Nostradamus"
+        "MarieCurie"
       ]
     },
     {
@@ -1029,12 +1029,12 @@
       "id": "1738928",
       "definitionId": "city.City_Capital",
       "placedBuildingAmounts": {
-        "building.Building_AgeOfTheFranks_Home_Small_2": 62,
-        "building.Building_AgeOfTheFranks_Home_Small_3": 4,
+        "building.Building_AgeOfTheFranks_Home_Small_2": 61,
+        "building.Building_AgeOfTheFranks_Home_Small_3": 5,
         "building.Building_FeudalAge_Home_Average_1": 2,
-        "building.Building_FeudalAge_CultureSite_Compact_1": 9,
-        "building.Building_IberianEra_Home_Small_1": 1,
+        "building.Building_FeudalAge_CultureSite_Compact_1": 4,
         "building.Building_IberianEra_Barracks_Infantry_1": 1,
+        "building.Building_IberianEra_Home_Small_1": 1,
         "building.Building_MinoanEra_Collectable_MinoanWatchtowerV2_2": 1,
         "building.Building_IberianEra_Workshop_SpiceMerchant_1": 2,
         "building.Building_FeudalAge_Special_Furnace_1": 1,
@@ -1042,20 +1042,20 @@
         "building.Building_IberianEra_Barracks_Ranged_1": 1,
         "building.Building_FeudalAge_Home_Small_1": 4,
         "building.Building_AgeOfTheFranks_Home_Average_3": 2,
-        "building.Building_IberianEra_CultureSite_Moderate_1": 11,
         "building.Building_IberianEra_City_CityHall_1": 1,
+        "building.Building_IberianEra_CultureSite_Moderate_1": 11,
         "building.Building_IberianEra_CultureSite_Little_1": 2,
         "building.Building_IberianEra_Barracks_Siege_1": 1,
+        "building.Building_IberianEra_CultureSite_Large_1": 1,
         "building.Building_IberianEra_Barracks_HeavyInfantry_1": 1,
         "building.Building_IberianEra_Special_HeroAcademy_1": 1,
-        "building.Building_IberianEra_CultureSite_Compact_1": 4,
+        "building.Building_IberianEra_CultureSite_Compact_1": 9,
         "building.Building_FeudalAge_Farm_Domestic_3": 10,
         "building.Building_IberianEra_Farm_Rural_1": 2,
         "building.Building_TreasureHunt_Evolving_FountainOfYouth_1": 1,
         "building.Building_IberianEra_Workshop_Carpenter_1": 2,
         "building.Building_IberianEra_Barracks_Cavalry_1": 1,
         "building.Building_ClassicGreece_Collectable_ArchitectsStudioV2_2": 1,
-        "building.Building_FeudalAge_CultureSite_Large_1": 1,
         "building.Building_IberianEra_Workshop_Scribe_1": 2
       },
       "buildingLimits": {
@@ -1114,142 +1114,152 @@
           }
         ]
       }
-    },
-    {
-      "id": "8771046",
-      "definitionId": "city.City_Egypt",
-      "placedBuildingAmounts": {
-        "building.Building_Egypt_Irrigation_Channel_4": 4,
-        "building.Building_Egypt_PapyrusField_Average_4": 2,
-        "building.Building_Egypt_Workshop_Goldsmith_5": 1,
-        "building.Building_Egypt_Workshop_Goldsmith_4": 1,
-        "building.Building_Egypt_Irrigation_SmallWell_3": 3,
-        "building.Building_Egypt_Home_Average_4": 10,
-        "building.Building_Egypt_Home_Average_1": 1,
-        "building.Building_Egypt_Home_Small_4": 7,
-        "building.Building_Egypt_Home_Average_2": 1,
-        "building.Building_Egypt_GoldMine_Average_5": 3,
-        "building.Building_Egypt_Home_Small_3": 1,
-        "building.Building_Egypt_Home_Small_1": 4,
-        "building.Building_Egypt_City_CityHall_2": 1,
-        "building.Building_Egypt_Workshop_PapyrusPress_4": 2,
-        "building.Building_Egypt_Workshop_PapyrusPress_5": 1
-      },
-      "buildingLimits": {}
     }
   ],
   "allianceMembers": [
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     },
     {
       "id": null,
       "name": null,
-      "level": null,
-      "power": null,
-      "age": null
+      "age": null,
+      "role": null,
+      "rankingPoints": null,
+      "secondsSinceOnline": null,
+      "joinedAt": null
     }
   ],
   "allianceCities": []
