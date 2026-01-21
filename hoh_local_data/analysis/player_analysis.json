@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-21T06:45:22.348413",
+  "timestamp": "2026-01-21T08:44:57.156585",
   "player": {
     "id": "795618",
     "displayName": "Baylore",
     "username": "guest-5d10f1e9dcc443649e",
-    "allianceId": null
+    "allianceId": "20904"
   },
   "heroes": [
     {
@@ -1034,8 +1034,8 @@
         "building.Building_AgeOfTheFranks_Home_Small_3": 5,
         "building.Building_FeudalAge_Home_Average_1": 2,
         "building.Building_FeudalAge_CultureSite_Compact_1": 4,
-        "building.Building_IberianEra_Barracks_Infantry_1": 1,
         "building.Building_IberianEra_Home_Small_1": 1,
+        "building.Building_IberianEra_Barracks_Infantry_1": 1,
         "building.Building_MinoanEra_Collectable_MinoanWatchtowerV2_2": 1,
         "building.Building_IberianEra_Workshop_SpiceMerchant_1": 2,
         "building.Building_FeudalAge_Special_Furnace_1": 1,
@@ -1046,8 +1046,8 @@
         "building.Building_IberianEra_City_CityHall_1": 1,
         "building.Building_IberianEra_CultureSite_Moderate_1": 11,
         "building.Building_IberianEra_CultureSite_Little_1": 2,
-        "building.Building_IberianEra_Barracks_Siege_1": 1,
         "building.Building_IberianEra_CultureSite_Large_1": 1,
+        "building.Building_IberianEra_Barracks_Siege_1": 1,
         "building.Building_IberianEra_Barracks_HeavyInfantry_1": 1,
         "building.Building_IberianEra_Special_HeroAcademy_1": 1,
         "building.Building_IberianEra_CultureSite_Compact_1": 9,
@@ -1119,149 +1119,785 @@
   ],
   "allianceMembers": [
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "795618",
+      "name": "Baylore",
+      "age": "age.IberianEra",
+      "role": "role.allianceMinister",
+      "permissions": [
+        "MANAGE_APPLICATIONS",
+        "INVITE",
+        "SETTINGS_CHANGE",
+        "WOA_MAP_MARKER"
+      ],
+      "points": "395923",
+      "lastSeen": "4",
+      "joinedAt": "2025-09-26T20:21:25.001681Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "29910",
+      "name": "BigCP",
+      "age": "age.KingdomOfSicily",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "461747",
+      "lastSeen": "2577",
+      "joinedAt": "2025-08-28T15:47:55.053569Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "140546",
+      "name": "John Stone",
+      "age": "age.KingdomOfSicily",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "412806",
+      "lastSeen": "1825",
+      "joinedAt": "2026-01-11T18:21:40.491498Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "344641",
+      "name": "Narddog",
+      "age": "age.KingdomOfSicily",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "516959",
+      "lastSeen": "12316",
+      "joinedAt": "2025-08-24T15:29:11.981826Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "369254",
+      "name": "TactlessMoth",
+      "age": "age.FeudalAge",
+      "role": "role.allianceLeader",
+      "permissions": [
+        "MANAGE_APPLICATIONS",
+        "ROLE_CHANGE",
+        "KICK",
+        "SETTINGS_CHANGE",
+        "INVITE",
+        "ROLE_CHANGE_AFFECT_SAME_RANK",
+        "MANAGE_INTERNAL_MESSAGES",
+        "WOA_MAP_MARKER"
+      ],
+      "points": "397762",
+      "lastSeen": "2922",
+      "joinedAt": "2024-11-26T16:15:50.141587Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "378985",
+      "name": "thehamme25",
+      "age": "age.ByzantineEra",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "173747",
+      "lastSeen": "21731",
+      "joinedAt": "2025-10-31T09:59:31.496299Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "393731",
+      "name": "Mel P",
+      "age": "age.IberianEra",
+      "role": "role.allianceMinister",
+      "permissions": [
+        "MANAGE_APPLICATIONS",
+        "INVITE",
+        "SETTINGS_CHANGE",
+        "WOA_MAP_MARKER"
+      ],
+      "points": "323414",
+      "lastSeen": "2796",
+      "joinedAt": "2024-11-30T23:59:33.890209Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "514454",
+      "name": "Phil",
+      "age": "age.IberianEra",
+      "role": "role.allianceMinister",
+      "permissions": [
+        "MANAGE_APPLICATIONS",
+        "INVITE",
+        "SETTINGS_CHANGE",
+        "WOA_MAP_MARKER"
+      ],
+      "points": "386130",
+      "lastSeen": "4887",
+      "joinedAt": "2025-07-15T13:13:35.163288Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "689390",
+      "name": "Arjun",
+      "age": "age.AgeOfTheFranks",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "270098",
+      "lastSeen": "4889",
+      "joinedAt": "2025-03-21T14:58:16.536537Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "720940",
+      "name": "Tobi",
+      "age": "age.IberianEra",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "467043",
+      "lastSeen": "19841",
+      "joinedAt": "2025-04-17T11:55:52.589993Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1096466",
+      "name": "Opie6983",
+      "age": "age.FeudalAge",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "267207",
+      "lastSeen": "2736",
+      "joinedAt": "2025-08-14T16:35:36.501997Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1272618",
+      "name": "Adelejoanna",
+      "age": "age.IberianEra",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "372874",
+      "lastSeen": "4945",
+      "joinedAt": "2025-05-14T15:51:43.662326Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1332683",
+      "name": "Souljaboy",
+      "age": "age.AgeOfTheFranks",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "354767",
+      "lastSeen": "1843",
+      "joinedAt": "2025-05-24T15:07:37.448103Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1398585",
+      "name": "Nate",
+      "age": "age.AgeOfTheFranks",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "187975",
+      "lastSeen": "24974",
+      "joinedAt": "2025-10-09T18:00:29.722476Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1531302",
+      "name": "Finn",
+      "age": "age.EarlyRome",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "88268",
+      "lastSeen": "32480",
+      "joinedAt": "2025-07-03T20:58:32.166442Z"
     },
     {
-      "id": null,
-      "name": null,
-      "age": null,
-      "role": null,
-      "rankingPoints": null,
-      "secondsSinceOnline": null,
-      "joinedAt": null
+      "id": "1595473",
+      "name": "Sir Diligaf",
+      "age": "age.ByzantineEra",
+      "role": "role.allianceTrainee",
+      "permissions": [],
+      "points": "156168",
+      "lastSeen": "10663",
+      "joinedAt": "2025-08-09T16:25:15.514966Z"
     }
   ],
-  "allianceCities": []
+  "allianceCities": [
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    },
+    {
+      "id": "20904",
+      "ownerId": null,
+      "definitionId": "alliance_city.allianceCity"
+    }
+  ]
 }

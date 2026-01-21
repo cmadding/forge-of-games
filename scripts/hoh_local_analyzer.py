@@ -77,31 +77,83 @@ class HoHLocalAnalyzer:
             self.meta = {}
 
     # ------------------------------------------------------------
+    #  Remember Last Username
+    # ------------------------------------------------------------
+
+    def _last_username_path(self):
+        """Return the file path where last username is stored."""
+        return os.path.join(self.data_dir, "last_username.txt")
+
+    def _load_last_username(self):
+        """Load last username from file (if exists), else empty string."""
+        try:
+            path = self._last_username_path()
+            if os.path.exists(path):
+                with open(path, "r", encoding="utf-8") as f:
+                    return f.read().strip()
+        except Exception:
+            pass
+        return ""
+
+    def _save_last_username(self, username):
+        """Saves username to last_username.txt."""
+        try:
+            path = self._last_username_path()
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(username.strip())
+        except Exception:
+            pass
+
+    # ------------------------------------------------------------
+    #  Basic Headers
+    # ------------------------------------------------------------
+
+    def default_headers(self):
+        return {"Content-Type": JSON_CONTENT_TYPE}
+
+    # ------------------------------------------------------------
     #  METADATA TRANSLATION UTILITIES (Plain English Labels)
     # ------------------------------------------------------------
 
     def _clean_id_label(self, raw):
         """
-        Converts something like:
-          'building.Building_Egypt_Home_Small_4'
-        Into a more readable format:
-          'Egypt Home Small 4'
-        Used as a fallback when no metadata is available.
+        Cleans proto IDs like:
+            role.allianceminister
+            age.kingdomofsicily
+            building.Building_Egypt_Home_Small_4
+        Into human-friendly labels.
         """
         if not raw:
             return ""
 
-        # Remove common prefixes
-        parts = raw.replace("building.Building_", "") \
-                   .replace("hero.", "") \
-                   .replace("unit_stat.", "") \
-                   .replace("equipment_rarity.", "") \
-                   .replace("equipment_slot_type.", "") \
-                   .replace("equipment_set.", "") \
-                   .replace("_", " ")
+        # Remove known prefixes
+        parts = raw \
+            .replace("building.Building_", "") \
+            .replace("hero.", "") \
+            .replace("unit_stat.", "") \
+            .replace("equipment_rarity.", "") \
+            .replace("equipment_slot_type.", "") \
+            .replace("equipment_set.", "") \
+            .replace("role.", "") \
+            .replace("age.", "") \
+            .replace("_", " ")
 
-        # Capitalize words
+        # Capitalize normally
         parts = " ".join(w.capitalize() for w in parts.split())
+
+        # Fix concatenated strings like Allianceminister -> Alliance Minister
+        cleaned = []
+        buffer = ""
+
+        for ch in parts:
+            if ch.isupper() and buffer:
+                cleaned.append(buffer)
+                buffer = ch
+            else:
+                buffer += ch
+        cleaned.append(buffer)
+
+        return " ".join(cleaned)
 
         return parts
 
@@ -766,26 +818,27 @@ class HoHLocalAnalyzer:
             })
 
         # ------------------------------------------------------------
-        # 7. Alliance Members (correct parsing)
+        # 7. Alliance Members (correct real structure)
         # ------------------------------------------------------------
         self.alliance_members = []
 
         if self.raw_alliance_members:
+            self.player_info["allianceId"] = self.raw_alliance_members.get("allianceId")
+
             for m in self.raw_alliance_members.get("members", []):
-                player = m.get("player", {})
+                prof = m.get("playerProfile", {})
+                role = m.get("role", {})
 
                 self.alliance_members.append({
-                    "id": player.get("id"),
-                    "name": player.get("name"),
-                    "age": player.get("age"),
-                    "role": m.get("role_details", {}).get("role"),
-                    "rankingPoints": m.get("ranking_points"),
-                    "secondsSinceOnline": m.get("seconds_since_last_online"),
-                    "joinedAt": m.get("joined_at")
+                    "id": prof.get("id"),
+                    "name": prof.get("name"),
+                    "age": prof.get("age"),
+                    "role": role.get("definitionId"),
+                    "permissions": role.get("permission", []),
+                    "points": m.get("points"),
+                    "lastSeen": m.get("lastSeenOnlineInSeconds"),
+                    "joinedAt": m.get("joinedAt")
                 })
-
-            # Also store alliance ID properly
-            self.player_info["allianceId"] = self.raw_alliance_members.get("alliance_id")
         else:
             self.player_info["allianceId"] = None
 
@@ -976,11 +1029,12 @@ class HoHLocalAnalyzer:
                 writer.writerow([
                     m.get("id"),
                     self._clean_id_label(m.get("name")),
-                    m.get("role"),
-                    m.get("rankingPoints"),
-                    m.get("secondsSinceOnline"),
+                    self._clean_id_label(m.get("role")),
+                    m.get("points"),
+                    m.get("lastSeen"),
                     self._clean_id_label(m.get("age"))
-                ])                
+                ])
+
     # ============================================================
     #  SECTION 4: FULL DASHBOARD HTML
     # ============================================================
@@ -1176,10 +1230,10 @@ class HoHLocalAnalyzer:
                 <tr>
                     <td>{m.get("id")}</td>
                     <td>{self._clean_id_label(m.get("name"))}</td>
-                    <td>{self._clean_id_label(m.get("role"))}</td>
-                    <td>{m.get("rankingPoints")}</td>
-                    <td>{m.get("secondsSinceOnline")}</td>
-                    <td>{self._clean_id_label(m.get("age"))}</td>
+                    <td>{self._clean_id_label(m.get("role") or "")}</td>
+                    <td>{m.get("points")}</td>
+                    <td>{m.get("lastSeen")}</td>
+                    <td>{self._clean_id_label(m.get("age") or "")}</td>
                 </tr>
             """)
 
@@ -1277,8 +1331,8 @@ class HoHLocalAnalyzer:
             <th>ID</th>
             <th>Name</th>
             <th>Role</th>
-            <th>Ranking Points</th>
-            <th>Seconds Offline</th>
+            <th>Points</th>
+            <th>Last Seen (Seconds)</th>
             <th>Age</th>
         </tr>
         {alliance_html}
@@ -1416,7 +1470,27 @@ def main():
         # LOGIN + FETCH STARTUP.JSON
         # ------------------------------------------------------------
         if not args.skip_download:
-            username = input("Username: ")
+            # -------------------------------
+            # Load last username
+            # -------------------------------
+            last_user = analyzer._load_last_username()
+
+            if last_user:
+                prompt = f"Username [{last_user}]: "
+            else:
+                prompt = "Username: "
+
+            entered = input(prompt).strip()
+
+            # Use last username if user pressed ENTER
+            if entered == "" and last_user:
+                username = last_user
+            else:
+                username = entered
+
+            # Always save updated username
+            analyzer._save_last_username(username)
+
             password = getpass("Password: ")
 
             analyzer.login(username, password)

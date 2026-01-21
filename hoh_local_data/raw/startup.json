@@ -2,7 +2,7 @@
   "response": {
     "@type": "type.googleapis.com/StartupResponse",
     "serverVersion": "1.36.5",
-    "serverTime": "2026-01-21T12:45:21.671576789Z"
+    "serverTime": "2026-01-21T14:44:53.471038567Z"
   },
   "rootContext": {
     "contextInfo": {
@@ -63,8 +63,8 @@
           "building.Building_AgeOfTheFranks_Home_Small_3": 5,
           "building.Building_FeudalAge_Home_Average_1": 2,
           "building.Building_FeudalAge_CultureSite_Compact_1": 4,
-          "building.Building_IberianEra_Barracks_Infantry_1": 1,
           "building.Building_IberianEra_Home_Small_1": 1,
+          "building.Building_IberianEra_Barracks_Infantry_1": 1,
           "building.Building_MinoanEra_Collectable_MinoanWatchtowerV2_2": 1,
           "building.Building_IberianEra_Workshop_SpiceMerchant_1": 2,
           "building.Building_FeudalAge_Special_Furnace_1": 1,
@@ -75,8 +75,8 @@
           "building.Building_IberianEra_City_CityHall_1": 1,
           "building.Building_IberianEra_CultureSite_Moderate_1": 11,
           "building.Building_IberianEra_CultureSite_Little_1": 2,
-          "building.Building_IberianEra_Barracks_Siege_1": 1,
           "building.Building_IberianEra_CultureSite_Large_1": 1,
+          "building.Building_IberianEra_Barracks_Siege_1": 1,
           "building.Building_IberianEra_Barracks_HeavyInfantry_1": 1,
           "building.Building_IberianEra_Special_HeroAcademy_1": 1,
           "building.Building_IberianEra_CultureSite_Compact_1": 9,
@@ -811,7 +811,7 @@
       "randomSeed": "-3899627096049620276",
       "finishedTutorials": ["MainTutorial", "BattleTutorial", "BattleSupportUnitsTutorial", "BattleHeroesTutorial", "HeroLevelTutorial", "CultureTutorial", "RiftTutorial", "TeslaStormsTutorial", "ProduceFoodReinforcementTutorial", "PvpTutorial", "BattleRestrictionTutorial", "BuildingRotationTutorial", "EquipmentIntroTutorial", "EquipmentTasksTutorial", "EmbersTutorial", "EquipmentEquipTutorial", "EquipmentLevelUpWithEmbersTutorial"],
       "registrationDate": "2025-02-15T19:28:33.530Z",
-      "lastLogin": "2026-01-21T12:45:19.415069Z",
+      "lastLogin": "2026-01-21T14:44:51.010575Z",
       "portraitId": 99,
       "receivesAllianceInvites": true,
       "isPayer": true,
@@ -50157,7 +50157,7 @@
             "requiredTotalPower": 50000,
             "requiredTreasureHuntDifficulty": 2
           },
-          "rank": 473,
+          "rank": 474,
           "maxMembers": 20
         },
         "leader": {
@@ -50172,7 +50172,7 @@
               }
             }
           },
-          "lastSeenOnlineInSeconds": "25483",
+          "lastSeenOnlineInSeconds": "2919",
           "playerProfile": {
             "id": "369254",
             "name": "TactlessMoth",
@@ -50180,7 +50180,7 @@
             "age": "age.FeudalAge",
             "locale": "en_DK"
           },
-          "points": "397611",
+          "points": "397762",
           "joinedAt": "2024-11-26T16:15:50.141587Z"
         }
       },
@@ -50200,7 +50200,7 @@
           "portraitId": 4,
           "locale": "en_DK"
         },
-        "totalHeroPower": "401451",
+        "totalHeroPower": "406586",
         "pvpTier": "pvp_event_tier.PvP_Tier_Gold_1",
         "athDifficulty": 8
       }
@@ -50232,7 +50232,7 @@
             "requiredTotalPower": 50000,
             "requiredTreasureHuntDifficulty": 2
           },
-          "rank": 473,
+          "rank": 474,
           "maxMembers": 20
         },
         "leader": {
@@ -50247,7 +50247,7 @@
               }
             }
           },
-          "lastSeenOnlineInSeconds": "25483",
+          "lastSeenOnlineInSeconds": "2919",
           "playerProfile": {
             "id": "369254",
             "name": "TactlessMoth",
@@ -50255,7 +50255,7 @@
             "age": "age.FeudalAge",
             "locale": "en_DK"
           },
-          "points": "397611",
+          "points": "397762",
           "joinedAt": "2024-11-26T16:15:50.141587Z"
         }
       },
@@ -50307,7 +50307,7 @@
             "requiredTotalPower": 50000,
             "requiredTreasureHuntDifficulty": 2
           },
-          "rank": 473,
+          "rank": 474,
           "maxMembers": 20
         },
         "leader": {
@@ -50322,7 +50322,7 @@
               }
             }
           },
-          "lastSeenOnlineInSeconds": "25483",
+          "lastSeenOnlineInSeconds": "2919",
           "playerProfile": {
             "id": "369254",
             "name": "TactlessMoth",
@@ -50330,7 +50330,7 @@
             "age": "age.FeudalAge",
             "locale": "en_DK"
           },
-          "points": "397611",
+          "points": "397762",
           "joinedAt": "2024-11-26T16:15:50.141587Z"
         }
       },
@@ -50382,7 +50382,7 @@
             "requiredTotalPower": 50000,
             "requiredTreasureHuntDifficulty": 2
           },
-          "rank": 473,
+          "rank": 474,
           "maxMembers": 20
         },
         "leader": {
@@ -50397,7 +50397,7 @@
               }
             }
           },
-          "lastSeenOnlineInSeconds": "25483",
+          "lastSeenOnlineInSeconds": "2919",
           "playerProfile": {
             "id": "369254",
             "name": "TactlessMoth",
@@ -50405,7 +50405,7 @@
             "age": "age.FeudalAge",
             "locale": "en_DK"
           },
-          "points": "397611",
+          "points": "397762",
           "joinedAt": "2024-11-26T16:15:50.141587Z"
         }
       },
@@ -50461,7 +50461,7 @@
             "requiredTotalPower": 50000,
             "requiredTreasureHuntDifficulty": 2
           },
-          "rank": 473,
+          "rank": 474,
           "maxMembers": 20
         },
         "leader": {
@@ -50476,7 +50476,7 @@
               }
             }
           },
-          "lastSeenOnlineInSeconds": "25483",
+          "lastSeenOnlineInSeconds": "2919",
           "playerProfile": {
             "id": "369254",
             "name": "TactlessMoth",
@@ -50484,7 +50484,7 @@
             "age": "age.FeudalAge",
             "locale": "en_DK"
           },
-          "points": "397611",
+          "points": "397762",
           "joinedAt": "2024-11-26T16:15:50.141587Z"
         }
       },
@@ -50515,7 +50515,7 @@
     }, {
       "@type": "type.googleapis.com/AlliancePush",
       "uuid": {
-        "bytes": "U+WxZrItQSWrBGLLGPLn1A=="
+        "bytes": "D2GXBVl1Q2uVZjpDc3w78A=="
       },
       "alliance": {
         "allianceId": "20904",
@@ -50531,7 +50531,7 @@
           "requiredTotalPower": 50000,
           "requiredTreasureHuntDifficulty": 2
         },
-        "rank": 473,
+        "rank": 474,
         "maxMembers": 20
       }
     }, {
@@ -50549,7 +50549,7 @@
             }
           }
         },
-        "lastSeenOnlineInSeconds": "25483",
+        "lastSeenOnlineInSeconds": "2919",
         "playerProfile": {
           "id": "369254",
           "name": "TactlessMoth",
@@ -50557,7 +50557,7 @@
           "age": "age.FeudalAge",
           "locale": "en_DK"
         },
-        "points": "397611",
+        "points": "397762",
         "joinedAt": "2024-11-26T16:15:50.141587Z"
       }, {
         "role": {
@@ -50567,6 +50567,7 @@
             "definitionId": "role.allianceTrainee"
           }
         },
+        "lastSeenOnlineInSeconds": "1",
         "playerProfile": {
           "id": "795618",
           "name": "Baylore",
@@ -50580,7 +50581,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "51334",
+        "lastSeenOnlineInSeconds": "2574",
         "playerProfile": {
           "id": "29910",
           "name": "BigCP",
@@ -50588,13 +50589,13 @@
           "age": "age.KingdomOfSicily",
           "locale": "en_DK"
         },
-        "points": "461449",
+        "points": "461747",
         "joinedAt": "2025-08-28T15:47:55.053569Z"
       }, {
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "8263",
+        "lastSeenOnlineInSeconds": "1822",
         "playerProfile": {
           "id": "140546",
           "name": "John Stone",
@@ -50602,13 +50603,13 @@
           "age": "age.KingdomOfSicily",
           "locale": "en_DK"
         },
-        "points": "412703",
+        "points": "412806",
         "joinedAt": "2026-01-11T18:21:40.491498Z"
       }, {
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "5141",
+        "lastSeenOnlineInSeconds": "12313",
         "playerProfile": {
           "id": "344641",
           "name": "Narddog",
@@ -50622,7 +50623,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "14556",
+        "lastSeenOnlineInSeconds": "21728",
         "playerProfile": {
           "id": "378985",
           "name": "thehamme25",
@@ -50640,7 +50641,7 @@
             "definitionId": "role.allianceTrainee"
           }
         },
-        "lastSeenOnlineInSeconds": "43086",
+        "lastSeenOnlineInSeconds": "2793",
         "playerProfile": {
           "id": "393731",
           "name": "Mel P",
@@ -50648,7 +50649,7 @@
           "age": "age.IberianEra",
           "locale": "en_DK"
         },
-        "points": "323346",
+        "points": "323414",
         "joinedAt": "2024-11-30T23:59:33.890209Z"
       }, {
         "role": {
@@ -50658,7 +50659,7 @@
             "definitionId": "role.allianceTrainee"
           }
         },
-        "lastSeenOnlineInSeconds": "687",
+        "lastSeenOnlineInSeconds": "4884",
         "playerProfile": {
           "id": "514454",
           "name": "Phil",
@@ -50666,13 +50667,13 @@
           "age": "age.IberianEra",
           "locale": "en_DK"
         },
-        "points": "385947",
+        "points": "386130",
         "joinedAt": "2025-07-15T13:13:35.163288Z"
       }, {
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "1963",
+        "lastSeenOnlineInSeconds": "4886",
         "playerProfile": {
           "id": "689390",
           "name": "Arjun",
@@ -50686,7 +50687,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "12666",
+        "lastSeenOnlineInSeconds": "19838",
         "playerProfile": {
           "id": "720940",
           "name": "Tobi",
@@ -50700,7 +50701,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "4859",
+        "lastSeenOnlineInSeconds": "2733",
         "playerProfile": {
           "id": "1096466",
           "name": "Opie6983",
@@ -50708,13 +50709,13 @@
           "age": "age.FeudalAge",
           "locale": "en_DK"
         },
-        "points": "267011",
+        "points": "267207",
         "joinedAt": "2025-08-14T16:35:36.501997Z"
       }, {
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "2283",
+        "lastSeenOnlineInSeconds": "4942",
         "playerProfile": {
           "id": "1272618",
           "name": "Adelejoanna",
@@ -50722,13 +50723,13 @@
           "age": "age.IberianEra",
           "locale": "en_DK"
         },
-        "points": "372720",
+        "points": "372874",
         "joinedAt": "2025-05-14T15:51:43.662326Z"
       }, {
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "11660",
+        "lastSeenOnlineInSeconds": "1840",
         "playerProfile": {
           "id": "1332683",
           "name": "Souljaboy",
@@ -50742,7 +50743,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "17799",
+        "lastSeenOnlineInSeconds": "24971",
         "playerProfile": {
           "id": "1398585",
           "name": "Nate",
@@ -50756,7 +50757,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "25305",
+        "lastSeenOnlineInSeconds": "32477",
         "playerProfile": {
           "id": "1531302",
           "name": "Finn",
@@ -50770,7 +50771,7 @@
         "role": {
           "definitionId": "role.allianceTrainee"
         },
-        "lastSeenOnlineInSeconds": "3488",
+        "lastSeenOnlineInSeconds": "10660",
         "playerProfile": {
           "id": "1595473",
           "name": "Sir Diligaf",
@@ -50783,7 +50784,7 @@
       }]
     }, {
       "@type": "type.googleapis.com/BoostsDTO",
-      "syncedAt": "2026-01-21T12:45:21.118874701Z"
+      "syncedAt": "2026-01-21T14:44:52.962188671Z"
     }, {
       "@type": "type.googleapis.com/BuildingPinnedAgeDTO",
       "buildingDefinitionId": "building.Building_TreasureHunt_Evolving_FountainOfYouth_1",
@@ -53616,11 +53617,96 @@
       }, {
         "id": {
           "id": {
-            "bytes": "YPkJ1oReQ4KT05NpylClhQ=="
+            "bytes": "hX0Te/twSVe7xHGIxeyvSg=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 36,
+        "x": 44,
+        "y": 45,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "u8CmjfqhTU2GtDxthpVfFQ=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 34,
+        "y": 45,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "Eea6qfj1RhOc6nrSjKUvEw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 25,
+        "y": 45,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "6IbfYupeRl+gmOYFdthUaw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 26,
+        "y": 39,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "SkYZMc0TSj29Zy8P9l2Nxw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Large_1",
+        "x": 29,
+        "y": 35,
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "qgNRQWT/RTO3xOaC1sCd8g=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 27,
+        "y": 45,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "BqFnTDZeT8uWuCvFt4IkGA=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 41,
+        "y": 29,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "9oG/Z/tLQtOsygYegz6sBw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
+        "x": 40,
         "y": 45,
         "cityId": "1738928",
         "age": "age.IberianEra",
@@ -53641,97 +53727,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "hX0Te/twSVe7xHGIxeyvSg=="
+            "bytes": "YPkJ1oReQ4KT05NpylClhQ=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 44,
+        "x": 36,
         "y": 45,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "BqFnTDZeT8uWuCvFt4IkGA=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 41,
-        "y": 29,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "qgNRQWT/RTO3xOaC1sCd8g=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 27,
-        "y": 45,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "u8CmjfqhTU2GtDxthpVfFQ=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 34,
-        "y": 45,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "6IbfYupeRl+gmOYFdthUaw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 26,
-        "y": 39,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "9oG/Z/tLQtOsygYegz6sBw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 40,
-        "y": 45,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "Eea6qfj1RhOc6nrSjKUvEw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Moderate_1",
-        "x": 25,
-        "y": 45,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "SkYZMc0TSj29Zy8P9l2Nxw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Large_1",
-        "x": 29,
-        "y": 35,
-        "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.IberianEra",
         "level": 10
@@ -53778,12 +53779,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "tkRXbXz4Qd6o1s+twqGJLg=="
+            "bytes": "H+GbnHYzSIG3pvyiRbwNVg=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
-        "x": 28,
-        "y": 39,
+        "x": 42,
+        "y": 45,
         "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.IberianEra",
@@ -53791,12 +53792,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "H+GbnHYzSIG3pvyiRbwNVg=="
+            "bytes": "tkRXbXz4Qd6o1s+twqGJLg=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
-        "x": 42,
-        "y": 45,
+        "x": 28,
+        "y": 39,
         "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.IberianEra",
@@ -53830,24 +53831,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "Cjd6u//lTTuknWFyIscenw=="
+            "bytes": "qnavc/ePTFSddkKN27HzFQ=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
-        "x": 42,
-        "y": 35,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10
-      }, {
-        "id": {
-          "id": {
-            "bytes": "aNcktehtS26WtE/kRrntBw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
-        "x": 30,
-        "y": 45,
+        "x": 35,
+        "y": 39,
         "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.IberianEra",
@@ -53868,12 +53857,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "qnavc/ePTFSddkKN27HzFQ=="
+            "bytes": "aNcktehtS26WtE/kRrntBw=="
           }
         },
         "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
-        "x": 35,
-        "y": 39,
+        "x": 30,
+        "y": 45,
         "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.IberianEra",
@@ -53894,12 +53883,25 @@
       }, {
         "id": {
           "id": {
-            "bytes": "mV5fT0C7QD+TTMfiwQAIqw=="
+            "bytes": "Cjd6u//lTTuknWFyIscenw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Compact_1",
+        "x": 42,
+        "y": 35,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10
+      }, {
+        "id": {
+          "id": {
+            "bytes": "/cLBvaR+TMSF/ZlQGnO25g=="
           }
         },
         "definitionId": "building.Building_FeudalAge_CultureSite_Compact_1",
-        "x": 43,
-        "y": 40,
+        "x": 46,
+        "y": 34,
+        "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.FeudalAge",
         "level": 9
@@ -53932,13 +53934,12 @@
       }, {
         "id": {
           "id": {
-            "bytes": "/cLBvaR+TMSF/ZlQGnO25g=="
+            "bytes": "mV5fT0C7QD+TTMfiwQAIqw=="
           }
         },
         "definitionId": "building.Building_FeudalAge_CultureSite_Compact_1",
-        "x": 46,
-        "y": 34,
-        "rotation": "BuildingRotationType_ROTATION_90",
+        "x": 43,
+        "y": 40,
         "cityId": "1738928",
         "age": "age.FeudalAge",
         "level": 9
@@ -53957,21 +53958,6 @@
       }, {
         "id": {
           "id": {
-            "bytes": "CYZuav6WQAW18cjEQmLNaw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_CultureSite_Little_1",
-        "x": 42,
-        "y": 36,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 10,
-        "happinessChanges": [{
-          "at": "2025-03-19T20:45:42.934688800Z"
-        }]
-      }, {
-        "id": {
-          "id": {
             "bytes": "p82LbSQCQp6G70X9Jf6w4w=="
           }
         },
@@ -53987,6 +53973,43 @@
       }, {
         "id": {
           "id": {
+            "bytes": "CYZuav6WQAW18cjEQmLNaw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_CultureSite_Little_1",
+        "x": 42,
+        "y": 36,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 10,
+        "happinessChanges": [{
+          "at": "2025-03-19T20:45:42.934688800Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "8aPPzgLLSMiayrOE5AFBrw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 43,
+        "y": 23,
+        "productions": [{
+          "id": "2302000034",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-01T21:34:06.980602Z"
+        }]
+      }, {
+        "id": {
+          "id": {
             "bytes": "KqISQ2GkR/uGG1vWMau2DA=="
           }
         },
@@ -53995,6 +54018,120 @@
         "y": 29,
         "productions": [{
           "id": "2298523442",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2026-01-03T14:09:23.506107200Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "bhTaeit5TKaWlhHtfcmG+w=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 23,
+        "y": 25,
+        "productions": [{
+          "id": "2236750267",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-05-06T18:40:09.611891700Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "9U/yZobpSauoFVSVzCZvWw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 39,
+        "y": 27,
+        "productions": [{
+          "id": "2298042709",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2026-01-03T14:09:23.506107200Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "dWSob8mdSh+V2n76ZZfCfQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 37,
+        "y": 21,
+        "productions": [{
+          "id": "2290544262",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-29T19:47:18.856934Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "okAdslklSE+W6tJyyIpwsg=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 42,
+        "y": 47,
+        "productions": [{
+          "id": "2312531278",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-21T02:47:11.223801200Z",
+          "change": 3230
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "N65WKWOISbGnkHIXmMF9+g=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 43,
+        "y": 29,
+        "productions": [{
+          "id": "2261915025",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54032,127 +54169,60 @@
       }, {
         "id": {
           "id": {
-            "bytes": "bhTaeit5TKaWlhHtfcmG+w=="
+            "bytes": "RE/laufuRW2roo8ORMTJcA=="
           }
         },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 23,
-        "y": 25,
+        "definitionId": "building.Building_FeudalAge_Home_Small_1",
+        "x": 25,
+        "y": 19,
         "productions": [{
-          "id": "2236750267",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "id": "1866763045",
+          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 10800
         }],
         "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
+        "age": "age.FeudalAge",
+        "level": 25,
         "happinessChanges": [{
-          "at": "2025-05-06T18:40:09.611891700Z"
+          "at": "2025-10-31T11:44:50.382155700Z"
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "dWSob8mdSh+V2n76ZZfCfQ=="
+            "bytes": "pvCOLNNcQ7yfcRYp71n/UQ=="
           }
         },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 37,
-        "y": 21,
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 38,
+        "y": 47,
         "productions": [{
-          "id": "2290544262",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "id": "2308422968",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
           "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-29T19:47:18.856934Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "oPuei0VfQY22bD/qveMoQA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 37,
-        "y": 29,
-        "productions": [{
-          "id": "2295505743",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-03-31T18:32:38.099509100Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "N65WKWOISbGnkHIXmMF9+g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 43,
-        "y": 29,
-        "productions": [{
-          "id": "2261915025",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-03T14:09:23.506107200Z",
-          "change": 1280
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "U5uLHJKERwmLJ9C92AcnWQ=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Workshop_Carpenter_1",
-        "x": 46,
-        "y": 31,
-        "productions": [{
-          "id": "2399484024",
-          "definitionId": "production.Production7_Building_IberianEra_Workshop_Carpenter_1",
-          "startedAt": "2026-01-21T11:59:50.643431Z",
-          "isStarted": true,
-          "duration": 14400
+          "duration": 21600
         }],
         "slots": 3,
         "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 4,
+        "age": "age.FeudalAge",
+        "level": 27,
         "happinessChanges": [{
-          "at": "2026-01-14T11:45:20.721966300Z",
-          "change": 3020
+          "at": "2026-01-21T02:47:11.223801200Z",
+          "change": 3230
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "9U/yZobpSauoFVSVzCZvWw=="
+            "bytes": "1h/bm2W/S2acYF9dOLI+Xg=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 39,
-        "y": 27,
+        "x": 29,
+        "y": 19,
         "productions": [{
-          "id": "2298042709",
+          "id": "2242876051",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54162,31 +54232,53 @@
         "age": "age.AgeOfTheFranks",
         "level": 23,
         "happinessChanges": [{
-          "at": "2026-01-03T14:09:23.506107200Z",
-          "change": 1280
+          "at": "2025-10-28T20:07:21.936277300Z"
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "oMdqTMmxRkexiqjTtSD7Iw=="
+            "bytes": "IAsuFa6TSKGeqch4cQLb/Q=="
           }
         },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 27,
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 23,
+        "y": 31,
+        "productions": [{
+          "id": "2232307927",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-20T18:51:47.277474300Z",
+          "change": 3840
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "xT01ITTkQXS0K+d3wqKqTg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
+        "x": 21,
         "y": 29,
         "productions": [{
-          "id": "2286354548",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "id": "2408215168",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 10800
         }],
         "cityId": "1738928",
         "age": "age.AgeOfTheFranks",
-        "level": 23,
+        "level": 24,
         "happinessChanges": [{
-          "at": "2026-01-02T22:53:32.773357400Z",
-          "change": 1280
+          "at": "2026-01-02T22:53:32.773357400Z"
         }]
       }, {
         "id": {
@@ -54209,6 +54301,515 @@
         "level": 23,
         "happinessChanges": [{
           "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "cASUOUBwQZaMvHiPm+vRXA=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Workshop_Scribe_1",
+        "x": 42,
+        "y": 37,
+        "productions": [{
+          "id": "2401351630",
+          "definitionId": "production.Production9_Building_IberianEra_Workshop_Scribe_1",
+          "startedAt": "2026-01-21T11:59:48.726413Z",
+          "isStarted": true,
+          "duration": 14400
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 4,
+        "happinessChanges": [{
+          "at": "2026-01-08T22:44:01.325418100Z",
+          "change": 3425
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "HYcgD79TRfGtk6K0Ye6TCw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Barracks_Siege_1",
+        "x": 46,
+        "y": 40,
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 26,
+        "happinessChanges": [{
+          "at": "2026-01-07T17:58:21.726392Z",
+          "change": 1630
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "S8Op3w2/QwWKV7JGKSiWlg=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 26,
+        "y": 41,
+        "productions": [{
+          "id": "2297270512",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-20T18:51:47.277474300Z",
+          "change": 6460
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "WDcmsTN9SYalgF+htwL7gw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
+        "x": 21,
+        "y": 23,
+        "productions": [{
+          "id": "2309871296",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 24,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "MA85lHZNRMiUBuBxfEgslw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Farm_Rural_1",
+        "x": 23,
+        "y": 47,
+        "productions": [{
+          "id": "2321282611",
+          "definitionId": "production.Production1_Building_IberianEra_Farm_Rural_1",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 28,
+        "happinessChanges": [{
+          "at": "2025-12-25T03:23:37.643295900Z",
+          "change": 2560
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "AECWCI4uRJGDIF/XgvkK7g=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 41,
+        "y": 23,
+        "productions": [{
+          "id": "2298523441",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "DFA4r800RgmbzqVz6dHG9A=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 23,
+        "y": 23,
+        "productions": [{
+          "id": "2239520554",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-26T11:51:50.091165100Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "eSZBkKyKRI+Fb/iHiobqcQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 35,
+        "y": 21,
+        "productions": [{
+          "id": "2281655326",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-30T18:38:07.544441900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "6C8zNpnbQNqgm6cnfaDk2A=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 33,
+        "y": 21,
+        "productions": [{
+          "id": "2281600625",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-01T19:37:31.109898700Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "m/TQ7cCjQ+qmAhwhHKZVng=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 39,
+        "y": 25,
+        "productions": [{
+          "id": "2297268999",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-10-02T03:02:13.882357300Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "cXE7LjZ5T7Kdpffhx1iXpg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 39,
+        "y": 23,
+        "productions": [{
+          "id": "2295505715",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-03-16T15:19:58.119041600Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "cRKnadqJSomK37rZv9Uebg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 35,
+        "y": 27,
+        "productions": [{
+          "id": "2281693156",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-15T16:48:05.355257200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "VhzcoSMkTaqc/T8aE+0wCA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 37,
+        "y": 19,
+        "productions": [{
+          "id": "2290544261",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-10-04T06:14:32.914178300Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "ov2Kz3+1SAePVp4649sazg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 29,
+        "y": 39,
+        "productions": [{
+          "id": "2304364195",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2026-01-20T20:22:35.175148800Z",
+          "change": 3900
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "NAcraHETSieKd/jFSXARnw=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 30,
+        "y": 47,
+        "productions": [{
+          "id": "2258395879",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-19T15:39:07.479242100Z",
+          "change": 3900
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "wCIokJ/9TwOQTvks3i/C4g=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 33,
+        "y": 25,
+        "productions": [{
+          "id": "2274497036",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-12-27T03:43:49.571584200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "+tIM5xM5TZ6ijMvmepQnRA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 31,
+        "y": 25,
+        "productions": [{
+          "id": "2264740616",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-15T16:48:05.355257200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "h5roU0mWRNuoQWtJS+zu9g=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Special_Furnace_1",
+        "x": 47,
+        "y": 23,
+        "productions": [{
+          "id": "2123250086",
+          "definitionId": "production.Production1_Building_FeudalAge_Special_Furnace_1",
+          "startedAt": "2026-01-21T11:37:30.064443Z",
+          "isStarted": true,
+          "duration": 86400
+        }],
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 6,
+        "happinessChanges": [{
+          "at": "2025-07-08T22:35:05.122962Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "V+8ktexXQCa/IWIxVg4Jng=="
+          }
+        },
+        "definitionId": "building.Building_ClassicGreece_Collectable_ArchitectsStudioV2_2",
+        "x": 45,
+        "y": 27,
+        "slots": 1,
+        "cityId": "1738928",
+        "age": "age.ClassicGreece",
+        "level": 2,
+        "happinessChanges": [{
+          "at": "2025-09-05T23:38:41.983963Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "888+09thSLSVvqUj5mFkKg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 25,
+        "y": 23,
+        "productions": [{
+          "id": "2258395810",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-19T18:17:09.573129400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "R6uRJh11TGquFrTIkIj/6Q=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Barracks_Infantry_1",
+        "x": 42,
+        "y": 31,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 26,
+        "happinessChanges": [{
+          "at": "2026-01-07T00:56:12.598411Z",
+          "change": 4585
+        }, {
+          "at": "2026-01-20T23:45:04.969120600Z",
+          "change": -580
+        }, {
+          "at": "2026-01-21T02:47:17.659039200Z",
+          "change": 670
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "kQ7oAvaPRUOOGkXxwdMg2g=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 43,
+        "y": 27,
+        "productions": [{
+          "id": "2276270853",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2026-01-03T14:09:23.506107200Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "l/WRRtSWQkma+t1bTT1cgw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Workshop_SpiceMerchant_1",
+        "x": 29,
+        "y": 31,
+        "productions": [{
+          "id": "2399480007",
+          "definitionId": "production.Production9_Building_IberianEra_Workshop_SpiceMerchant_1",
+          "startedAt": "2026-01-21T11:59:46.768251Z",
+          "isStarted": true,
+          "duration": 14400
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 4,
+        "happinessChanges": [{
+          "at": "2026-01-20T18:51:45.325989300Z",
+          "change": 3840
         }]
       }, {
         "id": {
@@ -54236,24 +54837,62 @@
       }, {
         "id": {
           "id": {
-            "bytes": "WDcmsTN9SYalgF+htwL7gw=="
+            "bytes": "YTZaT/KkTDOYF11sNbiliQ=="
           }
         },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
-        "x": 21,
+        "definitionId": "building.Building_FeudalAge_Home_Small_1",
+        "x": 23,
+        "y": 21,
+        "productions": [{
+          "id": "1857666503",
+          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 25,
+        "happinessChanges": [{
+          "at": "2025-10-30T02:42:32.840233500Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "QgjsPo9QSMWXcSnIRFKxSA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 35,
         "y": 23,
         "productions": [{
-          "id": "2309871296",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
+          "id": "2281600626",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 10800
         }],
         "cityId": "1738928",
         "age": "age.AgeOfTheFranks",
-        "level": 24,
+        "level": 23,
         "happinessChanges": [{
           "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "ll2yVRSBTSyZ3lTakAhuog=="
+          }
+        },
+        "definitionId": "building.Building_BronzeAge_Collectable_SchoolV2_2",
+        "x": 32,
+        "y": 29,
+        "slots": 1,
+        "cityId": "1738928",
+        "age": "age.BronzeAge",
+        "level": 2,
+        "happinessChanges": [{
+          "at": "2025-09-05T20:37:34.540631Z"
         }]
       }, {
         "id": {
@@ -54280,14 +54919,288 @@
       }, {
         "id": {
           "id": {
-            "bytes": "2q8+xCD2SjOjy9KHowrxFA=="
+            "bytes": "dyPbb2TWSbu7ntPS/2/Sug=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 35,
+        "y": 29,
+        "productions": [{
+          "id": "2289782612",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-03-16T15:19:58.119041600Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "gtTa9BCASoydMVGjAO/KNw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 29,
+        "y": 23,
+        "productions": [{
+          "id": "2288439776",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-12-30T18:04:09.696445200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "SHxUnWNxQ4OlVNKlLy6wyQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 37,
+        "y": 27,
+        "productions": [{
+          "id": "2294219100",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-06-01T19:14:55.635402200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "F2znSoP7SwaTluNPeoMG0g=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 29,
+        "y": 21,
+        "productions": [{
+          "id": "2275401229",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-15T16:48:05.355257200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "7mMg84AcT/G3HBUEfp9EYw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 35,
+        "y": 19,
+        "productions": [{
+          "id": "1930880106",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-10-01T16:50:40.824535Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "r6hSNs4PRK6xjLiYlnxbkA=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 30,
+        "y": 41,
+        "productions": [{
+          "id": "2252071973",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-20T18:51:47.277474300Z",
+          "change": 7610
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "KslW9MrqTwatAkspXn5Mxw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Barracks_Ranged_1",
+        "x": 35,
+        "y": 34,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 26,
+        "happinessChanges": [{
+          "at": "2026-01-01T18:29:52.538476Z",
+          "change": 2445
+        }, {
+          "at": "2026-01-19T12:24:10.989994800Z",
+          "change": -580
+        }, {
+          "at": "2026-01-19T15:29:41.534884100Z",
+          "change": 670
+        }, {
+          "at": "2026-01-19T22:34:43.680822200Z",
+          "change": -580
+        }, {
+          "at": "2026-01-20T01:53:14.957699400Z",
+          "change": 670
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "lFjx+mXHT9+vOrR44yxBMw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Barracks_HeavyInfantry_1",
+        "x": 38,
+        "y": 40,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 26,
+        "happinessChanges": [{
+          "at": "2026-01-02T22:55:35.836509Z",
+          "change": 6285
+        }, {
+          "at": "2026-01-20T23:45:06.592411600Z",
+          "change": -580
+        }, {
+          "at": "2026-01-21T02:47:09.189957200Z",
+          "change": 670
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "8QQ/qa+RR7usxCTlTjEEfw=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 34,
+        "y": 47,
+        "productions": [{
+          "id": "2276239213",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-19T15:39:07.479242100Z",
+          "change": 3230
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "GhkDAQtMQ5egDxX5sMjtGA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 33,
+        "y": 27,
+        "productions": [{
+          "id": "2273071391",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-19T23:21:44.490423400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "hSWvZOfqTuKphqexOZTwxQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 23,
+        "y": 19,
+        "productions": [{
+          "id": "2232309849",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T17:52:46.739612500Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "/+0kjlWmRrqr1uQJ3Atmbg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 23,
+        "y": 27,
+        "productions": [{
+          "id": "2241067178",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-15T16:48:05.355257200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "YYKZKOnRTgq1hMjMj49OXA=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
         "x": 31,
-        "y": 23,
+        "y": 27,
         "productions": [{
-          "id": "2263971080",
+          "id": "2270442196",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54302,83 +55215,58 @@
       }, {
         "id": {
           "id": {
-            "bytes": "xT01ITTkQXS0K+d3wqKqTg=="
+            "bytes": "8D5Z4lapSleW+whWAkZHaA=="
           }
         },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
-        "x": 21,
-        "y": 29,
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 29,
+        "y": 25,
         "productions": [{
-          "id": "2408215168",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
+          "id": "2281723543",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 10800
         }],
         "cityId": "1738928",
         "age": "age.AgeOfTheFranks",
-        "level": 24,
+        "level": 23,
         "happinessChanges": [{
-          "at": "2026-01-02T22:53:32.773357400Z"
+          "at": "2025-12-30T19:19:43.137301200Z"
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "VpX3lMemQKiu7noe6O2dRw=="
+            "bytes": "qt4u/mZ1SpKb0oHjmE7NnA=="
           }
         },
-        "definitionId": "building.Building_IberianEra_City_CityHall_1",
-        "x": 46,
-        "y": 46,
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 45,
+        "y": 23,
         "productions": [{
-          "id": "2150682761",
-          "definitionId": "production.Production1_Building_IberianEra_City_CityHall_1",
-          "startedAt": "2026-01-21T11:37:43.165364Z",
-          "isStarted": true,
-          "duration": 28800
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 11,
-        "happinessChanges": [{
-          "at": "2025-02-16T10:53:37.611201400Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "PZdT+cvuQGS5UMiyALlt3A=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Average_3",
-        "x": 32,
-        "y": 32,
-        "productions": [{
-          "id": "2400421458",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Average_3",
+          "id": "2302661041",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
-          "duration": 21600
+          "duration": 10800
         }],
-        "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
         "age": "age.AgeOfTheFranks",
-        "level": 24,
+        "level": 23,
         "happinessChanges": [{
-          "at": "2026-01-20T20:22:35.175148800Z",
-          "change": 1280
+          "at": "2025-03-31T18:32:38.099509100Z"
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "okAdslklSE+W6tJyyIpwsg=="
+            "bytes": "HGs9gjJhTU+0l2uxj20jmw=="
           }
         },
         "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 42,
-        "y": 47,
+        "x": 38,
+        "y": 32,
         "productions": [{
-          "id": "2312531278",
+          "id": "2301980854",
           "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
           "startedAt": "2026-01-21T11:59:48.218285Z",
           "isStarted": true,
@@ -54389,20 +55277,36 @@
         "age": "age.FeudalAge",
         "level": 27,
         "happinessChanges": [{
-          "at": "2026-01-21T02:47:11.223801200Z",
-          "change": 3230
+          "at": "2026-01-21T03:21:36.062192200Z",
+          "change": 3165
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "NtvjwmGzSkaPlaFh1Z8IGA=="
+            "bytes": "WSqa1q45T7eVMnbNZZcWMw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Special_HeroAcademy_1",
+        "x": 47,
+        "y": 27,
+        "slots": 2,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 8,
+        "happinessChanges": [{
+          "at": "2025-10-08T11:53:00.503295Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "/eBQWWVBS9yZ8MUaokZCWw=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 25,
-        "y": 25,
+        "x": 38,
+        "y": 45,
         "productions": [{
-          "id": "2261915022",
+          "id": "2301499873",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54412,57 +55316,20 @@
         "age": "age.AgeOfTheFranks",
         "level": 23,
         "happinessChanges": [{
-          "at": "2025-11-19T23:21:44.490423400Z"
+          "at": "2026-01-03T14:09:23.506107200Z",
+          "change": 2560
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "C/PVjk8ERDyqfJWtuL+97w=="
+            "bytes": "jgLICzL9RdiJidTIJwedVw=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 21,
-        "y": 27,
+        "x": 31,
+        "y": 19,
         "productions": [{
-          "id": "2283408186",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-19T23:21:44.490423400Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "V+8ktexXQCa/IWIxVg4Jng=="
-          }
-        },
-        "definitionId": "building.Building_ClassicGreece_Collectable_ArchitectsStudioV2_2",
-        "x": 45,
-        "y": 27,
-        "slots": 1,
-        "cityId": "1738928",
-        "age": "age.ClassicGreece",
-        "level": 2,
-        "happinessChanges": [{
-          "at": "2025-09-05T23:38:41.983963Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "m/TQ7cCjQ+qmAhwhHKZVng=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 39,
-        "y": 25,
-        "productions": [{
-          "id": "2297268999",
+          "id": "2272248422",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54473,6 +55340,276 @@
         "level": 23,
         "happinessChanges": [{
           "at": "2025-10-02T03:02:13.882357300Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "xICuOFbqQvi7m29JIVs0DA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 19,
+        "y": 29,
+        "productions": [{
+          "id": "2284954007",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-19T23:21:44.490423400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "1dAKT+sKSB2GBHzWEQHu1Q=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Workshop_Scribe_1",
+        "x": 32,
+        "y": 35,
+        "productions": [{
+          "id": "2401351651",
+          "definitionId": "production.Production9_Building_IberianEra_Workshop_Scribe_1",
+          "startedAt": "2026-01-21T11:59:48.726413Z",
+          "isStarted": true,
+          "duration": 14400
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 4,
+        "happinessChanges": [{
+          "at": "2026-01-20T18:51:46.633030300Z",
+          "change": 4380
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "x0eGNMhFSo+0D5VllQBNmg=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Average_3",
+        "x": 35,
+        "y": 31,
+        "productions": [{
+          "id": "1947019197",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Average_3",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 24,
+        "happinessChanges": [{
+          "at": "2025-12-30T17:53:10.887407200Z",
+          "change": 865
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "NQN0GjWPQsOnZWlRiDe4Tg=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Workshop_Carpenter_1",
+        "x": 43,
+        "y": 41,
+        "productions": [{
+          "id": "2400373020",
+          "definitionId": "production.Production9_Building_IberianEra_Workshop_Carpenter_1",
+          "startedAt": "2026-01-21T11:59:51.559984Z",
+          "isStarted": true,
+          "duration": 14400
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 4,
+        "happinessChanges": [{
+          "at": "2026-01-21T02:47:09.973778200Z",
+          "change": 5025
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "rBmGC0k5Ryyi8pH6a3OhGQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 41,
+        "y": 25,
+        "productions": [{
+          "id": "2298937782",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-04-30T01:23:03.805691800Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "PqnFuBiRRuqzZtplRAoP0w=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 19,
+        "y": 25,
+        "productions": [{
+          "id": "2236750271",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-09T11:38:23.519634Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "dULHQdSfRaCnvZXxV5ROZw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 27,
+        "y": 25,
+        "productions": [{
+          "id": "2244270815",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "la9esEziTHeNm83xzLiuQg=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Barracks_Cavalry_1",
+        "x": 46,
+        "y": 36,
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 26,
+        "happinessChanges": [{
+          "at": "2026-01-15T02:01:32.169865675Z",
+          "change": 3370
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "9vc0OaARTRmN11cqLxM7fw=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 26,
+        "y": 47,
+        "productions": [{
+          "id": "2239510532",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 27,
+        "happinessChanges": [{
+          "at": "2026-01-18T21:49:01.376818900Z",
+          "change": 3230
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "98scMCAYQT2fdsXqQ0sxHQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 25,
+        "y": 29,
+        "productions": [{
+          "id": "2284952499",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2026-01-02T22:53:32.773357400Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "KiquYXIvQFCxepC/uBhgEw=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 25,
+        "y": 21,
+        "productions": [{
+          "id": "2263971087",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "PaElDyLaQdCtY8J8HfNrng=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 27,
+        "y": 23,
+        "productions": [{
+          "id": "2241067172",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-09-01T19:37:31.109898700Z"
         }]
       }, {
         "id": {
@@ -54499,14 +55636,36 @@
       }, {
         "id": {
           "id": {
-            "bytes": "kb55+InbSNqWQgs8wsl0FA=="
+            "bytes": "V52iUWdjRi23BX1zwEFAVA=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Home_Small_1",
+        "x": 25,
+        "y": 27,
+        "productions": [{
+          "id": "1873015537",
+          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 25,
+        "happinessChanges": [{
+          "at": "2025-11-01T00:40:05.780294800Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "F9Wp4ZEyRW2POarNq1USHg=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 31,
-        "y": 21,
+        "x": 37,
+        "y": 23,
         "productions": [{
-          "id": "2272248426",
+          "id": "2291449483",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54516,7 +55675,51 @@
         "age": "age.AgeOfTheFranks",
         "level": 23,
         "happinessChanges": [{
+          "at": "2025-03-16T15:19:58.119041600Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "Ua/oEuEhS0+VstqJeKs4UQ=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
+        "x": 21,
+        "y": 25,
+        "productions": [{
+          "id": "2309873101",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 24,
+        "happinessChanges": [{
           "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "93TGJypzRMi0VUb48KUsqA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 27,
+        "y": 21,
+        "productions": [{
+          "id": "2252071941",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-15T18:26:00.786766900Z"
         }]
       }, {
         "id": {
@@ -54544,40 +55747,26 @@
       }, {
         "id": {
           "id": {
-            "bytes": "ll2yVRSBTSyZ3lTakAhuog=="
+            "bytes": "jbCsDu3DRq2XR8qbLoEk1Q=="
           }
         },
-        "definitionId": "building.Building_BronzeAge_Collectable_SchoolV2_2",
-        "x": 32,
-        "y": 29,
-        "slots": 1,
-        "cityId": "1738928",
-        "age": "age.BronzeAge",
-        "level": 2,
-        "happinessChanges": [{
-          "at": "2025-09-05T20:37:34.540631Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "VhzcoSMkTaqc/T8aE+0wCA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 37,
-        "y": 19,
+        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
+        "x": 34,
+        "y": 41,
         "productions": [{
-          "id": "2290544261",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "id": "2265547194",
+          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
           "isStarted": true,
-          "duration": 10800
+          "duration": 21600
         }],
+        "slots": 3,
         "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
+        "age": "age.FeudalAge",
+        "level": 27,
         "happinessChanges": [{
-          "at": "2025-10-04T06:14:32.914178300Z"
+          "at": "2026-01-20T18:51:47.277474300Z",
+          "change": 7805
         }]
       }, {
         "id": {
@@ -54604,36 +55793,14 @@
       }, {
         "id": {
           "id": {
-            "bytes": "F9Wp4ZEyRW2POarNq1USHg=="
+            "bytes": "/xdSDBR3QmKoZFjJVqvmeA=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 37,
-        "y": 23,
-        "productions": [{
-          "id": "2291449483",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-03-16T15:19:58.119041600Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "98scMCAYQT2fdsXqQ0sxHQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 25,
+        "x": 29,
         "y": 29,
         "productions": [{
-          "id": "2284952499",
+          "id": "2291449405",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -54644,6 +55811,212 @@
         "level": 23,
         "happinessChanges": [{
           "at": "2026-01-02T22:53:32.773357400Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "kb55+InbSNqWQgs8wsl0FA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 31,
+        "y": 21,
+        "productions": [{
+          "id": "2272248426",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "NtvjwmGzSkaPlaFh1Z8IGA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 25,
+        "y": 25,
+        "productions": [{
+          "id": "2261915022",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-19T23:21:44.490423400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "UItXL4L+SkmAln6BRqlZjg=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_Farm_Rural_1",
+        "x": 23,
+        "y": 41,
+        "productions": [{
+          "id": "2318393241",
+          "definitionId": "production.Production1_Building_IberianEra_Farm_Rural_1",
+          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "slots": 3,
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 28,
+        "happinessChanges": [{
+          "at": "2025-12-25T03:23:37.643295900Z",
+          "change": 3840
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "C/PVjk8ERDyqfJWtuL+97w=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 21,
+        "y": 27,
+        "productions": [{
+          "id": "2283408186",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-19T23:21:44.490423400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "+X6QEzPaQXuaHoOE2SZuvA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 23,
+        "y": 45,
+        "productions": [{
+          "id": "2244272829",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-12-25T03:23:43.527190900Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "VpX3lMemQKiu7noe6O2dRw=="
+          }
+        },
+        "definitionId": "building.Building_IberianEra_City_CityHall_1",
+        "x": 46,
+        "y": 46,
+        "productions": [{
+          "id": "2150682761",
+          "definitionId": "production.Production1_Building_IberianEra_City_CityHall_1",
+          "startedAt": "2026-01-21T11:37:43.165364Z",
+          "isStarted": true,
+          "duration": 28800
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.IberianEra",
+        "level": 11,
+        "happinessChanges": [{
+          "at": "2025-02-16T10:53:37.611201400Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "Bu020EDxTIOM5C2YB/zyNA=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Home_Small_1",
+        "x": 27,
+        "y": 19,
+        "productions": [{
+          "id": "1864661869",
+          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 25,
+        "happinessChanges": [{
+          "at": "2025-10-30T21:54:09.250345800Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "Hh5hB1+iQy2PmukQprPm0A=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 27,
+        "y": 27,
+        "productions": [{
+          "id": "2277536144",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-12-30T17:53:10.887407200Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "BR97fs3yRcybzRXefkAzQw=="
+          }
+        },
+        "definitionId": "building.Building_FeudalAge_Home_Average_1",
+        "x": 23,
+        "y": 38,
+        "productions": [{
+          "id": "2407445116",
+          "definitionId": "production.Production1_Building_FeudalAge_Home_Average_1",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 21600
+        }],
+        "rotation": "BuildingRotationType_ROTATION_90",
+        "cityId": "1738928",
+        "age": "age.FeudalAge",
+        "level": 25,
+        "happinessChanges": [{
+          "at": "2025-12-24T18:39:14.140194800Z",
           "change": 1280
         }]
       }, {
@@ -54696,366 +56069,14 @@
       }, {
         "id": {
           "id": {
-            "bytes": "cRKnadqJSomK37rZv9Uebg=="
+            "bytes": "OduFZ4enSYKivNtIqiMx3A=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
         "x": 35,
-        "y": 27,
-        "productions": [{
-          "id": "2281693156",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-15T16:48:05.355257200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "/xdSDBR3QmKoZFjJVqvmeA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 29,
-        "productions": [{
-          "id": "2291449405",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-02T22:53:32.773357400Z",
-          "change": 1280
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "9vc0OaARTRmN11cqLxM7fw=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 26,
-        "y": 47,
-        "productions": [{
-          "id": "2239510532",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-18T21:49:01.376818900Z",
-          "change": 3230
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "la9esEziTHeNm83xzLiuQg=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Barracks_Cavalry_1",
-        "x": 46,
-        "y": 36,
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 26,
-        "happinessChanges": [{
-          "at": "2026-01-15T02:01:32.169865675Z",
-          "change": 3370
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "YTZaT/KkTDOYF11sNbiliQ=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Home_Small_1",
-        "x": 23,
-        "y": 21,
-        "productions": [{
-          "id": "1857666503",
-          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 25,
-        "happinessChanges": [{
-          "at": "2025-10-30T02:42:32.840233500Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "dULHQdSfRaCnvZXxV5ROZw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 27,
         "y": 25,
         "productions": [{
-          "id": "2244270815",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "dyPbb2TWSbu7ntPS/2/Sug=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 35,
-        "y": 29,
-        "productions": [{
-          "id": "2289782612",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-03-16T15:19:58.119041600Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "Ua/oEuEhS0+VstqJeKs4UQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
-        "x": 21,
-        "y": 25,
-        "productions": [{
-          "id": "2309873101",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 24,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "6C8zNpnbQNqgm6cnfaDk2A=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 33,
-        "y": 21,
-        "productions": [{
-          "id": "2281600625",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-01T19:37:31.109898700Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "KiquYXIvQFCxepC/uBhgEw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 25,
-        "y": 21,
-        "productions": [{
-          "id": "2263971087",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "AECWCI4uRJGDIF/XgvkK7g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 41,
-        "y": 23,
-        "productions": [{
-          "id": "2298523441",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "h5roU0mWRNuoQWtJS+zu9g=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Special_Furnace_1",
-        "x": 47,
-        "y": 23,
-        "productions": [{
-          "id": "2123250086",
-          "definitionId": "production.Production1_Building_FeudalAge_Special_Furnace_1",
-          "startedAt": "2026-01-21T11:37:30.064443Z",
-          "isStarted": true,
-          "duration": 86400
-        }],
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 6,
-        "happinessChanges": [{
-          "at": "2025-07-08T22:35:05.122962Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "DFA4r800RgmbzqVz6dHG9A=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 23,
-        "y": 23,
-        "productions": [{
-          "id": "2239520554",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-26T11:51:50.091165100Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "RE/laufuRW2roo8ORMTJcA=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Home_Small_1",
-        "x": 25,
-        "y": 19,
-        "productions": [{
-          "id": "1866763045",
-          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 25,
-        "happinessChanges": [{
-          "at": "2025-10-31T11:44:50.382155700Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "S8Op3w2/QwWKV7JGKSiWlg=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 26,
-        "y": 41,
-        "productions": [{
-          "id": "2297270512",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:47.277474300Z",
-          "change": 6460
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "+tIM5xM5TZ6ijMvmepQnRA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 31,
-        "y": 25,
-        "productions": [{
-          "id": "2264740616",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-15T16:48:05.355257200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "qt4u/mZ1SpKb0oHjmE7NnA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 45,
-        "y": 23,
-        "productions": [{
-          "id": "2302661041",
+          "id": "2281693157",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -55066,1053 +56087,6 @@
         "level": 23,
         "happinessChanges": [{
           "at": "2025-03-31T18:32:38.099509100Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "jgLICzL9RdiJidTIJwedVw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 31,
-        "y": 19,
-        "productions": [{
-          "id": "2272248422",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-10-02T03:02:13.882357300Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "/eBQWWVBS9yZ8MUaokZCWw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 38,
-        "y": 45,
-        "productions": [{
-          "id": "2301499873",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-03T14:09:23.506107200Z",
-          "change": 2560
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "YYKZKOnRTgq1hMjMj49OXA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 31,
-        "y": 27,
-        "productions": [{
-          "id": "2270442196",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "7mMg84AcT/G3HBUEfp9EYw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 35,
-        "y": 19,
-        "productions": [{
-          "id": "1930880106",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-10-01T16:50:40.824535Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "8aPPzgLLSMiayrOE5AFBrw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 43,
-        "y": 23,
-        "productions": [{
-          "id": "2302000034",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-01T21:34:06.980602Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "1h/bm2W/S2acYF9dOLI+Xg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 19,
-        "productions": [{
-          "id": "2242876051",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-10-28T20:07:21.936277300Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "lFjx+mXHT9+vOrR44yxBMw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Barracks_HeavyInfantry_1",
-        "x": 38,
-        "y": 40,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 26,
-        "happinessChanges": [{
-          "at": "2026-01-02T22:55:35.836509Z",
-          "change": 6285
-        }, {
-          "at": "2026-01-20T23:45:06.592411600Z",
-          "change": -580
-        }, {
-          "at": "2026-01-21T02:47:09.189957200Z",
-          "change": 670
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "KslW9MrqTwatAkspXn5Mxw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Barracks_Ranged_1",
-        "x": 35,
-        "y": 34,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 26,
-        "happinessChanges": [{
-          "at": "2026-01-01T18:29:52.538476Z",
-          "change": 2445
-        }, {
-          "at": "2026-01-19T12:24:10.989994800Z",
-          "change": -580
-        }, {
-          "at": "2026-01-19T15:29:41.534884100Z",
-          "change": 670
-        }, {
-          "at": "2026-01-19T22:34:43.680822200Z",
-          "change": -580
-        }, {
-          "at": "2026-01-20T01:53:14.957699400Z",
-          "change": 670
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "gtTa9BCASoydMVGjAO/KNw=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 23,
-        "productions": [{
-          "id": "2288439776",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-12-30T18:04:09.696445200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "QgjsPo9QSMWXcSnIRFKxSA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 35,
-        "y": 23,
-        "productions": [{
-          "id": "2281600626",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "SHxUnWNxQ4OlVNKlLy6wyQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 37,
-        "y": 27,
-        "productions": [{
-          "id": "2294219100",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-06-01T19:14:55.635402200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "/+0kjlWmRrqr1uQJ3Atmbg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 23,
-        "y": 27,
-        "productions": [{
-          "id": "2241067178",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-15T16:48:05.355257200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "8QQ/qa+RR7usxCTlTjEEfw=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 34,
-        "y": 47,
-        "productions": [{
-          "id": "2276239213",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-19T15:39:07.479242100Z",
-          "change": 3230
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "F2znSoP7SwaTluNPeoMG0g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 21,
-        "productions": [{
-          "id": "2275401229",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-15T16:48:05.355257200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "VfVtbKODSb+VNYsm0V6W1Q=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
-        "x": 19,
-        "y": 23,
-        "productions": [{
-          "id": "2308424815",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 24,
-        "happinessChanges": [{
-          "at": "2025-05-07T13:02:22.704931Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "GhkDAQtMQ5egDxX5sMjtGA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 33,
-        "y": 27,
-        "productions": [{
-          "id": "2273071391",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-19T23:21:44.490423400Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "x0eGNMhFSo+0D5VllQBNmg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Average_3",
-        "x": 35,
-        "y": 31,
-        "productions": [{
-          "id": "1947019197",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Average_3",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 24,
-        "happinessChanges": [{
-          "at": "2025-12-30T17:53:10.887407200Z",
-          "change": 865
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "l/WRRtSWQkma+t1bTT1cgw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Workshop_SpiceMerchant_1",
-        "x": 29,
-        "y": 31,
-        "productions": [{
-          "id": "2399480007",
-          "definitionId": "production.Production9_Building_IberianEra_Workshop_SpiceMerchant_1",
-          "startedAt": "2026-01-21T11:59:46.768251Z",
-          "isStarted": true,
-          "duration": 14400
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 4,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:45.325989300Z",
-          "change": 3840
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "r6hSNs4PRK6xjLiYlnxbkA=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 30,
-        "y": 41,
-        "productions": [{
-          "id": "2252071973",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:47.277474300Z",
-          "change": 7610
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "kQ7oAvaPRUOOGkXxwdMg2g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 43,
-        "y": 27,
-        "productions": [{
-          "id": "2276270853",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-03T14:09:23.506107200Z",
-          "change": 1280
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "HGs9gjJhTU+0l2uxj20jmw=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 38,
-        "y": 32,
-        "productions": [{
-          "id": "2301980854",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-21T03:21:36.062192200Z",
-          "change": 3165
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "NQN0GjWPQsOnZWlRiDe4Tg=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Workshop_Carpenter_1",
-        "x": 43,
-        "y": 41,
-        "productions": [{
-          "id": "2400373020",
-          "definitionId": "production.Production9_Building_IberianEra_Workshop_Carpenter_1",
-          "startedAt": "2026-01-21T11:59:51.559984Z",
-          "isStarted": true,
-          "duration": 14400
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 4,
-        "happinessChanges": [{
-          "at": "2026-01-21T02:47:09.973778200Z",
-          "change": 5025
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "T5XI1LI/QsWm3fmeNxpE0A=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 49,
-        "y": 34,
-        "productions": [{
-          "id": "2304364189",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-14T13:47:10.954156700Z",
-          "change": 580
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "888+09thSLSVvqUj5mFkKg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 25,
-        "y": 23,
-        "productions": [{
-          "id": "2258395810",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-19T18:17:09.573129400Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "NAcraHETSieKd/jFSXARnw=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 30,
-        "y": 47,
-        "productions": [{
-          "id": "2258395879",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-19T15:39:07.479242100Z",
-          "change": 3900
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "R6uRJh11TGquFrTIkIj/6Q=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Barracks_Infantry_1",
-        "x": 42,
-        "y": 31,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 26,
-        "happinessChanges": [{
-          "at": "2026-01-07T00:56:12.598411Z",
-          "change": 4585
-        }, {
-          "at": "2026-01-20T23:45:04.969120600Z",
-          "change": -580
-        }, {
-          "at": "2026-01-21T02:47:17.659039200Z",
-          "change": 670
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "wCIokJ/9TwOQTvks3i/C4g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 33,
-        "y": 25,
-        "productions": [{
-          "id": "2274497036",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-12-27T03:43:49.571584200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "5DRkxr8iQkywAAqvqifL2g=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 43,
-        "y": 25,
-        "productions": [{
-          "id": "2303148082",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T15:13:17.946792900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "+X6QEzPaQXuaHoOE2SZuvA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 23,
-        "y": 45,
-        "productions": [{
-          "id": "2244272829",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-12-25T03:23:43.527190900Z",
-          "change": 1280
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "cXE7LjZ5T7Kdpffhx1iXpg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 39,
-        "y": 23,
-        "productions": [{
-          "id": "2295505715",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-03-16T15:19:58.119041600Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "jbCsDu3DRq2XR8qbLoEk1Q=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 34,
-        "y": 41,
-        "productions": [{
-          "id": "2265547194",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:47.277474300Z",
-          "change": 7805
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "Hh5hB1+iQy2PmukQprPm0A=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 27,
-        "y": 27,
-        "productions": [{
-          "id": "2277536144",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-12-30T17:53:10.887407200Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "UItXL4L+SkmAln6BRqlZjg=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Farm_Rural_1",
-        "x": 23,
-        "y": 41,
-        "productions": [{
-          "id": "2318393241",
-          "definitionId": "production.Production1_Building_IberianEra_Farm_Rural_1",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 28,
-        "happinessChanges": [{
-          "at": "2025-12-25T03:23:37.643295900Z",
-          "change": 3840
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "ov2Kz3+1SAePVp4649sazg=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 39,
-        "productions": [{
-          "id": "2304364195",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2026-01-20T20:22:35.175148800Z",
-          "change": 3900
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "V52iUWdjRi23BX1zwEFAVA=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Home_Small_1",
-        "x": 25,
-        "y": 27,
-        "productions": [{
-          "id": "1873015537",
-          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 25,
-        "happinessChanges": [{
-          "at": "2025-11-01T00:40:05.780294800Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "93TGJypzRMi0VUb48KUsqA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 27,
-        "y": 21,
-        "productions": [{
-          "id": "2252071941",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-15T18:26:00.786766900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "PaElDyLaQdCtY8J8HfNrng=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 27,
-        "y": 23,
-        "productions": [{
-          "id": "2241067172",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-01T19:37:31.109898700Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "eSZBkKyKRI+Fb/iHiobqcQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 35,
-        "y": 21,
-        "productions": [{
-          "id": "2281655326",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-30T18:38:07.544441900Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "HYcgD79TRfGtk6K0Ye6TCw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Barracks_Siege_1",
-        "x": 46,
-        "y": 40,
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 26,
-        "happinessChanges": [{
-          "at": "2026-01-07T17:58:21.726392Z",
-          "change": 1630
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "cASUOUBwQZaMvHiPm+vRXA=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Workshop_Scribe_1",
-        "x": 42,
-        "y": 37,
-        "productions": [{
-          "id": "2401351630",
-          "definitionId": "production.Production9_Building_IberianEra_Workshop_Scribe_1",
-          "startedAt": "2026-01-21T11:59:48.726413Z",
-          "isStarted": true,
-          "duration": 14400
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 4,
-        "happinessChanges": [{
-          "at": "2026-01-08T22:44:01.325418100Z",
-          "change": 3425
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "xICuOFbqQvi7m29JIVs0DA=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 19,
-        "y": 29,
-        "productions": [{
-          "id": "2284954007",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-19T23:21:44.490423400Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "hSWvZOfqTuKphqexOZTwxQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 23,
-        "y": 19,
-        "productions": [{
-          "id": "2232309849",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-11-16T17:52:46.739612500Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "MA85lHZNRMiUBuBxfEgslw=="
-          }
-        },
-        "definitionId": "building.Building_IberianEra_Farm_Rural_1",
-        "x": 23,
-        "y": 47,
-        "productions": [{
-          "id": "2321282611",
-          "definitionId": "production.Production1_Building_IberianEra_Farm_Rural_1",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 28,
-        "happinessChanges": [{
-          "at": "2025-12-25T03:23:37.643295900Z",
-          "change": 2560
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "PqnFuBiRRuqzZtplRAoP0w=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 19,
-        "y": 25,
-        "productions": [{
-          "id": "2236750271",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-09-09T11:38:23.519634Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "rBmGC0k5Ryyi8pH6a3OhGQ=="
-          }
-        },
-        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 41,
-        "y": 25,
-        "productions": [{
-          "id": "2298937782",
-          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
-          "startedAt": "2026-01-21T11:59:43.483938Z",
-          "isStarted": true,
-          "duration": 10800
-        }],
-        "cityId": "1738928",
-        "age": "age.AgeOfTheFranks",
-        "level": 23,
-        "happinessChanges": [{
-          "at": "2025-04-30T01:23:03.805691800Z"
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "IAsuFa6TSKGeqch4cQLb/Q=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 23,
-        "y": 31,
-        "productions": [{
-          "id": "2232307927",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
-          "isStarted": true,
-          "duration": 21600
-        }],
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:47.277474300Z",
-          "change": 3840
         }]
       }, {
         "id": {
@@ -56141,85 +56115,82 @@
       }, {
         "id": {
           "id": {
-            "bytes": "1dAKT+sKSB2GBHzWEQHu1Q=="
+            "bytes": "PZdT+cvuQGS5UMiyALlt3A=="
           }
         },
-        "definitionId": "building.Building_IberianEra_Workshop_Scribe_1",
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Average_3",
         "x": 32,
-        "y": 35,
+        "y": 32,
         "productions": [{
-          "id": "2401351651",
-          "definitionId": "production.Production9_Building_IberianEra_Workshop_Scribe_1",
-          "startedAt": "2026-01-21T11:59:48.726413Z",
-          "isStarted": true,
-          "duration": 14400
-        }],
-        "rotation": "BuildingRotationType_ROTATION_90",
-        "slots": 3,
-        "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 4,
-        "happinessChanges": [{
-          "at": "2026-01-20T18:51:46.633030300Z",
-          "change": 4380
-        }]
-      }, {
-        "id": {
-          "id": {
-            "bytes": "BR97fs3yRcybzRXefkAzQw=="
-          }
-        },
-        "definitionId": "building.Building_FeudalAge_Home_Average_1",
-        "x": 23,
-        "y": 38,
-        "productions": [{
-          "id": "2407445116",
-          "definitionId": "production.Production1_Building_FeudalAge_Home_Average_1",
+          "id": "2400421458",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Average_3",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 21600
         }],
         "rotation": "BuildingRotationType_ROTATION_90",
         "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 25,
+        "age": "age.AgeOfTheFranks",
+        "level": 24,
         "happinessChanges": [{
-          "at": "2025-12-24T18:39:14.140194800Z",
+          "at": "2026-01-20T20:22:35.175148800Z",
           "change": 1280
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "Bu020EDxTIOM5C2YB/zyNA=="
+            "bytes": "2q8+xCD2SjOjy9KHowrxFA=="
           }
         },
-        "definitionId": "building.Building_FeudalAge_Home_Small_1",
-        "x": 27,
-        "y": 19,
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 31,
+        "y": 23,
         "productions": [{
-          "id": "1864661869",
-          "definitionId": "production.Production1_Building_FeudalAge_Home_Small_1",
+          "id": "2263971080",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
           "duration": 10800
         }],
         "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 25,
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
         "happinessChanges": [{
-          "at": "2025-10-30T21:54:09.250345800Z"
+          "at": "2025-11-16T15:13:17.946792900Z"
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "OduFZ4enSYKivNtIqiMx3A=="
+            "bytes": "5DRkxr8iQkywAAqvqifL2g=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 35,
+        "x": 43,
         "y": 25,
         "productions": [{
-          "id": "2281693157",
+          "id": "2303148082",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
+        "happinessChanges": [{
+          "at": "2025-11-16T15:13:17.946792900Z"
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "oPuei0VfQY22bD/qveMoQA=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 37,
+        "y": 29,
+        "productions": [{
+          "id": "2295505743",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -56234,14 +56205,14 @@
       }, {
         "id": {
           "id": {
-            "bytes": "8D5Z4lapSleW+whWAkZHaA=="
+            "bytes": "T5XI1LI/QsWm3fmeNxpE0A=="
           }
         },
         "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
-        "x": 29,
-        "y": 25,
+        "x": 49,
+        "y": 34,
         "productions": [{
-          "id": "2281723543",
+          "id": "2304364189",
           "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
           "startedAt": "2026-01-21T11:59:43.483938Z",
           "isStarted": true,
@@ -56251,47 +56222,77 @@
         "age": "age.AgeOfTheFranks",
         "level": 23,
         "happinessChanges": [{
-          "at": "2025-12-30T19:19:43.137301200Z"
+          "at": "2026-01-14T13:47:10.954156700Z",
+          "change": 580
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "pvCOLNNcQ7yfcRYp71n/UQ=="
+            "bytes": "U5uLHJKERwmLJ9C92AcnWQ=="
           }
         },
-        "definitionId": "building.Building_FeudalAge_Farm_Domestic_3",
-        "x": 38,
-        "y": 47,
+        "definitionId": "building.Building_IberianEra_Workshop_Carpenter_1",
+        "x": 46,
+        "y": 31,
         "productions": [{
-          "id": "2308422968",
-          "definitionId": "production.Production1_Building_FeudalAge_Farm_Domestic_3",
-          "startedAt": "2026-01-21T11:59:48.218285Z",
+          "id": "2399484024",
+          "definitionId": "production.Production7_Building_IberianEra_Workshop_Carpenter_1",
+          "startedAt": "2026-01-21T11:59:50.643431Z",
           "isStarted": true,
-          "duration": 21600
+          "duration": 14400
         }],
         "slots": 3,
         "cityId": "1738928",
-        "age": "age.FeudalAge",
-        "level": 27,
+        "age": "age.IberianEra",
+        "level": 4,
         "happinessChanges": [{
-          "at": "2026-01-21T02:47:11.223801200Z",
-          "change": 3230
+          "at": "2026-01-14T11:45:20.721966300Z",
+          "change": 3020
         }]
       }, {
         "id": {
           "id": {
-            "bytes": "WSqa1q45T7eVMnbNZZcWMw=="
+            "bytes": "oMdqTMmxRkexiqjTtSD7Iw=="
           }
         },
-        "definitionId": "building.Building_IberianEra_Special_HeroAcademy_1",
-        "x": 47,
-        "y": 27,
-        "slots": 2,
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_2",
+        "x": 27,
+        "y": 29,
+        "productions": [{
+          "id": "2286354548",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_2",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
         "cityId": "1738928",
-        "age": "age.IberianEra",
-        "level": 8,
+        "age": "age.AgeOfTheFranks",
+        "level": 23,
         "happinessChanges": [{
-          "at": "2025-10-08T11:53:00.503295Z"
+          "at": "2026-01-02T22:53:32.773357400Z",
+          "change": 1280
+        }]
+      }, {
+        "id": {
+          "id": {
+            "bytes": "VfVtbKODSb+VNYsm0V6W1Q=="
+          }
+        },
+        "definitionId": "building.Building_AgeOfTheFranks_Home_Small_3",
+        "x": 19,
+        "y": 23,
+        "productions": [{
+          "id": "2308424815",
+          "definitionId": "production.Production1_Building_AgeOfTheFranks_Home_Small_3",
+          "startedAt": "2026-01-21T11:59:43.483938Z",
+          "isStarted": true,
+          "duration": 10800
+        }],
+        "cityId": "1738928",
+        "age": "age.AgeOfTheFranks",
+        "level": 24,
+        "happinessChanges": [{
+          "at": "2025-05-07T13:02:22.704931Z"
         }]
       }],
       "workers": [{
@@ -73121,9 +73122,9 @@
         "age": "age.KingdomOfSicily",
         "locale": "en_DK"
       },
-      "points": 3375,
-      "alliancePoints": 42245,
-      "updatedAt": "2026-01-20T22:32:27.194037180Z",
+      "points": 3600,
+      "alliancePoints": 42560,
+      "updatedAt": "2026-01-21T13:00:58.922022288Z",
       "difficulty": 7
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntPlayerPointsPush",
@@ -73137,7 +73138,7 @@
         "locale": "en_DK"
       },
       "points": 2000,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T10:35:37.390768089Z",
       "difficulty": 8
     }, {
@@ -73152,7 +73153,7 @@
         "locale": "en_DK"
       },
       "points": 3300,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T11:33:11.328884464Z",
       "difficulty": 8
     }, {
@@ -73166,9 +73167,9 @@
         "age": "age.FeudalAge",
         "locale": "en_DK"
       },
-      "points": 2520,
-      "alliancePoints": 42245,
-      "updatedAt": "2026-01-21T05:44:27.644809138Z",
+      "points": 2610,
+      "alliancePoints": 42560,
+      "updatedAt": "2026-01-21T14:02:34.419459905Z",
       "difficulty": 7
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntPlayerPointsPush",
@@ -73182,7 +73183,7 @@
         "locale": "en_DK"
       },
       "points": 1525,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T04:10:21.284412175Z",
       "difficulty": 3
     }, {
@@ -73197,7 +73198,7 @@
         "locale": "en_DK"
       },
       "points": 3375,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T00:59:10.302732600Z",
       "difficulty": 7
     }, {
@@ -73212,7 +73213,7 @@
         "locale": "en_DK"
       },
       "points": 3600,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T12:43:03.735569358Z",
       "difficulty": 7
     }, {
@@ -73227,7 +73228,7 @@
         "locale": "en_DK"
       },
       "points": 1980,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T12:19:44.254202327Z",
       "difficulty": 4
     }, {
@@ -73242,7 +73243,7 @@
         "locale": "en_DK"
       },
       "points": 3600,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T08:33:40.261214782Z",
       "difficulty": 7
     }, {
@@ -73257,7 +73258,7 @@
         "locale": "en_US"
       },
       "points": 3600,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-20T23:40:24.414677806Z",
       "difficulty": 7
     }, {
@@ -73272,7 +73273,7 @@
         "locale": "en_DK"
       },
       "points": 2920,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-20T23:58:39.677854022Z",
       "difficulty": 6
     }, {
@@ -73287,7 +73288,7 @@
         "locale": "en_DK"
       },
       "points": 3000,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-19T23:13:05.841178209Z",
       "difficulty": 8
     }, {
@@ -73302,7 +73303,7 @@
         "locale": "en_DK"
       },
       "points": 2400,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T07:26:17.814876518Z",
       "difficulty": 6
     }, {
@@ -73317,7 +73318,7 @@
         "locale": "en_DK"
       },
       "points": 2625,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T07:50:25.759406320Z",
       "difficulty": 5
     }, {
@@ -73332,7 +73333,7 @@
         "locale": "en_DK"
       },
       "points": 1225,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-21T05:52:32.466236327Z",
       "difficulty": 3
     }, {
@@ -73347,7 +73348,7 @@
         "locale": "en_DK"
       },
       "points": 1200,
-      "alliancePoints": 42245,
+      "alliancePoints": 42560,
       "updatedAt": "2026-01-20T20:57:04.541456634Z",
       "difficulty": 4
     }, {
@@ -73360,8 +73361,8 @@
         "icon": 11,
         "memberCount": 20
       },
-      "points": 35305,
-      "updatedAt": "2026-01-21T12:24:11.695392Z",
+      "points": 35765,
+      "updatedAt": "2026-01-21T14:32:32.719205Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73374,8 +73375,8 @@
         "crest": 4,
         "memberCount": 20
       },
-      "points": 29150,
-      "updatedAt": "2026-01-21T12:33:24.353682Z",
+      "points": 29295,
+      "updatedAt": "2026-01-21T14:43:23.381570Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73388,8 +73389,8 @@
         "crest": 3,
         "memberCount": 16
       },
-      "points": 42245,
-      "updatedAt": "2026-01-21T12:43:03.735569Z",
+      "points": 42560,
+      "updatedAt": "2026-01-21T14:02:34.419460Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73402,8 +73403,8 @@
         "crest": 4,
         "memberCount": 15
       },
-      "points": 24710,
-      "updatedAt": "2026-01-21T11:56:20.686854Z",
+      "points": 24990,
+      "updatedAt": "2026-01-21T14:23:47.860263Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73416,8 +73417,8 @@
         "crest": 1,
         "memberCount": 20
       },
-      "points": 39910,
-      "updatedAt": "2026-01-21T09:53:08.384598Z",
+      "points": 41330,
+      "updatedAt": "2026-01-21T14:02:09.998541Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73429,8 +73430,8 @@
         "icon": 17,
         "memberCount": 20
       },
-      "points": 32185,
-      "updatedAt": "2026-01-21T12:42:39.253879Z",
+      "points": 32285,
+      "updatedAt": "2026-01-21T13:33:46.791413Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73443,8 +73444,8 @@
         "crest": 2,
         "memberCount": 20
       },
-      "points": 23835,
-      "updatedAt": "2026-01-21T12:44:48.206665Z",
+      "points": 23870,
+      "updatedAt": "2026-01-21T14:41:47.373213Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73457,8 +73458,8 @@
         "crest": 5,
         "memberCount": 18
       },
-      "points": 30325,
-      "updatedAt": "2026-01-21T12:30:46.702967Z",
+      "points": 30850,
+      "updatedAt": "2026-01-21T14:02:02.567492Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73470,8 +73471,8 @@
         "icon": 3,
         "memberCount": 20
       },
-      "points": 38560,
-      "updatedAt": "2026-01-21T12:44:41.136877Z",
+      "points": 39335,
+      "updatedAt": "2026-01-21T14:15:26.285886Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73484,8 +73485,8 @@
         "crest": 5,
         "memberCount": 20
       },
-      "points": 36705,
-      "updatedAt": "2026-01-21T12:45:13.875500Z",
+      "points": 37210,
+      "updatedAt": "2026-01-21T14:16:07.234494Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73498,8 +73499,8 @@
         "crest": 5,
         "memberCount": 20
       },
-      "points": 33945,
-      "updatedAt": "2026-01-21T12:42:20.087626Z",
+      "points": 33990,
+      "updatedAt": "2026-01-21T12:53:32.999899Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73512,8 +73513,8 @@
         "crest": 2,
         "memberCount": 18
       },
-      "points": 29530,
-      "updatedAt": "2026-01-21T12:26:09.817055Z",
+      "points": 30280,
+      "updatedAt": "2026-01-21T14:15:16.820278Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73525,8 +73526,8 @@
         "icon": 2,
         "memberCount": 19
       },
-      "points": 32650,
-      "updatedAt": "2026-01-21T12:31:09.055883Z",
+      "points": 33030,
+      "updatedAt": "2026-01-21T14:44:39.265752Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73538,8 +73539,8 @@
         "icon": 12,
         "memberCount": 20
       },
-      "points": 42070,
-      "updatedAt": "2026-01-21T11:19:15.950947Z",
+      "points": 42250,
+      "updatedAt": "2026-01-21T13:40:57.324846Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73552,8 +73553,8 @@
         "crest": 4,
         "memberCount": 20
       },
-      "points": 29910,
-      "updatedAt": "2026-01-21T12:26:47.603707Z",
+      "points": 30000,
+      "updatedAt": "2026-01-21T14:21:12.032810Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73566,8 +73567,8 @@
         "crest": 2,
         "memberCount": 20
       },
-      "points": 36990,
-      "updatedAt": "2026-01-21T12:18:52.953890Z",
+      "points": 37825,
+      "updatedAt": "2026-01-21T14:34:40.311339Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73580,8 +73581,8 @@
         "crest": 5,
         "memberCount": 20
       },
-      "points": 32860,
-      "updatedAt": "2026-01-21T12:03:43.923663Z",
+      "points": 33815,
+      "updatedAt": "2026-01-21T14:42:06.229528Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73594,8 +73595,8 @@
         "crest": 1,
         "memberCount": 20
       },
-      "points": 26460,
-      "updatedAt": "2026-01-21T12:19:24.018027Z",
+      "points": 26650,
+      "updatedAt": "2026-01-21T14:27:47.239533Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/HeroTreasureHuntAlliancePointsPush",
@@ -73607,8 +73608,8 @@
         "icon": 16,
         "memberCount": 17
       },
-      "points": 31975,
-      "updatedAt": "2026-01-21T12:44:12.678301Z",
+      "points": 32595,
+      "updatedAt": "2026-01-21T14:35:28.808693Z",
       "league": 4
     }, {
       "@type": "type.googleapis.com/PlayerIncidentsDTO",
@@ -73664,10 +73665,10 @@
           "@type": "type.googleapis.com/GameDesignReference",
           "id": "resource.pvp_energy"
         },
-        "amount": "3",
+        "amount": "4",
         "traits": [{
           "@type": "type.googleapis.com/GameRegeneratingTraitDataDTO",
-          "lastUpdate": "2026-01-21T11:51:45.313374Z",
+          "lastUpdate": "2026-01-21T13:51:45.313374Z",
           "remainingTime": "0s"
         }],
         "definitionId": "resource.pvp_energy"
@@ -73728,10 +73729,10 @@
           "@type": "type.googleapis.com/GameDesignReference",
           "id": "resource.campaign_energy"
         },
-        "amount": "16",
+        "amount": "56",
         "traits": [{
           "@type": "type.googleapis.com/GameRegeneratingTraitDataDTO",
-          "lastUpdate": "2026-01-21T12:44:48.024574Z",
+          "lastUpdate": "2026-01-21T14:44:48.024574Z",
           "remainingTime": "0s",
           "fromRewards": "50"
         }],
@@ -73962,9 +73963,10 @@
           "@type": "type.googleapis.com/GameDesignReference",
           "id": "resource.research_points"
         },
+        "amount": "2",
         "traits": [{
           "@type": "type.googleapis.com/GameRegeneratingTraitDataDTO",
-          "lastUpdate": "2026-01-21T11:58:45.564531Z",
+          "lastUpdate": "2026-01-21T13:58:45.564531Z",
           "remainingTime": "0s"
         }],
         "definitionId": "resource.research_points"
@@ -74077,10 +74079,10 @@
           "@type": "type.googleapis.com/GameDesignReference",
           "id": "resource.treasure_hunt_attempt"
         },
-        "amount": "8",
+        "amount": "10",
         "traits": [{
           "@type": "type.googleapis.com/GameRegeneratingTraitDataDTO",
-          "lastUpdate": "2026-01-21T11:34:24.137381Z",
+          "lastUpdate": "2026-01-21T14:34:24.137381Z",
           "remainingTime": "0s"
         }],
         "definitionId": "resource.treasure_hunt_attempt"
@@ -74640,10 +74642,10 @@
           "@type": "type.googleapis.com/GameDesignReference",
           "id": "resource.time_keys"
         },
-        "amount": "1",
+        "amount": "3",
         "traits": [{
           "@type": "type.googleapis.com/GameRegeneratingTraitDataDTO",
-          "lastUpdate": "2026-01-21T11:46:33.517882Z",
+          "lastUpdate": "2026-01-21T14:26:33.517882Z",
           "remainingTime": "0s"
         }],
         "definitionId": "resource.time_keys"
@@ -74752,6 +74754,20 @@
       "leaderboard": {
         "groupId": "7668001",
         "participants": [{
+          "points": "2543",
+          "updatedAt": "2026-01-21T13:55:32.212505Z",
+          "player": {
+            "id": 236846,
+            "name": "Monkabonk",
+            "age": "age.IberianEra",
+            "portraitId": 9,
+            "allianceId": "56462",
+            "allianceName": "SpaceX",
+            "iconId": 5,
+            "crestId": 5,
+            "locale": "en_DK"
+          }
+        }, {
           "points": "804",
           "updatedAt": "2026-01-21T12:07:07.796303Z",
           "player": {
@@ -74764,6 +74780,43 @@
             "iconId": 9,
             "crestId": 5,
             "locale": "fr_FR"
+          }
+        }, {
+          "points": "396",
+          "updatedAt": "2026-01-21T14:06:47.637647Z",
+          "player": {
+            "id": 1674352,
+            "name": "bluntskidoo",
+            "age": "age.FeudalAge",
+            "portraitId": 24,
+            "allianceId": "120307",
+            "allianceName": "Garry Owen",
+            "iconId": 4,
+            "crestId": 2,
+            "locale": "en_DK"
+          }
+        }, {
+          "points": "320",
+          "updatedAt": "2026-01-21T14:21:41.291195Z",
+          "player": {
+            "id": 1473600,
+            "name": "#1473600",
+            "age": "age.RomanEmpire",
+            "locale": "de_DE"
+          }
+        }, {
+          "points": "308",
+          "updatedAt": "2026-01-21T13:16:39.264731Z",
+          "player": {
+            "id": 1646772,
+            "name": "Raya",
+            "age": "age.AgeOfTheFranks",
+            "portraitId": 101,
+            "allianceId": "89037",
+            "allianceName": "Hold My Brew",
+            "iconId": 24,
+            "crestId": 4,
+            "locale": "en_DK"
           }
         }, {
           "points": "304",
@@ -74793,6 +74846,30 @@
             "locale": "fr_FR"
           }
         }, {
+          "points": "224",
+          "updatedAt": "2026-01-21T14:43:25.855534Z",
+          "player": {
+            "id": 111429,
+            "name": "Sheltem",
+            "age": "age.EarlyGothicEra",
+            "portraitId": 4,
+            "allianceId": "5511",
+            "allianceName": "Dragons FR-1",
+            "iconId": 13,
+            "crestId": 5,
+            "locale": "fr_FR"
+          }
+        }, {
+          "points": "200",
+          "updatedAt": "2026-01-21T14:07:23.393954Z",
+          "player": {
+            "id": 1277461,
+            "name": "vimarhai",
+            "age": "age.AgeOfTheFranks",
+            "portraitId": 110,
+            "locale": "de_DE"
+          }
+        }, {
           "points": "176",
           "updatedAt": "2026-01-21T12:16:18.944716Z",
           "player": {
@@ -74820,6 +74897,34 @@
             "locale": "pl_PL"
           }
         }, {
+          "points": "150",
+          "updatedAt": "2026-01-21T13:37:22.938478Z",
+          "player": {
+            "id": 723093,
+            "name": "RAINER",
+            "age": "age.ByzantineEra",
+            "portraitId": 8,
+            "allianceId": "58718",
+            "allianceName": "Störtebeker",
+            "iconId": 16,
+            "crestId": 2,
+            "locale": "de_DE"
+          }
+        }, {
+          "points": "146",
+          "updatedAt": "2026-01-21T14:08:47.078863Z",
+          "player": {
+            "id": 1257274,
+            "name": "Pitt Brett",
+            "age": "age.AgeOfTheFranks",
+            "portraitId": 19,
+            "allianceId": "58729",
+            "allianceName": "Die Götter",
+            "iconId": 5,
+            "crestId": 5,
+            "locale": "de_DE"
+          }
+        }, {
           "points": "144",
           "updatedAt": "2026-01-21T12:41:26.937106Z",
           "player": {
@@ -74832,6 +74937,62 @@
             "iconId": 19,
             "crestId": 5,
             "locale": "en_DK"
+          }
+        }, {
+          "points": "140",
+          "updatedAt": "2026-01-21T14:38:42.025244Z",
+          "player": {
+            "id": 1665273,
+            "name": "Ahmed alzhrani",
+            "age": "age.AgeOfTheFranks",
+            "portraitId": 114,
+            "allianceId": "56776",
+            "allianceName": "Easy Going ",
+            "iconId": 14,
+            "crestId": 5,
+            "locale": "en_DK"
+          }
+        }, {
+          "points": "120",
+          "updatedAt": "2026-01-21T13:07:47.556437Z",
+          "player": {
+            "id": 200489,
+            "name": "Krokiro",
+            "age": "age.KingdomOfSicily",
+            "portraitId": 110,
+            "allianceId": "6121",
+            "allianceName": "Breizh",
+            "iconId": 16,
+            "crestId": 2,
+            "locale": "fr_FR"
+          }
+        }, {
+          "points": "120",
+          "updatedAt": "2026-01-21T13:35:02.426717Z",
+          "player": {
+            "id": 1104376,
+            "name": "Maggie",
+            "age": "age.AgeOfTheFranks",
+            "portraitId": 111,
+            "allianceId": "89434",
+            "allianceName": "Hounds",
+            "iconId": 15,
+            "crestId": 2,
+            "locale": "en_DK"
+          }
+        }, {
+          "points": "116",
+          "updatedAt": "2026-01-21T14:40:57.265064Z",
+          "player": {
+            "id": 1060245,
+            "name": "cris",
+            "age": "age.FeudalAge",
+            "portraitId": 18,
+            "allianceId": "43706",
+            "allianceName": "rep.Geriatrico",
+            "iconId": 12,
+            "crestId": 5,
+            "locale": "it_IT"
           }
         }, {
           "points": "108",
@@ -74860,20 +75021,6 @@
             "iconId": 23,
             "crestId": 5,
             "locale": "en_DK"
-          }
-        }, {
-          "points": "60",
-          "updatedAt": "2026-01-21T12:04:29.372779Z",
-          "player": {
-            "id": 1060245,
-            "name": "cris",
-            "age": "age.FeudalAge",
-            "portraitId": 18,
-            "allianceId": "43706",
-            "allianceName": "rep.Geriatrico",
-            "iconId": 12,
-            "crestId": 5,
-            "locale": "it_IT"
           }
         }, {
           "points": "48",
@@ -74944,27 +75091,6 @@
             "locale": "fr_FR"
           }
         }, {
-          "updatedAt": "2026-01-21T12:19:33.154961Z",
-          "player": {
-            "id": 111429,
-            "name": "Sheltem",
-            "age": "age.EarlyGothicEra",
-            "portraitId": 4,
-            "allianceId": "5511",
-            "allianceName": "Dragons FR-1",
-            "iconId": 13,
-            "crestId": 5,
-            "locale": "fr_FR"
-          }
-        }, {
-          "updatedAt": "2026-01-21T12:34:17.388566Z",
-          "player": {
-            "id": 1473600,
-            "name": "#1473600",
-            "age": "age.RomanEmpire",
-            "locale": "de_DE"
-          }
-        }, {
           "updatedAt": "2026-01-21T12:34:40.202883Z",
           "player": {
             "id": 2260032,
@@ -74977,17 +75103,29 @@
             "locale": "cs_CZ"
           }
         }, {
-          "updatedAt": "2026-01-21T12:38:49.130778Z",
+          "updatedAt": "2026-01-21T14:36:40.428607Z",
           "player": {
-            "id": 1257274,
-            "name": "Pitt Brett",
-            "age": "age.AgeOfTheFranks",
-            "portraitId": 19,
-            "allianceId": "58729",
-            "allianceName": "Die Götter",
-            "iconId": 5,
-            "crestId": 5,
+            "id": 136051,
+            "name": "Struwwelpeter",
+            "age": "age.KingdomOfSicily",
+            "portraitId": 86,
+            "allianceId": "8350",
+            "allianceName": "Apocalyptica ",
+            "iconId": 11,
+            "crestId": 1,
             "locale": "de_DE"
+          }
+        }, {
+          "updatedAt": "2026-01-21T14:39:44.468265Z",
+          "player": {
+            "id": 2051446,
+            "name": "erion",
+            "age": "age.RomanEmpire",
+            "portraitId": 74,
+            "allianceId": "91030",
+            "allianceName": "TheBloodyAlboz ",
+            "iconId": 11,
+            "locale": "it_IT"
           }
         }]
       }
@@ -75087,10 +75225,10 @@
       "@type": "type.googleapis.com/PvpParticipationPush",
       "eventId": "2047611",
       "pvpEventComponentId": "pvp_event.PvP",
-      "points": 1164,
+      "points": 1160,
       "winsAsAttacker": 19,
       "lossesAsAttacker": 2,
-      "lossesAsDefender": 14
+      "lossesAsDefender": 15
     }, {
       "@type": "type.googleapis.com/PvpMaxTierDTO",
       "group": "pvp",
@@ -76076,7 +76214,7 @@
     }, {
       "@type": "type.googleapis.com/SocketLoginResponse",
       "url": "wss://un1-chat.heroesofhistorygame.com/ws/stomp",
-      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjc5NTYxOCwiYXV0aCI6WyJjaGF0Lm9ubGluZXN0YXRlIl0sImlhdCI6MTc2ODk5OTUyMX0.tRDYERK0T3Vjujtee6bWcEdwGwV2HS5QNSruhMH5PSn7MW3Kma_iA8rgCB_hnpQOX8Yrg7VmpJXPrgDHH8NJBw"
+      "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjc5NTYxOCwiYXV0aCI6WyJjaGF0Lm9ubGluZXN0YXRlIl0sImlhdCI6MTc2OTAwNjY5M30._YRRpS8d2kaIuLhpDXHsx_YOf4fLDelC77rHn3GD2eP5JH09Z9f3YpOqsK3j1DdnB2UOYuBvI_tav584YEP2ew"
     }, {
       "@type": "type.googleapis.com/StatusIndicatorsDTO",
       "indicators": [{
@@ -86602,54 +86740,6 @@
       }, {
         "id": "shop_tab.recommended",
         "pages": [{
-          "id": "one_time_buyer_1",
-          "offers": [{
-            "offerId": "shop_offer.OneTimeBuyerOffer_1",
-            "type": "package",
-            "productId": "hec_ig_tier_3_browser",
-            "payload": "OneTimeBuyerOffer_1,11,1.36.7",
-            "featureMainType": "package",
-            "featureSubType": "OneTimeBuyerOffer_1",
-            "action": {
-              "rewards": [{
-                "@type": "type.googleapis.com/ResourceRewardDTO",
-                "baseData": {
-                  "id": "OneTimeBuyerOffer_1_Reward_1"
-                },
-                "resource": "resource.rift_token_common",
-                "amount": "4"
-              }, {
-                "@type": "type.googleapis.com/DynamicActionChangeRewardDTO",
-                "baseData": {
-                  "id": "OneTimeBuyerOffer_1_Reward_2"
-                },
-                "dynamicDefinitionId": "dynamic_action_change.Dac_OneTimeBuyerOffer_XP_450",
-                "amount": 1
-              }, {
-                "@type": "type.googleapis.com/DynamicActionChangeRewardDTO",
-                "baseData": {
-                  "id": "OneTimeBuyerOffer_1_Reward_3"
-                },
-                "dynamicDefinitionId": "dynamic_action_change.Dac_OneTimeBuyerOffer_Food_450",
-                "amount": 1
-              }]
-            },
-            "signature": "92509d435d6816958df7df48d7a39eb4d1904fba779e71d56d5e88402d0f82f6",
-            "expiresAt": "2026-01-21T14:37:24.325225Z",
-            "purchasesLeft": 1,
-            "bonus": 360,
-            "purchasesLimit": 1,
-            "purchasesLimitGroup": "OneTimeBuyerOffer_1",
-            "crmTargetId": "00009773-b1ed-4693-e029-c462848e3598",
-            "crmContentId": "14828",
-            "calloutPriority": 700,
-            "frontendDefinedValues": {
-            },
-            "isBrowserOffer": true
-          }],
-          "layoutId": "one_time_buyer_1",
-          "backgroundId": "one_time_buyer_1"
-        }, {
           "id": "hero_roster_chain_offer",
           "offers": [{
             "offerId": "shop_offer.Hero_Roster_Chain_Offer_4",
